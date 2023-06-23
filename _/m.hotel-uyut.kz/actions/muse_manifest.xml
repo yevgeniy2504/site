@@ -1,0 +1,313 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://hotel-uyut.kz" ftp_rootfolder="/m.hotel-uyut.kz/actions" exportTarget="FTP" domain="m.hotel-uyut.kz/actions" resolutions="1x" timestamp="1587971839193">
+  <folder name="css">
+    <file name="site_global.css" crc="485035841"/>
+    <file name="master_______-a.css" crc="3981227434" ref="paket-molodozheny603:tarif-gosti:tarif-vyhodnogo-dnya:paket-vygodnyy600:programma-postoyannogo-gostya609"/>
+    <file name="nomq_preview_master_______-a.css" crc="4275245300" ref="paket-molodozheny603:tarif-gosti:tarif-vyhodnogo-dnya:paket-vygodnyy600:programma-postoyannogo-gostya609"/>
+    <file name="paket-molodozheny603.css" crc="101899516" ref="paket-molodozheny603"/>
+    <file name="nomq_paket-molodozheny603.css" crc="3950902957" ref="paket-molodozheny603"/>
+    <file name="iefonts_paket-molodozheny603.css" crc="3824530138" ref="paket-molodozheny603"/>
+    <file name="tarif-gosti.css" crc="4005771539" ref="tarif-gosti"/>
+    <file name="nomq_tarif-gosti.css" crc="3828250193" ref="tarif-gosti"/>
+    <file name="iefonts_tarif-gosti.css" crc="3824530138" ref="tarif-gosti"/>
+    <file name="tarif-vyhodnogo-dnya.css" crc="3837956445" ref="tarif-vyhodnogo-dnya"/>
+    <file name="nomq_tarif-vyhodnogo-dnya.css" crc="3998008691" ref="tarif-vyhodnogo-dnya"/>
+    <file name="iefonts_tarif-vyhodnogo-dnya.css" crc="3824530138" ref="tarif-vyhodnogo-dnya"/>
+    <file name="index.css" crc="4067949295" ref="index"/>
+    <file name="paket-vygodnyy600.css" crc="406466376" ref="paket-vygodnyy600"/>
+    <file name="nomq_paket-vygodnyy600.css" crc="267723541" ref="paket-vygodnyy600"/>
+    <file name="iefonts_paket-vygodnyy600.css" crc="3824530138" ref="paket-vygodnyy600"/>
+    <file name="programma-postoyannogo-gostya609.css" crc="511444942" ref="programma-postoyannogo-gostya609"/>
+    <file name="nomq_programma-postoyannogo-gostya609.css" crc="283081167" ref="programma-postoyannogo-gostya609"/>
+    <file name="iefonts_programma-postoyannogo-gostya609.css" crc="3824530138" ref="programma-postoyannogo-gostya609"/>
+  </folder>
+  <folder name="assets">
+    <file name="pushy.js" crc="81984222" seo="true" mt="1574183606000"/>
+    <file name="menu.png" crc="3932891257" seo="true" mt="1573654486000"/>
+    <file name="pushy.css" crc="510554312" seo="true" mt="1574194753000"/>
+    <file name="demo.css" crc="144334806" seo="true" mt="1574282455000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="museutils.js" crc="3939489907" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="whatinput.js" crc="86476730" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="museconfig.js" crc="3936894949" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya"/>
+    <file name="webpro.js" crc="3856315280" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya"/>
+    <file name="require.js" crc="4177726516" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya:index"/>
+    <file name="form_check.php" crc="4108222811" ref="paket-molodozheny603"/>
+    <file name="form_throttle.php" crc="503802655" ref="paket-molodozheny603"/>
+    <file name="form_process.php" crc="260214869" ref="paket-molodozheny603"/>
+    <file name="form-u20290.php" crc="68280948" ref="paket-molodozheny603"/>
+  </folder>
+  <folder name="images">
+    <file name="шаблон-a-favicon.ico" crc="385657384" ref="paket-vygodnyy600"/>
+    <file name="выгодный.jpg" crc="288128850" ref="paket-vygodnyy600">
+      <caption webpage="paket-vygodnyy600" alt=""/>
+    </file>
+    <file name="calendar.png" crc="3790108333" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные-svg-18314x18.svg" crc="286462183" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные svg 18314x18_poster_.png" crc="4080410393" ref="paket-vygodnyy600"/>
+    <file name="вставленные-svg-88x88.svg" crc="4175322646" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные svg 88x88_poster_.png" crc="4231972708" ref="paket-vygodnyy600"/>
+    <file name="russia.png" crc="149424768" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="kazakhstan.png" crc="281446329" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="united-states-of-america.png" crc="139809199" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="china.png" crc="4085126966" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные-svg-22322x22.svg" crc="3759477499" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные svg 22322x22_poster_.png" crc="226012321" ref="paket-vygodnyy600"/>
+    <file name="вставленные-svg-21666x21.svg" crc="4120261180" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные svg 21666x21_poster_.png" crc="302509007" ref="paket-vygodnyy600"/>
+    <file name="вставленные-svg-32561x18.svg" crc="97943488" seo="true" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya">
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="paket-molodozheny603" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="paket-vygodnyy600" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="вставленные svg 32561x18_poster_.png" crc="245833193" ref="paket-vygodnyy600"/>
+    <file name="выгодный-u20022-fr.jpg" crc="449674325" ref="paket-vygodnyy600"/>
+    <file name="выгодный-u20022-fr2.jpg" crc="3852603763" ref="paket-vygodnyy600"/>
+    <file name="blank.gif" crc="4208392903" ref="paket-vygodnyy600:paket-molodozheny603:programma-postoyannogo-gostya609:tarif-gosti:tarif-vyhodnogo-dnya"/>
+    <file name="молодожены.jpg" crc="243928989" ref="paket-molodozheny603">
+      <caption webpage="paket-molodozheny603" alt=""/>
+    </file>
+    <file name="vjzh2bqkhzseotjc.jpg" crc="4096036326" ref="paket-molodozheny603">
+      <caption webpage="paket-molodozheny603" alt=""/>
+    </file>
+    <file name="молодожены-u20187-fr.jpg" crc="438959389" ref="paket-molodozheny603"/>
+    <file name="vjzh2bqkhzseotjc-u20256-fr.jpg" crc="284790962" ref="paket-molodozheny603"/>
+    <file name="молодожены-u20187-fr2.jpg" crc="4279047475" ref="paket-molodozheny603"/>
+    <file name="vjzh2bqkhzseotjc-u20256-fr2.jpg" crc="189205880" ref="paket-molodozheny603"/>
+    <file name="img_6243.png" crc="4186450710" ref="programma-postoyannogo-gostya609">
+      <caption webpage="programma-postoyannogo-gostya609" alt=""/>
+    </file>
+    <file name="тариф гости.jpg" crc="417908258" ref="tarif-gosti">
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="тариф гости-u25925-fr.jpg" crc="230661992" ref="tarif-gosti"/>
+    <file name="тариф гости-u25925-fr2.jpg" crc="4004786077" ref="tarif-gosti"/>
+    <file name="выходной день.jpg" crc="4282054127" ref="tarif-vyhodnogo-dnya">
+      <caption webpage="tarif-vyhodnogo-dnya" alt=""/>
+    </file>
+    <file name="выходной день-u25964-fr.jpg" crc="3953345983" ref="tarif-vyhodnogo-dnya"/>
+    <file name="выходной день-u25964-fr2.jpg" crc="388477461" ref="tarif-vyhodnogo-dnya"/>
+  </folder>
+  <file name="paket-vygodnyy600.html" crc="3871952560" seo="true" mt="1587969544310" redirect="true"/>
+  <file name="paket-molodozheny603.html" crc="4255187215" seo="true" mt="1587969544310" redirect="true"/>
+  <file name="programma-postoyannogo-gostya609.html" crc="3816534498" seo="true" mt="1587969544310" redirect="true"/>
+  <file name="tarif-gosti.html" crc="3764173923" seo="true" mt="1587969544310" redirect="true"/>
+  <file name="tarif-vyhodnogo-dnya.html" crc="162924712" seo="true" mt="1587969544310" redirect="true"/>
+  <file name="index.html" crc="218441010" seo="true" mt="1581264728839" redirect="false"/>
+  <site>
+    <asset filename="pushy.js" muse_href="upload:U22139"/>
+    <asset filename="menu.png" muse_href="upload:U22147"/>
+    <asset filename="pushy.css" muse_href="upload:U22321"/>
+    <asset filename="demo.css" muse_href="upload:U22367"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="body-text" uid="U771"/>
+    <paragraphStyle className="h1" uid="U773"/>
+    <paragraphStyle className="h3" uid="U774"/>
+    <paragraphStyle className="h5" uid="U775"/>
+    <paragraphStyle className="h2" uid="U780"/>
+    <paragraphStyle className="h4" uid="U781"/>
+    <textLinkStyle className="ts" uid="U25409"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="phone">
+      <page name="Пакет &quot;Выгодный&quot;" filename="paket-vygodnyy600.html" muse_href="page:U20021" master="U106">
+        <breakpoint uid="U19865" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20102" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20127" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <masterPage name="Шаблон-A" master="U96" uid="U106">
+        <breakpoint uid="U107" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18144" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18213" maxwidth="414" minwidth="361" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U96">
+        <breakpoint uid="U97" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Пакет &quot;Молодожены&quot;" filename="paket-molodozheny603.html" muse_href="page:U20255" master="U106">
+        <breakpoint uid="U20205" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20424" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20461" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Программа постоянного гостя" filename="programma-postoyannogo-gostya609.html" muse_href="page:U20649" master="U106">
+        <breakpoint uid="U20564" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20612" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20501" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Тариф &quot;Гости&quot;" filename="tarif-gosti.html" muse_href="page:U25957" master="U106">
+        <breakpoint uid="U25904" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U25886" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U25926" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Тариф выходного дня" filename="tarif-vyhodnogo-dnya.html" muse_href="page:U26033" master="U106">
+        <breakpoint uid="U26004" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U25986" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U25968" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Пустышка" filename="index.html" muse_href="page:U33441" master="U96">
+        <breakpoint uid="U33425" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

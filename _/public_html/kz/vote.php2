@@ -1,0 +1,196 @@
+<? 
+error_reporting(0);
+# Функция получения голосов
+function vote_statistic($vote_id)
+{
+		global $ob;
+		
+			
+		# Получаем варианты ответов на голосоване
+		$get_votes_ans = mysql_query("SELECT `vote_variant`, `vote_vote` FROM `i_block_elements` 
+									  WHERE `id_section`='$vote_id' ORDER BY `id` ASC");
+		if (mysql_num_rows($get_votes_ans) != 0)
+		{
+			# Количество голосов
+			$all_votes_count = mysql_result(mysql_query("SELECT SUM(`vote_vote`) FROM `i_block_elements` 
+														 WHERE `id_section`='$vote_id'"), 0);
+			while(list($vote_ans_value, $vote_ans_count) = mysql_fetch_row($get_votes_ans))
+			{
+				$percent = @ceil(($vote_ans_count * 100) / $all_votes_count);
+				echo '<p>'.$vote_ans_value.' - <b>'.$vote_ans_count.'</b> ('.$percent.'%)</p>';			
+			}
+		}	
+}
+
+# ЕСЛИ AJAX ЗАПРОС
+if ((isset($_SERVER['HTTP_X_REQUESTED_WITH'])) && ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') && (isset($_POST['x'])) && ($_POST['x']=='secure'))
+{
+	header('Content-Type: text/html; charset=utf-8');
+	include_once('../incom/modules/general/mysql.php');
+	
+	# Если послан id голосования и id ответа
+	if(
+	    isset($_POST['do']) && ($_POST['do'] == 'vote') &&
+		isset($_POST['vote_id']) && (strlen(eregi_replace("[[:digit:]]{1,6}", "", $_POST['vote_id'])) == 0) &&
+		isset($_POST['vote_ans']) && (strlen(eregi_replace("[[:digit:]]{1,6}", "", $_POST['vote_ans'])) == 0))
+	{
+	
+		# Переменные
+		$vote_id   = $_POST['vote_id'];
+		$vote_ans  = $_POST['vote_ans'];
+		$voter_ip  = $_SERVER['REMOTE_ADDR'];
+		$timestamp = time();
+		
+		# Получаем количесво голосов
+		$get_votes = mysql_query("SELECT `vote_vote` FROM `i_block_elements` WHERE `id`='$vote_ans' AND `id_section`='$vote_id' LIMIT 1");
+		if (mysql_num_rows($get_votes) == 1)
+		{
+
+			$votes_count = mysql_result($get_votes, 0);
+			$votes_count++;
+			
+			# +1
+			mysql_query("UPDATE `i_block_elements` SET `vote_vote`='$votes_count' WHERE `id`='$vote_ans' AND `id_section`='$vote_id' LIMIT 1");
+			
+			# IP Lock
+			mysql_query("INSERT INTO `i_vote_ip` (`id`, `id_section`, `ip`, `timestamp`) VALUES ('', '$vote_id', '$voter_ip', '$timestamp')");
+	
+			# Выводим статистику
+			vote_statistic($vote_id);
+		}
+	
+	
+	# ПОЛУЧИТЬ СТАТИСТИКУ
+	} else if (
+				isset($_POST['do']) && ($_POST['do'] == 'stat') &&
+				isset($_POST['vote_id']) && (strlen(eregi_replace("[[:digit:]]{1,6}", "", $_POST['vote_id'])) == 0))
+	{
+		# Переменная
+		$vote_id = $_POST['vote_id'];
+		
+		# Проверяем наличие голосования с таким ID
+		if (mysql_num_rows(mysql_query("SELECT `id` FROM `i_block` WHERE `id`='$vote_id' AND `act_block`='1' LIMIT 1")) == 1)
+		{
+			# Выводим статистику
+			vote_statistic($vote_id);
+		}
+	}
+	
+	exit;
+		
+}
+
+// парамметры
+$vote_ip=mysql_result(mysql_query("select value from i_params where id=23"),0);
+$vote_session=mysql_result(mysql_query("select value from i_params where id=22"),0);
+$vote_ip_hour=mysql_result(mysql_query("select value from i_params where id=24"),0);
+
+
+
+# Получаем последний активный вопрос
+$get_vote_question = mysql_query("SELECT `id`, `name_block`, `info_block` FROM `i_block` WHERE (`version`='$lang' or version='all') AND `act_block`='1' and id_section=34 ORDER BY `id` DESC LIMIT 1");
+			
+# Если вопрос есть
+if (mysql_num_rows($get_vote_question) == 1)
+{
+	$can_vote = 1;
+	@list($vote_id, $vote_name, $vote_info) = mysql_fetch_row($get_vote_question);
+			
+	echo '
+		<script type="text/javascript">
+		jQuery(document).ready(function()
+		{
+				// Голосовать
+				jQuery("#do_vote").click(function()
+				{
+					for(i=1; i<=vote_ans_count; i++)
+					{
+						if (jQuery("#vote_ans_"+i).attr("checked") == true) 
+						{
+							jQuery.ajax({
+								url: "/'.$lang.'/vote.php",
+								data: "do=vote&vote_id="+vote_id+"&vote_ans="+$("#vote_ans_"+i).val()+"&x=secure",
+								type: "POST",
+								dataType : "html",
+								cache: false,
+								success:  function(data)  { jQuery("#vote_answers").html(data); },
+								error: function()         { jQuery("#vote_answers").html("<p style=\"color:red\">Невозможно связаться с сервером!</p>"); }
+							});
+							break;
+						}
+					}
+					return false;
+				});
+				
+				// Статистика
+				jQuery("#vote_statistic").click(function()
+				{
+					jQuery.ajax({
+						url: "/kz/vote.php",
+						data: "do=stat&vote_id="+vote_id+"&x=secure",
+						type: "POST",
+						dataType : "html",
+						cache: false,
+						success:  function(data)  { jQuery("#vote_answers").html(data); },
+						error: function()         { jQuery("#vote_answers").html("<p style=\"color:red\">Невозможно связаться с сервером!</p>"); }
+					});
+					
+					return false;
+				});
+		});
+		</script>
+			
+
+		<div style="margin-bottom:7px;" ><strong style=" font-size:16px;">'.$vote_name.'</strong></div>
+		<div style="font-weight:bold;">'.$vote_info.'</div>';
+						
+		# Проверяем возможность голосовать
+		$time_stamp = time();
+		$voter_ip = $_SERVER['REMOTE_ADDR'];
+
+		# Удаляем просроченные блокировки
+		$lock_time = $time_stamp - ($vote_ip_hour * 3600);
+		mysql_query("DELETE FROM `i_vote_ip` WHERE `timestamp`<='$lock_time'");
+		
+
+						
+		# Если IP не заблокирован
+		if (mysql_num_rows(mysql_query("SELECT `timestamp` FROM `i_vote_ip` WHERE `id_section`='$vote_id' AND `ip`='$voter_ip' LIMIT 1")) == 0)
+		{
+								
+				# Получаем варианты ответов
+				$get_vote_answers = mysql_query("SELECT `id`, `vote_variant`, `vote_vote` FROM `i_block_elements` WHERE `id_section`='$vote_id' ORDER BY `id` ASC");
+				
+									
+				# Если ответы есть
+				if (mysql_num_rows($get_vote_answers))
+				{
+					
+						echo '
+						<script type="text/javascript">
+							var vote_id = '.$vote_id.';
+							var vote_ans_count = '.mysql_num_rows($get_vote_answers).';
+						</script>
+
+						<div id="vote_answers">';
+							$n=1;
+							
+							while(list($vote_ans_id, $vote_ans_value, $vote_ans_count) = mysql_fetch_row($get_vote_answers))
+							{
+								echo '
+								<p style="font-size:12px; margin-bottom:7px;"><input type="radio" id="vote_ans_'.$n.'" name="vote_ans" value="'.$vote_ans_id.'"> '.$vote_ans_value.'</p>';
+								$n++;
+							}
+						
+							
+						echo ($can_vote == 1 ? '</br><a href="#" class="link" id="do_vote" style=" padding-left:14px;" ><span ><span >Голосовать</span></span></a>&nbsp;&nbsp;&nbsp;<a href="#" class="link"  id="vote_statistic"><span ><span >Статистика</span></span></a>':'').'</div>
+						';
+							
+				}
+						
+			# Иначе выводим статистику
+			} else {
+			  vote_statistic($vote_id);
+			}
+}
+?>

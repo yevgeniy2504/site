@@ -1,0 +1,45 @@
+div.catalog2 {
+    padding: 0 0 0px;
+    /* border-bottom: #ea9103 solid 1px; */
+    margin-bottom: 0px;
+    width: 50%;
+    float: left;
+	min-height: 470px;
+}
+
+div.catalog2 .namenomer > a {
+    color: #ea9103;
+    text-decoration: underline;
+}
+div.catalog2 .namenomer > a:hover { color:#fff }
+div.catalog2 div.anounce {
+	padding:0 0 10px;	
+}
+div.catalog2 div.anounce ul {
+	padding:5px 0 15px 20px;
+}
+div.catalog2 a.img > img {
+    border: 3px solid #d5d5d5;
+}
+
+div.catalog2 .book-button {
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+div.catalog2 .namenomer {
+    margin-top: 10px;
+}
+.catalog2header{
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 30px;	
+}
+div.catalog a.img > img {
+    border: 3px solid #d5d5d5;
+    width: 97%;
+}

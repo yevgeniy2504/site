@@ -1,0 +1,25 @@
+
+User-agent: *
+Disallow: /*booking.php=
+Disallow: /incom/
+Disallow: /*/booking
+Disallow: /uyut/ru.html
+Disallow: /*PIE.php
+
+User-agent: Yandex
+Disallow: /*booking.php=
+Disallow: /incom/
+Disallow: /*/booking
+Disallow: /uyut/ru.html
+Disallow: /*PIE.php
+Host: www.hotel-uyut.kz
+
+User-Agent: Googlebot
+Disallow: /*booking.php=
+Disallow: /incom/
+Disallow: /*/booking
+Disallow: /uyut/ru.html
+Disallow: /*PIE.php
+
+Sitemap: http://www.hotel-uyut.kz/sitemap.xml
+

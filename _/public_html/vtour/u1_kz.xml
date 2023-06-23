@@ -1,0 +1,344 @@
+<krpano version="1.0.8" onstart="startup();" basedir="%SWFPATH%" logkey="false" showerrors="false"> <!-- vtour.xml template krpano tools version 1.0.8.12 -->	
+   
+   <!--loadscene(get(scene[0].name), null, MERGE);-->
+<!--                   -->
+	<action name="startup"> <!-- load the first scene -->
+     loadscene(scene_A_MG_8349 Panorama, null, MERGE); 
+	</action>
+	
+	<progress showload="none"  /><!-- disable the default progress bar -->
+  
+  <cursors url="images/qtvr-cursors.png"
+    type="8way"
+    move="0|0|16|16"
+    drag="16|0|16|16"
+    arrow_u="32|0|16|16"
+    arrow_d="48|0|16|16"
+    arrow_l="64|0|16|16"
+    arrow_r="80|0|16|16"
+    arrow_lu="96|0|16|16"
+    arrow_ru="112|0|16|16"
+    arrow_rd="128|0|16|16"
+    arrow_ld="144|0|16|16"
+    />
+
+	<scene name="scene__MG_4227 Panorama" title="_MG_4227 Panorama" onstart="" thumburl="_MG_4227 Panorama.tiles/thumb.jpg">
+    
+    <include url="u1_menu_kz.xml" />
+                  
+		<view hlookat="175" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="_MG_4227 Panorama.tiles/preview.jpg" />
+
+		<image>
+			<left  url="_MG_4227 Panorama.tiles/pano_l.jpg" />
+			<front url="_MG_4227 Panorama.tiles/pano_f.jpg" />
+			<right url="_MG_4227 Panorama.tiles/pano_r.jpg" />
+			<back  url="_MG_4227 Panorama.tiles/pano_b.jpg" />
+			<up    url="_MG_4227 Panorama.tiles/pano_u.jpg" />
+			<down  url="_MG_4227 Panorama.tiles/pano_d.jpg" />
+			<mobile>
+				<left  url="_MG_4227 Panorama.tiles/mobile_l.jpg" />
+				<front url="_MG_4227 Panorama.tiles/mobile_f.jpg" />
+				<right url="_MG_4227 Panorama.tiles/mobile_r.jpg" />
+				<back  url="_MG_4227 Panorama.tiles/mobile_b.jpg" />
+				<up    url="_MG_4227 Panorama.tiles/mobile_u.jpg" />
+				<down  url="_MG_4227 Panorama.tiles/mobile_d.jpg" />
+			</mobile>
+			<tablet>
+				<left  url="_MG_4227 Panorama.tiles/tablet_l.jpg" />
+				<front url="_MG_4227 Panorama.tiles/tablet_f.jpg" />
+				<right url="_MG_4227 Panorama.tiles/tablet_r.jpg" />
+				<back  url="_MG_4227 Panorama.tiles/tablet_b.jpg" />
+				<up    url="_MG_4227 Panorama.tiles/tablet_u.jpg" />
+				<down  url="_MG_4227 Panorama.tiles/tablet_d.jpg" />
+			</tablet>
+		</image>
+
+		<hotspot name="hs1" url="images/kz/conference_kz.png"
+           keep="false"
+           ath="-57.272910712824995" atv="2.5991203106964664"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+           zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[1].name), null, MERGE);"
+           devices="all"
+           />
+
+  <hotspot name="hs2" url="images/kz/restaraunt_kz.png"
+           keep="false"
+           ath="254.08690627337467" atv="11.124379593112764"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+           zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[2].name), null, MERGE);"
+           devices="all"
+           />
+
+  <hotspot name="hs3" url="images/kz/exit_kz.png"
+           keep="false"
+           ath="80.08690627337467" atv="11.124379593112764"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+           zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[3].name), null, MERGE);"
+           devices="all"
+           />
+
+
+	</scene>
+
+
+	<scene name="scene_A_MG_0768 Panorama" title="A_MG_0768 Panorama" onstart="" thumburl="A_MG_0768 Panorama.tiles/thumb.jpg">
+        
+    <include url="u1_conf_kz.xml" />
+    
+		<view hlookat="175" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="A_MG_0768 Panorama.tiles/preview.jpg" />
+
+		<image>
+			<left  url="A_MG_0768 Panorama.tiles/pano_l.jpg" />
+			<front url="A_MG_0768 Panorama.tiles/pano_f.jpg" />
+			<right url="A_MG_0768 Panorama.tiles/pano_r.jpg" />
+			<back  url="A_MG_0768 Panorama.tiles/pano_b.jpg" />
+			<up    url="A_MG_0768 Panorama.tiles/pano_u.jpg" />
+			<down  url="A_MG_0768 Panorama.tiles/pano_d.jpg" />
+			<mobile>
+				<left  url="A_MG_0768 Panorama.tiles/mobile_l.jpg" />
+				<front url="A_MG_0768 Panorama.tiles/mobile_f.jpg" />
+				<right url="A_MG_0768 Panorama.tiles/mobile_r.jpg" />
+				<back  url="A_MG_0768 Panorama.tiles/mobile_b.jpg" />
+				<up    url="A_MG_0768 Panorama.tiles/mobile_u.jpg" />
+				<down  url="A_MG_0768 Panorama.tiles/mobile_d.jpg" />
+			</mobile>
+			<tablet>
+				<left  url="A_MG_0768 Panorama.tiles/tablet_l.jpg" />
+				<front url="A_MG_0768 Panorama.tiles/tablet_f.jpg" />
+				<right url="A_MG_0768 Panorama.tiles/tablet_r.jpg" />
+				<back  url="A_MG_0768 Panorama.tiles/tablet_b.jpg" />
+				<up    url="A_MG_0768 Panorama.tiles/tablet_u.jpg" />
+				<down  url="A_MG_0768 Panorama.tiles/tablet_d.jpg" />
+			</tablet>
+		</image>
+     
+  <hotspot name="hs1" url="images/kz/holl_kz.png"
+           keep="false"
+           ath="31.789353234776442" atv="3.6046957609712527"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+            zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[0].name), null, MERGE);"
+           devices="all"
+           />
+
+	</scene>
+
+
+  <scene name="scene_A_MG_0855 Panorama" title="A_MG_0855 Panorama" onstart="" thumburl="A_MG_0855 Panorama.tiles/thumb.jpg">
+    
+    <include url="u1_menu_kz.xml" />
+    
+    <view hlookat="-91" vlookat="3" fovtype="MFOV" fov="109" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+    <preview url="A_MG_0855 Panorama.tiles/preview.jpg" />
+
+    <image>
+      <left  url="A_MG_0855 Panorama.tiles/pano_l.jpg" />
+      <front url="A_MG_0855 Panorama.tiles/pano_f.jpg" />
+      <right url="A_MG_0855 Panorama.tiles/pano_r.jpg" />
+      <back  url="A_MG_0855 Panorama.tiles/pano_b.jpg" />
+      <up    url="A_MG_0855 Panorama.tiles/pano_u.jpg" />
+      <down  url="A_MG_0855 Panorama.tiles/pano_d.jpg" />
+      <mobile>
+        <left  url="A_MG_0855 Panorama.tiles/mobile_l.jpg" />
+        <front url="A_MG_0855 Panorama.tiles/mobile_f.jpg" />
+        <right url="A_MG_0855 Panorama.tiles/mobile_r.jpg" />
+        <back  url="A_MG_0855 Panorama.tiles/mobile_b.jpg" />
+        <up    url="A_MG_0855 Panorama.tiles/mobile_u.jpg" />
+        <down  url="A_MG_0855 Panorama.tiles/mobile_d.jpg" />
+      </mobile>
+      <tablet>
+        <left  url="A_MG_0855 Panorama.tiles/tablet_l.jpg" />
+        <front url="A_MG_0855 Panorama.tiles/tablet_f.jpg" />
+        <right url="A_MG_0855 Panorama.tiles/tablet_r.jpg" />
+        <back  url="A_MG_0855 Panorama.tiles/tablet_b.jpg" />
+        <up    url="A_MG_0855 Panorama.tiles/tablet_u.jpg" />
+        <down  url="A_MG_0855 Panorama.tiles/tablet_d.jpg" />
+      </tablet>
+    </image>
+    
+  <hotspot name="hs1" url="images/kz/holl_kz.png"
+           keep="false"
+           ath="-1.1600164350705455" atv="1.6140019920208224"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+            zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[0].name), null, MERGE);"
+           devices="all"
+           />
+
+  </scene>           
+
+	<scene name="scene_A_MG_8349 Panorama" title="A_MG_8349 Panorama" onstart="" thumburl="A_MG_8349 Panorama.tiles/thumb.jpg">
+    
+    <include url="u1_menu_kz.xml" />
+    
+    <view hlookat="40" vlookat="-5" fovtype="MFOV" fov="109" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="_MG_8349 Panorama_ret_2.tiles/preview.jpg" />
+
+		<image>
+			<left  url="_MG_8349 Panorama_ret_2.tiles/pano_l.jpg" />
+			<front url="_MG_8349 Panorama_ret_2.tiles/pano_f.jpg" />
+			<right url="_MG_8349 Panorama_ret_2.tiles/pano_r.jpg" />
+			<back  url="_MG_8349 Panorama_ret_2.tiles/pano_b.jpg" />
+			<up    url="_MG_8349 Panorama_ret_2.tiles/pano_u.jpg" />
+			<down  url="_MG_8349 Panorama_ret_2.tiles/pano_d.jpg" />
+			<mobile>
+				<left  url="_MG_8349 Panorama_ret_2.tiles/mobile_l.jpg" />
+				<front url="_MG_8349 Panorama_ret_2.tiles/mobile_f.jpg" />
+				<right url="_MG_8349 Panorama_ret_2.tiles/mobile_r.jpg" />
+				<back  url="_MG_8349 Panorama_ret_2.tiles/mobile_b.jpg" />
+				<up    url="_MG_8349 Panorama_ret_2.tiles/mobile_u.jpg" />
+				<down  url="_MG_8349 Panorama_ret_2.tiles/mobile_d.jpg" />
+			</mobile>
+			<tablet>
+				<left  url="_MG_8349 Panorama_ret_2.tiles/tablet_l.jpg" />
+				<front url="_MG_8349 Panorama_ret_2.tiles/tablet_f.jpg" />
+				<right url="_MG_8349 Panorama_ret_2.tiles/tablet_r.jpg" />
+				<back  url="_MG_8349 Panorama_ret_2.tiles/tablet_b.jpg" />
+				<up    url="_MG_8349 Panorama_ret_2.tiles/tablet_u.jpg" />
+				<down  url="_MG_8349 Panorama_ret_2.tiles/tablet_d.jpg" />
+			</tablet>
+		</image>
+    
+  <hotspot name="hs1" url="images/kz/entrance_kz.png"
+           keep="false"
+           ath="49.1600164350705455" atv="1.6140019920208224"
+           zoom="false" distorted="false" details="8" flying="0"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+            zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadscene(get(scene[0].name), null, MERGE);"
+           devices="all"
+           />
+
+	</scene>           
+
+	<scene name="scene__MG_9649 Panorama" title="_MG_9649 Panorama" onstart="" thumburl="_MG_9649 Panorama.tiles/thumb.jpg">
+	
+	 <include url="u1_conf_ru.xml" />
+
+		  <view hlookat="40" vlookat="-5" fovtype="MFOV" fov="109" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="_MG_9649 Panorama.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="758" progressive="false">
+			<level tiledimagewidth="2274" tiledimageheight="2274">
+				<left  url="_MG_9649 Panorama.tiles/l2_l_%0v%0h.jpg" />
+				<front url="_MG_9649 Panorama.tiles/l2_f_%0v%0h.jpg" />
+				<right url="_MG_9649 Panorama.tiles/l2_r_%0v%0h.jpg" />
+				<back  url="_MG_9649 Panorama.tiles/l2_b_%0v%0h.jpg" />
+				<up    url="_MG_9649 Panorama.tiles/l2_u_%0v%0h.jpg" />
+				<down  url="_MG_9649 Panorama.tiles/l2_d_%0v%0h.jpg" />
+			</level>
+			<level tiledimagewidth="1137" tiledimageheight="1137">
+				<left  url="_MG_9649 Panorama.tiles/l1_l_%0v%0h.jpg" />
+				<front url="_MG_9649 Panorama.tiles/l1_f_%0v%0h.jpg" />
+				<right url="_MG_9649 Panorama.tiles/l1_r_%0v%0h.jpg" />
+				<back  url="_MG_9649 Panorama.tiles/l1_b_%0v%0h.jpg" />
+				<up    url="_MG_9649 Panorama.tiles/l1_u_%0v%0h.jpg" />
+				<down  url="_MG_9649 Panorama.tiles/l1_d_%0v%0h.jpg" />
+			</level>
+		</image>
+
+		<!-- place hotspots here -->
+
+		<!-- example hotspot:
+		<hotspot name="spot1" style="hotspot_ani_black" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		         onclick="looktohotspot(get(name)); loadscene('insert-scene-name',null,MERGE,BLEND(1));"
+		         />
+		-->
+
+	</scene>
+	
+	<scene name="scene__MG_9541 Panorama" title="_MG_9541 Panorama" onstart="" thumburl="_MG_9541 Panorama.tiles/thumb.jpg">
+	
+	 <include url="u1_conf_ru.xml" />
+
+		  <view hlookat="40" vlookat="-5" fovtype="MFOV" fov="109" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="_MG_9541 Panorama.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="758" progressive="false">
+			<level tiledimagewidth="2274" tiledimageheight="2274">
+				<left  url="_MG_9541 Panorama.tiles/l2_l_%0v%0h.jpg" />
+				<front url="_MG_9541 Panorama.tiles/l2_f_%0v%0h.jpg" />
+				<right url="_MG_9541 Panorama.tiles/l2_r_%0v%0h.jpg" />
+				<back  url="_MG_9541 Panorama.tiles/l2_b_%0v%0h.jpg" />
+				<up    url="_MG_9541 Panorama.tiles/l2_u_%0v%0h.jpg" />
+				<down  url="_MG_9541 Panorama.tiles/l2_d_%0v%0h.jpg" />
+			</level>
+			<level tiledimagewidth="1137" tiledimageheight="1137">
+				<left  url="_MG_9541 Panorama.tiles/l1_l_%0v%0h.jpg" />
+				<front url="_MG_9541 Panorama.tiles/l1_f_%0v%0h.jpg" />
+				<right url="_MG_9541 Panorama.tiles/l1_r_%0v%0h.jpg" />
+				<back  url="_MG_9541 Panorama.tiles/l1_b_%0v%0h.jpg" />
+				<up    url="_MG_9541 Panorama.tiles/l1_u_%0v%0h.jpg" />
+				<down  url="_MG_9541 Panorama.tiles/l1_d_%0v%0h.jpg" />
+			</level>
+		</image>
+
+		<!-- place hotspots here -->
+
+		<!-- example hotspot:
+		<hotspot name="spot1" style="hotspot_ani_black" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		         onclick="looktohotspot(get(name)); loadscene('insert-scene-name',null,MERGE,BLEND(1));"
+		         />
+		-->
+
+	</scene>
+
+</krpano>

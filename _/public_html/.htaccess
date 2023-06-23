@@ -1,0 +1,172 @@
+#php_flag display_errors on
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^hotel-uyut.kz
+RewriteRule (.*) https://www.hotel-uyut.kz/$1 [R=301,L]
+RewriteRule .* - [E=HTTP_IF_MODIFIED_SINCE:%{HTTP:If-Modified-Since}]
+RewriteRule .* - [E=HTTP_IF_NONE_MATCH:%{HTTP:If-None-Match}]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ ./index.php?route=$1
+
+RewriteCond %{REQUEST_URI} ^/ru/page/oteli-i-gostinicy-almaty-ceny-vybor-nomera---gostinichnyy-kompleks-uyut-v-almate/$
+RewriteRule ^.*$ https://www.hotel-uyut.kz/ [R=301,L]
+
+Redirect 301 /booking.html /booking
+Redirect 301 /price-list-13.html /price-list-13
+Redirect 301 /catalog/standart17.html /catalog/standart17
+Redirect 301 /kontakty613.html /kontakty613/
+Redirect 301 /about-us-12.html /about-us-12
+Redirect 301 /actions/tarif-antikrizisnyy11126/?utm_source=facebook&utm_medium=cpc&utm_campaign=slider /actions/tarif-antikrizisnyy11126
+Redirect 301 /actions/paket-vygodnyy600/tarif-konaktargosti602/ https://www.hotel-uyut.kz
+Redirect 301 /ru/page/oteli-i-gostinicy-almaty-ceny-vybor-nomera---gostinichnyy-kompleks-uyut-v-almate https://www.hotel-uyut.kz
+RewriteRule sertifikaty.php /sertifikaty629/ [R=301,L]
+
+ErrorDocument 404 /404.php
+
+Options -Indexes
+
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# OTPI CODE BY 002.SEO 20211221
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault                                    "access plus 1 month"
+    
+    # DATA
+    ExpiresByType text/xml                            "access plus 0 seconds"
+    ExpiresByType text/html                           "access plus 0 seconds"
+    ExpiresByType text/plain                          "access plus 0 seconds"
+    ExpiresByType application/xml                     "access plus 0 seconds"
+    ExpiresByType application/json                    "access plus 0 seconds"
+    ExpiresByType application/rss+xml                 "access plus 1 hour"
+    ExpiresByType application/atom+xml                "access plus 1 hour"
+    ExpiresByType text/x-component                    "access plus 1 hour"
+    
+    # MANIFEST
+    ExpiresByType application/x-web-app-manifest+json "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                 "access plus 0 seconds"
+    
+    # SCRIPTS
+    ExpiresByType text/css                            "access plus 1 month" 
+    ExpiresByType text/javascript                     "access plus 1 month" 
+    ExpiresByType application/javascript              "access plus 1 month" 
+    ExpiresByType application/x-javascript            "access plus 1 month" 
+    
+    # IMAGES
+    ExpiresByType image/gif                           "access plus 1 year"
+    ExpiresByType image/png                           "access plus 1 year"
+    ExpiresByType image/jpe                           "access plus 1 year"
+    ExpiresByType image/jpg                           "access plus 1 year"
+    ExpiresByType image/jpeg                          "access plus 1 year"
+    ExpiresByType image/jp2                           "access plus 1 year"
+    ExpiresByType image/pipeg                         "access plus 1 year"
+    ExpiresByType image/bmp                           "access plus 1 year"
+    ExpiresByType image/tiff                          "access plus 1 year"
+    ExpiresByType image/svg+xml                       "access plus 1 year"
+    ExpiresByType image/vnd.microsoft.icon            "access plus 1 year"
+    
+    # ICONS
+    ExpiresByType image/ico                           "access plus 1 year"
+    ExpiresByType image/icon                          "access plus 1 year"
+    ExpiresByType text/ico                            "access plus 1 year"
+    ExpiresByType image/x-ico                         "access plus 1 year"
+    ExpiresByType image/x-icon                        "access plus 1 year"
+    ExpiresByType application/ico                     "access plus 1 year"
+    
+    # AUDIO
+    ExpiresByType audio/ogg                           "access plus 1 year"
+    ExpiresByType audio/basic                         "access plus 1 year"
+    ExpiresByType audio/mid                           "access plus 1 year"
+    ExpiresByType audio/midi                          "access plus 1 year"
+    ExpiresByType audio/mpeg                          "access plus 1 year"
+    ExpiresByType audio/x-aiff                        "access plus 1 year"
+    ExpiresByType audio/x-mpegurl                     "access plus 1 year"
+    ExpiresByType audio/x-pn-realaudio                "access plus 1 year"
+    ExpiresByType audio/x-wav                         "access plus 1 year"
+    
+    # VIDEO
+    ExpiresByType video/ogg                           "access plus 1 year"
+    ExpiresByType video/mp4                           "access plus 1 year"
+    ExpiresByType video/webm                          "access plus 1 year"
+    ExpiresByType video/x-msvideo                     "access plus 1 year"
+    ExpiresByType video/mpeg                          "access plus 1 year"
+    ExpiresByType video/quicktime                     "access plus 1 year"
+    ExpiresByType video/x-la-asf                      "access plus 1 year"
+    ExpiresByType video/x-ms-asf                      "access plus 1 year"
+    ExpiresByType x-world/x-vrml                      "access plus 1 year"
+    
+    # FONTS
+    ExpiresByType font/truetype                       "access plus 1 year"
+    ExpiresByType font/opentype                       "access plus 1 year"
+    ExpiresByType application/x-font-ttf              "access plus 1 year"
+    ExpiresByType application/x-font-woff             "access plus 1 year"
+    ExpiresByType application/font-woff               "access plus 1 year"
+    ExpiresByType application/vnd.ms-fontobject       "access plus 1 year"
+    
+    # FLASH
+    ExpiresByType application/x-shockwave-flash       "access plus 1 year"
+    ExpiresByType video/x-flv                         "access plus 1 year"
+    
+    # OTHERS
+    ExpiresByType application/pdf                     "access plus 1 year"
+    ExpiresByType image/vnd.wap.wbmp                  "access plus 1 year"
+    ExpiresByType application/vnd.wap.wbxml           "access plus 1 year"
+    ExpiresByType application/smil                    "access plus 1 year"
+    <IfModule mod_headers.c>
+        Header append Cache-Control "public"
+        <FilesMatch "\.(ico|flv|jpg|jpeg|png|gif|css|swf)$">
+            Header set Cache-Control "max-age=31536000, public"
+        </FilesMatch>
+        <FilesMatch "\.(html|htm)$">
+            Header set Cache-Control "max-age=7200, private, must-revalidate"
+        </FilesMatch>
+        <FilesMatch "\.(pdf)$">
+            Header set Cache-Control "max-age=86400, public"
+        </FilesMatch>
+        <FilesMatch "\.(js)$">
+            Header set Cache-Control "max-age=2678400, private"
+        </FilesMatch>
+    </IfModule>
+    
+</IfModule>
+
+#COMP BY 002.SEO 20211221
+
+<ifmodule mod_deflate.c>
+
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-font-woff  
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+  
+</ifmodule>

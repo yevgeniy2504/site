@@ -1,0 +1,561 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://hotel-uyut.kz" ftp_rootfolder="/m.hotel-uyut.kz/zh/actions" exportTarget="FTP" domain="m.hotel-uyut.kz/zh/actions" resolutions="1x" timestamp="1587973915242">
+  <folder name="css">
+    <file name="site_global.css" crc="485035841"/>
+    <file name="master_______-a.css" crc="3981227434" ref="656:32655:654:658:652:tarif-gosti:653:651:650:657:tarif-vyhodnogodnya"/>
+    <file name="nomq_preview_master_______-a.css" crc="4275245300" ref="656:32655:654:658:652:tarif-gosti:653:651:650:657:tarif-vyhodnogodnya"/>
+    <file name="656.css" crc="3801881500" ref="656"/>
+    <file name="nomq_656.css" crc="66011207" ref="656"/>
+    <file name="iefonts_656.css" crc="3824530138" ref="656"/>
+    <file name="32655.css" crc="24767397" ref="32655"/>
+    <file name="nomq_32655.css" crc="482999014" ref="32655"/>
+    <file name="iefonts_32655.css" crc="3824530138" ref="32655"/>
+    <file name="654.css" crc="3992369575" ref="654"/>
+    <file name="nomq_654.css" crc="107213953" ref="654"/>
+    <file name="iefonts_654.css" crc="3824530138" ref="654"/>
+    <file name="658.css" crc="4082910142" ref="658"/>
+    <file name="nomq_658.css" crc="3982533829" ref="658"/>
+    <file name="iefonts_658.css" crc="3824530138" ref="658"/>
+    <file name="652.css" crc="3975485252" ref="652"/>
+    <file name="nomq_652.css" crc="497782262" ref="652"/>
+    <file name="iefonts_652.css" crc="3824530138" ref="652"/>
+    <file name="tarif-gosti.css" crc="88287251" ref="tarif-gosti"/>
+    <file name="nomq_tarif-gosti.css" crc="4265596648" ref="tarif-gosti"/>
+    <file name="iefonts_tarif-gosti.css" crc="3824530138" ref="tarif-gosti"/>
+    <file name="index.css" crc="4067949295" ref="index"/>
+    <file name="653.css" crc="3901949367" ref="653"/>
+    <file name="nomq_653.css" crc="3932017663" ref="653"/>
+    <file name="iefonts_653.css" crc="3824530138" ref="653"/>
+    <file name="651.css" crc="487663840" ref="651"/>
+    <file name="nomq_651.css" crc="449227883" ref="651"/>
+    <file name="iefonts_651.css" crc="3824530138" ref="651"/>
+    <file name="650.css" crc="114827007" ref="650"/>
+    <file name="nomq_650.css" crc="4069897798" ref="650"/>
+    <file name="iefonts_650.css" crc="3824530138" ref="650"/>
+    <file name="657.css" crc="259385865" ref="657"/>
+    <file name="nomq_657.css" crc="339997511" ref="657"/>
+    <file name="iefonts_657.css" crc="3824530138" ref="657"/>
+    <file name="tarif-vyhodnogodnya.css" crc="429106408" ref="tarif-vyhodnogodnya"/>
+    <file name="nomq_tarif-vyhodnogodnya.css" crc="4047387743" ref="tarif-vyhodnogodnya"/>
+    <file name="iefonts_tarif-vyhodnogodnya.css" crc="3824530138" ref="tarif-vyhodnogodnya"/>
+  </folder>
+  <folder name="assets">
+    <file name="pushy.js" crc="81984222" seo="true" mt="1574183606000"/>
+    <file name="menu.png" crc="3932891257" seo="true" mt="1573654486000"/>
+    <file name="pushy.css" crc="510554312" seo="true" mt="1574194753000"/>
+    <file name="demo.css" crc="144334806" seo="true" mt="1574282455000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="museutils.js" crc="3939489907" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="whatinput.js" crc="86476730" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="museconfig.js" crc="3936894949" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="jquery.watch.js" crc="522499760" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657"/>
+    <file name="webpro.js" crc="3856315280" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657"/>
+    <file name="require.js" crc="4177726516" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:index:32655:651:653:654:656:657"/>
+    <file name="form_check.php" crc="4108222811" ref="652"/>
+    <file name="form_throttle.php" crc="503802655" ref="652"/>
+    <file name="form_process.php" crc="260214869" ref="652"/>
+    <file name="form-u20290.php" crc="68280948" ref="652"/>
+  </folder>
+  <folder name="images">
+    <file name="шаблон-a-favicon.ico" crc="385657384" ref="650"/>
+    <file name="выгодный.jpg" crc="288128850" ref="650">
+      <caption webpage="650" alt=""/>
+    </file>
+    <file name="calendar.png" crc="3790108333" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные-svg-18314x18.svg" crc="286462183" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные svg 18314x18_poster_.png" crc="4080410393" ref="650"/>
+    <file name="вставленные-svg-88x88.svg" crc="4175322646" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные svg 88x88_poster_.png" crc="4231972708" ref="650"/>
+    <file name="russia.png" crc="149424768" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="kazakhstan.png" crc="281446329" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="united-states-of-america.png" crc="139809199" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="china.png" crc="4085126966" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные-svg-22322x22.svg" crc="3759477499" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные svg 22322x22_poster_.png" crc="226012321" ref="650"/>
+    <file name="вставленные-svg-21666x21.svg" crc="4120261180" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные svg 21666x21_poster_.png" crc="302509007" ref="650"/>
+    <file name="вставленные-svg-32561x18.svg" crc="97943488" seo="true" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="658" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="650" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="652" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="653" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="32655" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="вставленные svg 32561x18_poster_.png" crc="245833193" ref="650"/>
+    <file name="выгодный-u20022-fr.jpg" crc="449674325" ref="650"/>
+    <file name="выгодный-u20022-fr2.jpg" crc="3852603763" ref="650"/>
+    <file name="blank.gif" crc="4208392903" ref="650:652:658:tarif-gosti:tarif-vyhodnogodnya:32655:651:653:654:656:657"/>
+    <file name="молодожены.jpg" crc="243928989" ref="652">
+      <caption webpage="652" alt=""/>
+    </file>
+    <file name="vjzh2bqkhzseotjc.jpg" crc="4096036326" ref="652">
+      <caption webpage="652" alt=""/>
+    </file>
+    <file name="молодожены-u20187-fr.jpg" crc="438959389" ref="652"/>
+    <file name="vjzh2bqkhzseotjc-u20256-fr.jpg" crc="284790962" ref="652"/>
+    <file name="молодожены-u20187-fr2.jpg" crc="4279047475" ref="652"/>
+    <file name="vjzh2bqkhzseotjc-u20256-fr2.jpg" crc="189205880" ref="652"/>
+    <file name="img_6243.png" crc="4186450710" ref="658">
+      <caption webpage="658" alt=""/>
+    </file>
+    <file name="тариф гости.jpg" crc="417908258" ref="tarif-gosti">
+      <caption webpage="tarif-gosti" alt=""/>
+    </file>
+    <file name="тариф гости-u25925-fr.jpg" crc="230661992" ref="tarif-gosti"/>
+    <file name="тариф гости-u25925-fr2.jpg" crc="4004786077" ref="tarif-gosti"/>
+    <file name="выходной день.jpg" crc="4282054127" ref="tarif-vyhodnogodnya">
+      <caption webpage="tarif-vyhodnogodnya" alt=""/>
+    </file>
+    <file name="выходной день-u25964-fr.jpg" crc="3953345983" ref="tarif-vyhodnogodnya"/>
+    <file name="выходной день-u25964-fr2.jpg" crc="388477461" ref="tarif-vyhodnogodnya"/>
+    <file name="81271_741118_16.jpg" crc="4107869833" ref="32655:651:654:656:657">
+      <caption webpage="656" alt=""/>
+      <caption webpage="657" alt=""/>
+      <caption webpage="651" alt=""/>
+      <caption webpage="654" alt=""/>
+      <caption webpage="32655" alt=""/>
+    </file>
+    <file name="81271_741118_16-u26990-fr.jpg" crc="301681083" ref="32655:651:654:656:657"/>
+    <file name="81271_741118_16-u26990-fr2.jpg" crc="124340168" ref="32655:651:654:656:657"/>
+    <file name="49841.jpg" crc="4015149525" ref="653">
+      <caption webpage="653" alt=""/>
+    </file>
+    <file name="49841-u27150-fr.jpg" crc="4025193517" ref="653"/>
+    <file name="49841-u27150-fr2.jpg" crc="360458843" ref="653"/>
+  </folder>
+  <file name="650.html" crc="413022695" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="652.html" crc="4016802452" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="658.html" crc="174793524" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="tarif-gosti.html" crc="4270403563" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="tarif-vyhodnogodnya.html" crc="4051450951" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="index.html" crc="218441010" seo="true" mt="1581543961348" redirect="false"/>
+  <file name="32655.html" crc="454427840" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="651.html" crc="4286741322" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="653.html" crc="3935813856" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="654.html" crc="3877441948" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="656.html" crc="4245531248" seo="true" mt="1587969860261" redirect="true"/>
+  <file name="657.html" crc="3762024198" seo="true" mt="1587969860261" redirect="true"/>
+  <site>
+    <asset filename="pushy.js" muse_href="upload:U22139"/>
+    <asset filename="menu.png" muse_href="upload:U22147"/>
+    <asset filename="pushy.css" muse_href="upload:U22321"/>
+    <asset filename="demo.css" muse_href="upload:U22367"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="body-text" uid="U771"/>
+    <paragraphStyle className="h1" uid="U773"/>
+    <paragraphStyle className="h3" uid="U774"/>
+    <paragraphStyle className="h5" uid="U775"/>
+    <paragraphStyle className="h2" uid="U780"/>
+    <paragraphStyle className="h4" uid="U781"/>
+    <textLinkStyle className="ts" uid="U25409"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="phone">
+      <page name="Пакет &quot;Выгодный&quot;" filename="650.html" muse_href="page:U20021" master="U106">
+        <breakpoint uid="U19865" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20102" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20127" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <masterPage name="Шаблон-A" master="U96" uid="U106">
+        <breakpoint uid="U107" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18144" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18213" maxwidth="414" minwidth="361" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U96">
+        <breakpoint uid="U97" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Пакет &quot;Молодожены&quot;" filename="652.html" muse_href="page:U20255" master="U106">
+        <breakpoint uid="U20205" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20424" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20461" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Программа постоянного гостя" filename="658.html" muse_href="page:U20649" master="U106">
+        <breakpoint uid="U20564" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U20612" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U20501" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Тариф &quot;Гости&quot;" filename="tarif-gosti.html" muse_href="page:U25957" master="U106">
+        <breakpoint uid="U25904" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U25886" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U25926" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Тариф выходного дня" filename="tarif-vyhodnogodnya.html" muse_href="page:U26033" master="U106">
+        <breakpoint uid="U26004" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U25986" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U25968" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Пустышка" filename="index.html" muse_href="page:U26954" master="U96">
+        <breakpoint uid="U26938" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="住3晚，付2晚房费”套餐" filename="32655.html" muse_href="page:U27031" master="U106">
+        <breakpoint uid="U26993" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U26960" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27013" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="休息日套餐" filename="651.html" muse_href="page:U27115" master="U106">
+        <breakpoint uid="U27055" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27078" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27097" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="儿童套餐 酒店 “Uyut”  阿拉木图 -  描述，照片，评论" filename="653.html" muse_href="page:U27191" master="U106">
+        <breakpoint uid="U27131" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27154" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27173" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="“预定豪华间”套餐" filename="654.html" muse_href="page:U27275" master="U106">
+        <breakpoint uid="U27257" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27239" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27219" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="生日特别套餐" filename="656.html" muse_href="page:U27351" master="U106">
+        <breakpoint uid="U27279" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27320" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27297" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="“我们的同事”特别套餐" filename="657.html" muse_href="page:U27427" master="U106">
+        <breakpoint uid="U27383" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27407" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27355" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
