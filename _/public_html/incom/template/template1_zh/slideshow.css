@@ -1,7 +1,0 @@
-/* slideshow gallery */
-
-.slideshowlite {position:relative;overflow:hidden;}
-
-.slideshowlite a {position:absolute;z-index:1;width:541px;height:321px;text-align:left;}
-
-.slideshowlite img {border:none;}
