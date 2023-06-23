@@ -1,0 +1,26 @@
+<? 
+### info ###
+#name Карта сайта #end_name
+#edit false #end_edit
+### end_info ###
+$lang="kz";
+$title="Карта сайта";
+$keywords="";
+$description="";
+require($_SERVER["DOCUMENT_ROOT"]."/incom/template/header.php");
+?>
+<?
+$s = mysql_query("select b.*, (select count(*) from i_block b1 where b1.id_section = b.id and b1.active=1 and b1.version='$lang') as kol from i_block b where b.id_section in (select b2.id from i_block b2 where b2.translit_name = 'menu') and b.active=1 and b.version='$lang' order by b.id_sort asc");
+if ($s && mysql_num_rows($s)>0)
+{
+	while($r = mysql_fetch_array($s))
+	{
+		echo '<h2>'.$r["name_menu"].'</h2>';	
+		echo $incom->menu->get_map_menu($lang,$r["id"],($r["kol"]>0?'block':'block_elements'));	
+	}	
+}
+else
+	echo mysql_error();
+
+?>
+<? require($_SERVER["DOCUMENT_ROOT"]."/incom/template/footer.php");?>

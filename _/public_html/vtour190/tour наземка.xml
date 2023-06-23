@@ -1,0 +1,725 @@
+<krpano version="1.17" title="Virtual Tour" onstart="startup();">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- set skin settings: bingmaps? gyro? thumbnail controlling? tooltips? -->
+	<skin_settings bingmaps="false"
+	               bingmaps_key=""
+	               bingmaps_zoombuttons="false"
+	               gyro="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               controlbar_offset="20"
+	               />
+
+	<!-- set optional skin logo url -->
+	<layer name="skin_logo" url="" scale="0.25" opened_onclick="openurl('...',_blank);" />
+
+
+	<action name="startup">
+		if(startscene === null, copy(startscene,scene[0].name));
+		loadscene(get(startscene), null, MERGE);
+	</action>
+
+	
+	<scene name="scene__DSC1207-HDR_Panorama3" title="_DSC1207-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC1207-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_1);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1207-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1207-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1207-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+	
+	<scene name="scene__DSC1511-HDR_Panorama3" title="_DSC1511-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC1511-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_2);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="60.532" vlookat="32.351" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1511-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1511-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1511-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC1219-HDR_Panorama3" title="_DSC1219-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC1219-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_3);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1219-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1219-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1219-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC1262-HDR_Panorama3" title="_DSC1262-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC1262-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_4);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-118.794" vlookat="-4.009" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1262-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1262-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1262-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-104.440" atv="19.044" onclick="openWindowImage1(photo/_DSC4953.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-105.653" atv="30.224" onclick="openWindowImage1(photo/_DSC4955.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-133.025" atv="-14.887" onclick="openWindowImage1(photo/_DSC4956.jpg);" />
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-133.808" atv="-28.542" onclick="openWindowImage(photo/_DSC4957.jpg);" />
+		
+		
+
+	</scene>
+
+	<scene name="scene__DSC1330-HDR_Panorama3" title="_DSC1330-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC1330-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_5);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1330-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1330-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1330-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4617-HDR_Panorama3" title="_DSC4617-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4617-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_6);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4617-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4617-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4617-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-31.330" atv="1.585" onclick="openWindowImage1(photo/_DSC4963.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-23.762" atv="7.198" onclick="openWindowImage(photo/_DSC4964.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-27.145" atv="15.564" onclick="openWindowImage(photo/_DSC2139.jpg);" />
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-27.101" atv="1.939" onclick="openWindowImage(photo/_DSC2141.jpg);" />
+		<hotspot name="spot6" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-21.505" atv="-0.173" onclick="openWindowImage1(photo/_DSC2143.jpg);" />
+		<hotspot name="spot7" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-19.926" atv="12.384" onclick="openWindowImage(photo/_DSC2585.jpg);" />
+		<hotspot name="spot8" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="39.691" atv="-5.472" onclick="openWindowImage1(photo/_DSC2144.jpg);" />
+		<hotspot name="spot9" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-17.486" atv="-0.779" onclick="openWindowImage1(photo/_DSC2145.jpg);" />
+		<hotspot name="spot10" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-18.611" atv="-6.253" onclick="openWindowImage(photo/_DSC5002.jpg);" />
+		<hotspot name="spot11" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-2.266" atv="-31.954" onclick="openWindowImage(photo/_DSC0872.jpg);" />
+		<hotspot name="spot12" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="120.266" atv="-31.954" onclick="openWindowImage(photo/_DSC4982.jpg);" />
+		<hotspot name="spot13" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="130.266" atv="-31.954" onclick="openWindowImage1(photo/_DSC5004.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4632-HDR_Panorama3" title="_DSC4632-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4632-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_7);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4632-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4632-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4632-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="31.281" atv="0.567" onclick="openWindowImage(photo/_DSC4966.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="12.738" atv="0.531" onclick="openWindowImage(photo/_DSC2157.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="28.984" atv="0.677" onclick="openWindowImage1(photo/_DSC2158.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4647-HDR_Panorama3" title="_DSC4647-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4647-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_8);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4647-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4647-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4647-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="9.659" atv="-6.957" 	onclick="openWindowImage(photo/_DSC4978.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="8.486" atv="-3.052" 	onclick="openWindowImage(photo/_DSC4979.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-4.873" atv="-8.525" 	onclick="openWindowImage(photo/_DSC4980.jpg);" />
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-35.547" atv="-9.381" 	onclick="openWindowImage(photo/_DSC4981.jpg);" />
+		<hotspot name="spot5" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-40.880" atv="-9.299" 	onclick="openWindowImage(photo/_DSC4999.jpg);" />
+		<hotspot name="spot6" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-46.309" atv="-12.023" 	onclick="openWindowImage1(photo/_DSC5000.jpg);" />
+		<hotspot name="spot7" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-43.919" atv="-9.953" 	onclick="openWindowImage1(photo/_DSC2178.jpg);" />
+		<hotspot name="spot8" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-1.585" atv="-6.911" 	onclick="openWindowImage(photo/_DSC2181.jpg);" />
+		<hotspot name="spot9" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="4.870" atv="-7.612" 	onclick="openWindowImage(photo/_DSC2182.jpg);" />
+		<hotspot name="spot10" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-14.709" atv="-9.361" 	onclick="openWindowImage(photo/_DSC2184.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4665-HDR_Panorama3" title="_DSC4665-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4665-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_9);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-161.782" vlookat="-3.855" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4665-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4665-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4665-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-163.544" atv="-9.426" 	onclick="openWindowImage(photo/_DSC4978.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-168.218" atv="0.307" 	onclick="openWindowImage(photo/_DSC4979.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="153.642" atv="-25.136" 	onclick="openWindowImage(photo/_DSC4980.jpg);" />
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="92.175" atv="-26.993" 	onclick="openWindowImage(photo/_DSC4981.jpg);" />
+		<hotspot name="spot5" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="79.468" atv="-25.401" 	onclick="openWindowImage(photo/_DSC4999.jpg);" />
+		<hotspot name="spot6" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="64.806" atv="-29.613" 	onclick="openWindowImage1(photo/_DSC5000.jpg);" />
+		<hotspot name="spot7" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="70.160" atv="-24.587" 	onclick="openWindowImage1(photo/_DSC2178.jpg);" />
+		<hotspot name="spot8" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="174.250" atv="-14.470" 	onclick="openWindowImage(photo/_DSC2181.jpg);" />
+		<hotspot name="spot9" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-168.143" atv="-5.163" 	onclick="openWindowImage(photo/_DSC2182.jpg);" />
+		<hotspot name="spot10" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="165.591" atv="-20.486" onclick="openWindowImage(photo/_DSC2184.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4678-HDR_Panorama3" title="_DSC4678-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4678-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_10);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4678-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4678-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4678-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="36.890" atv="-31.505" onclick="openWindowImage(photo/_DSC499.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="51.019" atv="-51.731" onclick="openWindowImage1(photo/_DSC5000.jpg);" />
+		<hotspot name="spot3" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="22.008" atv="-41.035" onclick="openWindowImage(photo/_DSC5001.jpg);" />
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="13.214" atv="-25.827" onclick="openWindowImage1(photo/_DSC2174.jpg);" />
+		<hotspot name="spot5" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="42.421" atv="-39.947" onclick="openWindowImage1(photo/_DSC2178.jpg);" />
+		
+		
+		
+		
+		
+
+	</scene>
+
+	<scene name="scene__DSC4695-HDR_Panorama3" title="_DSC4695-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4695-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_11);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="139.330" vlookat="-0.820" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4695-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4695-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4695-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4707-HDR_Panorama3" title="_DSC4707-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4707-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_12);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-102.577" vlookat="-4.939" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4707-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4707-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4707-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4724-HDR_Panorama3" title="_DSC4724-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4724-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_13);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4724-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4724-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4724-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="48.041" atv="-8.525" onclick="openWindowImage(photo/_DSC4982.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4747-HDR_Panorama3" title="_DSC4747-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4747-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_14);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4747-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4747-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4747-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4760-HDR_Panorama3" title="_DSC4760-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4760-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_15);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4760-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4760-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4760-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4778-HDR_Panorama3" title="_DSC4778-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4778-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_16);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4778-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4778-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4778-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4797-HDR_Panorama3" title="_DSC4797-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4797-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_17);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4797-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4797-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4797-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-25.047" atv="-12.813" onclick="openWindowImage(photo/_DSC4996.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-28.944" atv="-16.860" onclick="openWindowImage(photo/_DSC4998.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4810-HDR_Panorama3" title="_DSC4810-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4810-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_18);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4810-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4810-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4810-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4827-HDR_Panorama3" title="_DSC4827-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4827-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_19);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4827-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4827-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4827-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-4.524" atv="-34.869" onclick="openWindowImage(photo/_DSC4950.jpg);" />
+
+
+	</scene>
+
+	<scene name="scene__DSC4840-HDR_Panorama3" title="_DSC4840-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4840-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_20);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4840-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4840-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4840-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4856-HDR_Panorama3" title="_DSC4856-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4856-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_21);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-173.659" vlookat="-7.755" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4856-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4856-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4856-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4870-HDR_Panorama3" title="_DSC4870-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4870-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_22);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4870-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4870-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4870-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4884-HDR_Panorama3" title="_DSC4884-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4884-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_23);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-188.402" vlookat="3.542" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4884-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4884-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4884-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-147.590" atv="-11.801" onclick="openWindowImage(photo/_DSC4958.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-165.978" atv="-11.214" onclick="openWindowImage(photo/_DSC2154.jpg);" />
+
+	</scene>
+
+	<scene name="scene__DSC4917-HDR_Panorama3" title="_DSC4917-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4917-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_24);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4917-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4917-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4917-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4927-HDR_Panorama3" title="_DSC4927-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4927-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_25);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="-160.812" vlookat="8.351" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4927-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4927-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4927-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-66.510" atv="-3.069" onclick="openWindowImage(photo/IMG_0876.jpg);" />
+		<hotspot name="spot2" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-75.136" atv="-10.126" onclick="openWindowImage(photo/IMG_0878.jpg);" />
+		
+		<hotspot name="spot4" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-118.482" atv="24.400" onclick="openWindowImage(photo/_DSC2151.jpg);" />
+		<hotspot name="spot5" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-147.590" atv="-11.801" onclick="openWindowImage(photo/_DSC4958.jpg);" />
+		<hotspot name="spot6" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="-165.978" atv="-11.214" onclick="openWindowImage(photo/_DSC2154.jpg);" />
+
+
+	</scene>
+
+	<scene name="scene__DSC4939-HDR_Panorama3" title="_DSC4939-HDR Panorama3" onstart="updateradar(); " thumburl="panos/_DSC4939-HDR_Panorama3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<action name="updateradar">
+			showMap(map_3);
+			closeMap(map_3);
+			set(layer[activespot].parent, mapspot_3_26);
+			set(plugin[radar].heading, 0.0);
+		</action>
+		
+		<view hlookat="67.755" vlookat="14.341" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4939-HDR_Panorama3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4939-HDR_Panorama3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4939-HDR_Panorama3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" url="skin/vtourskin_hotspot.png" ondown="draghotspot();" ath="78.188" atv="-3.842" onclick="openWindowImage(photo/_DSC4950.jpg);" />
+
+	</scene>
+
+
+</krpano>

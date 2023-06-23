@@ -1,0 +1,22 @@
+<? 
+$lang="kz";
+include_once($_SERVER['DOCUMENT_ROOT']."/incom/modules/general/mysql.php");
+$id_page = 96;
+
+$s=mysql_query("select * from i_block_elements where id=$id_page");
+$r=mysql_fetch_array($s);
+
+if ($r["page_name"]!='') $title=$r["page_name"]; 
+if ($r["page_keyw"]!='') $keywords=$r["page_keyw"]; 
+if ($r["page_desc"]!='') $description=$r["page_desc"]; 
+require($_SERVER["DOCUMENT_ROOT"]."/incom/template/header.php");
+?>
+<br style="clear: both">
+<?
+$s=mysql_query("select * from i_block_elements where id=$id_page");
+$r=mysql_fetch_array($s);
+
+
+?>
+
+<? require($_SERVER["DOCUMENT_ROOT"]."/incom/template/footer.php");?>

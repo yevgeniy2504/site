@@ -1,0 +1,762 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://hotel-uyut.kz" ftp_rootfolder="/m.hotel-uyut.kz/catalog" exportTarget="FTP" domain="m.hotel-uyut.kz/catalog" resolutions="1x" timestamp="1587972039741">
+  <folder name="css">
+    <file name="site_global.css" crc="485035841"/>
+    <file name="master_______-a.css" crc="3981227434" ref="komfort-de-lyuks19:standart17:lyuks-2h-komnatnyy22:polulyuks20:standart-ekonom"/>
+    <file name="nomq_preview_master_______-a.css" crc="4275245300" ref="komfort-de-lyuks19:standart17:lyuks-2h-komnatnyy22:polulyuks20:standart-ekonom"/>
+    <file name="komfort-de-lyuks19.css" crc="4010839383" ref="komfort-de-lyuks19"/>
+    <file name="nomq_komfort-de-lyuks19.css" crc="3774991633" ref="komfort-de-lyuks19"/>
+    <file name="iefonts_komfort-de-lyuks19.css" crc="3824530138" ref="komfort-de-lyuks19"/>
+    <file name="standart17.css" crc="4193471599" ref="standart17"/>
+    <file name="nomq_standart17.css" crc="4037208409" ref="standart17"/>
+    <file name="iefonts_standart17.css" crc="3824530138" ref="standart17"/>
+    <file name="index.css" crc="4067949295" ref="index"/>
+    <file name="lyuks-2h-komnatnyy22.css" crc="309870669" ref="lyuks-2h-komnatnyy22"/>
+    <file name="nomq_lyuks-2h-komnatnyy22.css" crc="3794653222" ref="lyuks-2h-komnatnyy22"/>
+    <file name="iefonts_lyuks-2h-komnatnyy22.css" crc="3824530138" ref="lyuks-2h-komnatnyy22"/>
+    <file name="polulyuks20.css" crc="3894683427" ref="polulyuks20"/>
+    <file name="nomq_polulyuks20.css" crc="4203083470" ref="polulyuks20"/>
+    <file name="iefonts_polulyuks20.css" crc="3824530138" ref="polulyuks20"/>
+    <file name="standart-ekonom.css" crc="265284383" ref="standart-ekonom"/>
+    <file name="nomq_standart-ekonom.css" crc="3865225763" ref="standart-ekonom"/>
+    <file name="iefonts_standart-ekonom.css" crc="3824530138" ref="standart-ekonom"/>
+  </folder>
+  <folder name="assets">
+    <file name="pushy.js" crc="81984222" seo="true" mt="1574183606000"/>
+    <file name="menu.png" crc="3932891257" seo="true" mt="1573654486000"/>
+    <file name="pushy.css" crc="510554312" seo="true" mt="1574194753000"/>
+    <file name="demo.css" crc="144334806" seo="true" mt="1574282455000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+    <file name="museutils.js" crc="3939489907" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+    <file name="whatinput.js" crc="86476730" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+    <file name="museconfig.js" crc="3936894949" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+    <file name="jquery.watch.js" crc="522499760" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+    <file name="webpro.js" crc="3856315280" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="touchswipe.js" crc="3888935200" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="require.js" crc="4177726516" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:index:standart-ekonom"/>
+  </folder>
+  <folder name="images">
+    <file name="шаблон-a-favicon.ico" crc="385657384" ref="komfort-de-lyuks19"/>
+    <file name="кмд.jpg" crc="4050776097" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="кмд2.jpg" crc="4140276110" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд3.jpg" crc="4079105943" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-4.jpg" crc="4223239218" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-5.jpg" crc="3780792724" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-6.jpg" crc="3834511066" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-7.jpg" crc="3989390066" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="back.png" crc="3478932" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="back2.png" crc="449160166" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-crop-u8474.jpg" crc="3845864943" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд2-crop-u8470.jpg" crc="4241391322" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд3-crop-u8464.jpg" crc="152442770" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u8468.jpg" crc="4017180002" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u8466.jpg" crc="391347462" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u8462.jpg" crc="32170302" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u8472.jpg" crc="3915876661" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom"/>
+    <file name="calendar.png" crc="3790108333" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные-svg-18314x18.svg" crc="286462183" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 18314x18_poster_.png" crc="4080410393" ref="komfort-de-lyuks19"/>
+    <file name="вставленные-svg-88x88.svg" crc="4175322646" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 88x88_poster_.png" crc="4231972708" ref="komfort-de-lyuks19"/>
+    <file name="russia.png" crc="149424768" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="kazakhstan.png" crc="281446329" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="united-states-of-america.png" crc="139809199" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="china.png" crc="4085126966" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные-svg-10303x11.svg" crc="4187475877" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 10303x11_poster_.png" crc="6287365" ref="komfort-de-lyuks19"/>
+    <file name="1u.png" crc="3837523460" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="users.png" crc="241002053" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные-svg-22322x22.svg" crc="3759477499" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 22322x22_poster_.png" crc="226012321" ref="komfort-de-lyuks19"/>
+    <file name="вставленные-svg-21666x21.svg" crc="4120261180" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 21666x21_poster_.png" crc="302509007" ref="komfort-de-lyuks19"/>
+    <file name="вставленные-svg-32561x18.svg" crc="97943488" seo="true" ref="komfort-de-lyuks19:standart17:polulyuks20:lyuks-2h-komnatnyy22:standart-ekonom">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="вставленные svg 32561x18_poster_.png" crc="245833193" ref="komfort-de-lyuks19"/>
+    <file name="кмд-crop-u84742.jpg" crc="97188406" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд2-crop-u84702.jpg" crc="4231029279" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд3-crop-u84642.jpg" crc="245126360" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u84682.jpg" crc="3847087450" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u84662.jpg" crc="397889374" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u84622.jpg" crc="471174469" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u84722.jpg" crc="37995963" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-crop-u84743.jpg" crc="196068354" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд2-crop-u84703.jpg" crc="393224473" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд3-crop-u84643.jpg" crc="190118708" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u84683.jpg" crc="241779325" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u84663.jpg" crc="170922255" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u84623.jpg" crc="157168309" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u84723.jpg" crc="4232301621" seo="true" ref="komfort-de-lyuks19">
+      <caption webpage="komfort-de-lyuks19" alt=""/>
+    </file>
+    <file name="стандарт.jpg" crc="502762992" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт2.jpg" crc="4097826938" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт3.jpg" crc="282535538" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-4.jpg" crc="3974331831" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-5.jpg" crc="4160506298" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-crop-u12778.jpg" crc="4115922404" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u12827.jpg" crc="3797221329" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u12876.jpg" crc="4145356738" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u12925.jpg" crc="3836387227" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u12974.jpg" crc="3989464879" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-crop-u127782.jpg" crc="3941344570" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u128272.jpg" crc="3991623079" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u128762.jpg" crc="4088788398" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u129252.jpg" crc="4135011508" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u129742.jpg" crc="4234959035" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-crop-u127783.jpg" crc="128822551" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u128273.jpg" crc="195480991" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u128763.jpg" crc="86320684" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u129253.jpg" crc="4093223740" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u129743.jpg" crc="4193673089" seo="true" ref="standart17">
+      <caption webpage="standart17" alt=""/>
+    </file>
+    <file name="полулюкс.jpg" crc="4157574060" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-2.jpg" crc="134923446" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-3.jpg" crc="214528146" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-4.jpg" crc="515329389" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-5.jpg" crc="336419997" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-6.jpg" crc="297040740" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-7.jpg" crc="174180915" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u13153.jpg" crc="479577625" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u13202.jpg" crc="3881168424" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u13251.jpg" crc="401362556" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u13300.jpg" crc="3797785222" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u13349.jpg" crc="412204659" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u13398.jpg" crc="317084571" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u13447.jpg" crc="258246475" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u131532.jpg" crc="4184206126" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u132022.jpg" crc="4259965834" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u132512.jpg" crc="463559453" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u133002.jpg" crc="4057878269" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u133492.jpg" crc="3974813099" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u133982.jpg" crc="209754401" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u134472.jpg" crc="4151194379" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u131533.jpg" crc="349960668" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u132023.jpg" crc="237591013" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u132513.jpg" crc="8959713" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u133003.jpg" crc="478126906" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u133493.jpg" crc="3884477888" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u133983.jpg" crc="3975969405" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u134473.jpg" crc="330848644" seo="true" ref="polulyuks20">
+      <caption webpage="polulyuks20" alt=""/>
+    </file>
+    <file name="2люкс.jpg" crc="4153222551" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс2.jpg" crc="188316086" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс3.jpg" crc="4248915694" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс4.jpg" crc="128066923" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс5.jpg" crc="101758736" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс-crop-u13626.jpg" crc="4131747556" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u13675.jpg" crc="438331460" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u13724.jpg" crc="3850579637" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u13773.jpg" crc="394225258" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u13822.jpg" crc="3891815482" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс-crop-u136262.jpg" crc="3957470669" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u136752.jpg" crc="3941815919" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u137242.jpg" crc="235261678" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u137732.jpg" crc="4122270976" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u138222.jpg" crc="3877645036" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс-crop-u136263.jpg" crc="4288286555" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u136753.jpg" crc="210413507" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u137243.jpg" crc="436158639" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u137733.jpg" crc="4036684439" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u138223.jpg" crc="4152164466" seo="true" ref="lyuks-2h-komnatnyy22">
+      <caption webpage="lyuks-2h-komnatnyy22" alt=""/>
+    </file>
+    <file name="standarteconom1.jpg" crc="3962368466" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom2.jpg" crc="4196439938" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom3.jpg" crc="4207636922" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom4.jpg" crc="448154179" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u33418.jpg" crc="3829916950" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u33470.jpg" crc="402285239" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u33522.jpg" crc="19731431" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u33574.jpg" crc="48509314" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u334182.jpg" crc="3794945833" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u334702.jpg" crc="4068657082" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u335222.jpg" crc="4065655753" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u335742.jpg" crc="4014154519" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u334183.jpg" crc="488614157" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u334703.jpg" crc="97251548" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u335223.jpg" crc="4134215345" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u335743.jpg" crc="3961309451" seo="true" ref="standart-ekonom">
+      <caption webpage="standart-ekonom" alt=""/>
+    </file>
+  </folder>
+  <file name="komfort-de-lyuks19.html" crc="3798949578" seo="true" mt="1587969557413" redirect="true"/>
+  <file name="standart17.html" crc="4100900862" seo="true" mt="1587969557413" redirect="true"/>
+  <file name="polulyuks20.html" crc="3820898471" seo="true" mt="1587969557413" redirect="true"/>
+  <file name="lyuks-2h-komnatnyy22.html" crc="4227058221" seo="true" mt="1587969557413" redirect="true"/>
+  <file name="index.html" crc="3906114251" seo="true" mt="1580948323114" redirect="false"/>
+  <file name="standart-ekonom.html" crc="4139432183" seo="true" mt="1587969557413" redirect="true"/>
+  <site>
+    <asset filename="pushy.js" muse_href="upload:U22139"/>
+    <asset filename="menu.png" muse_href="upload:U22147"/>
+    <asset filename="pushy.css" muse_href="upload:U22321"/>
+    <asset filename="demo.css" muse_href="upload:U22367"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="body-text" uid="U771"/>
+    <paragraphStyle className="h1" uid="U773"/>
+    <paragraphStyle className="h3" uid="U774"/>
+    <paragraphStyle className="h5" uid="U775"/>
+    <paragraphStyle className="h2" uid="U780"/>
+    <paragraphStyle className="h4" uid="U781"/>
+    <textLinkStyle className="ts" uid="U25409"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="phone">
+      <page name="Комфорт де-люкс" filename="komfort-de-lyuks19.html" muse_href="page:U3413" master="U106">
+        <breakpoint uid="U3259" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U8750" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U8890" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <masterPage name="Шаблон-A" master="U96" uid="U106">
+        <breakpoint uid="U107" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18144" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18213" maxwidth="414" minwidth="361" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U96">
+        <breakpoint uid="U97" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Стандарт" filename="standart17.html" muse_href="page:U11197" master="U106">
+        <breakpoint uid="U10889" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U11023" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U11106" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Полулюкс" filename="polulyuks20.html" muse_href="page:U11509" master="U106">
+        <breakpoint uid="U11201" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U11335" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U11418" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Люкс двухкомнатный" filename="lyuks-2h-komnatnyy22.html" muse_href="page:U11821" master="U106">
+        <breakpoint uid="U11596" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U11730" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U11513" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="пустышка" filename="index.html" muse_href="page:U33042" master="U96">
+        <breakpoint uid="U33026" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Стандарт эконом" filename="standart-ekonom.html" muse_href="page:U33396" master="U106">
+        <breakpoint uid="U33300" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U33060" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U33164" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

@@ -1,0 +1,477 @@
+<krpano version="1.17" title="Virtual Tour" onstart="startup();">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- set skin settings: bingmaps? gyro? thumbnail controlling? tooltips? -->
+	<skin_settings bingmaps="false"
+	               bingmaps_key=""
+	               bingmaps_zoombuttons="false"
+	               gyro="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               controlbar_offset="20"
+	               />
+
+	<!-- set optional skin logo url -->
+	<layer name="skin_logo" url="" scale="0.25" opened_onclick="openurl('...',_blank);" />
+
+
+	<action name="startup">
+		if(startscene === null, copy(startscene,scene[0].name));
+		loadscene(get(startscene), null, MERGE);
+	</action>
+
+	
+	<scene name="scene__DSC1207-HDR_Panorama" title="_DSC1207-HDR Panorama" onstart="" thumburl="panos/_DSC1207-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1207-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1207-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1207-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+	
+	<scene name="scene__DSC1511-HDR_Panorama" title="_DSC1511-HDR Panorama" onstart="" thumburl="panos/_DSC1511-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="60.532" vlookat="32.351" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1511-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1511-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1511-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC1219-HDR_Panorama" title="_DSC1219-HDR Panorama" onstart="" thumburl="panos/_DSC1219-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1219-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1219-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1219-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC1262-HDR_Panorama" title="_DSC1262-HDR Panorama" onstart="" thumburl="panos/_DSC1262-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-118.794" vlookat="-4.009" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1262-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1262-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1262-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC1330-HDR_Panorama" title="_DSC1330-HDR Panorama" onstart="" thumburl="panos/_DSC1330-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC1330-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC1330-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC1330-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4617-HDR_Panorama" title="_DSC4617-HDR Panorama" onstart="" thumburl="panos/_DSC4617-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4617-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4617-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4617-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4632-HDR_Panorama" title="_DSC4632-HDR Panorama" onstart="" thumburl="panos/_DSC4632-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4632-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4632-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4632-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4647-HDR_Panorama" title="_DSC4647-HDR Panorama" onstart="" thumburl="panos/_DSC4647-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4647-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4647-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4647-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4665-HDR_Panorama" title="_DSC4665-HDR Panorama" onstart="" thumburl="panos/_DSC4665-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-161.782" vlookat="-3.855" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4665-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4665-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4665-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4678-HDR_Panorama" title="_DSC4678-HDR Panorama" onstart="" thumburl="panos/_DSC4678-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4678-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4678-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4678-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4695-HDR_Panorama" title="_DSC4695-HDR Panorama" onstart="" thumburl="panos/_DSC4695-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="139.330" vlookat="-0.820" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4695-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4695-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4695-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4707-HDR_Panorama" title="_DSC4707-HDR Panorama" onstart="" thumburl="panos/_DSC4707-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-102.577" vlookat="-4.939" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4707-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4707-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4707-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4724-HDR_Panorama" title="_DSC4724-HDR Panorama" onstart="" thumburl="panos/_DSC4724-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4724-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4724-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4724-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4747-HDR_Panorama" title="_DSC4747-HDR Panorama" onstart="" thumburl="panos/_DSC4747-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4747-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4747-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4747-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4760-HDR_Panorama" title="_DSC4760-HDR Panorama" onstart="" thumburl="panos/_DSC4760-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4760-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4760-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4760-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4778-HDR_Panorama" title="_DSC4778-HDR Panorama" onstart="" thumburl="panos/_DSC4778-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4778-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4778-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4778-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4797-HDR_Panorama" title="_DSC4797-HDR Panorama" onstart="" thumburl="panos/_DSC4797-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4797-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4797-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4797-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4810-HDR_Panorama" title="_DSC4810-HDR Panorama" onstart="" thumburl="panos/_DSC4810-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4810-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4810-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4810-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4827-HDR_Panorama" title="_DSC4827-HDR Panorama" onstart="" thumburl="panos/_DSC4827-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4827-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4827-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4827-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4840-HDR_Panorama" title="_DSC4840-HDR Panorama" onstart="" thumburl="panos/_DSC4840-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4840-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4840-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4840-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4856-HDR_Panorama" title="_DSC4856-HDR Panorama" onstart="" thumburl="panos/_DSC4856-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-173.659" vlookat="-7.755" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4856-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4856-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4856-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4870-HDR_Panorama" title="_DSC4870-HDR Panorama" onstart="" thumburl="panos/_DSC4870-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4870-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4870-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4870-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4884-HDR_Panorama" title="_DSC4884-HDR Panorama" onstart="" thumburl="panos/_DSC4884-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-188.402" vlookat="3.542" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4884-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4884-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4884-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4917-HDR_Panorama" title="_DSC4917-HDR Panorama" onstart="" thumburl="panos/_DSC4917-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4917-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4917-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4917-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4927-HDR_Panorama" title="_DSC4927-HDR Panorama" onstart="" thumburl="panos/_DSC4927-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4927-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4927-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4927-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene__DSC4939-HDR_Panorama" title="_DSC4939-HDR Panorama" onstart="" thumburl="panos/_DSC4939-HDR_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC4939-HDR_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/_DSC4939-HDR_Panorama.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="panos/_DSC4939-HDR_Panorama.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+
+</krpano>

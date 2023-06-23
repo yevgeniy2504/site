@@ -1,0 +1,72 @@
+<krpano version="1.0.8" basedir="%SWFPATH%"> <!-- vtour.xml template krpano tools version 1.0.8.12 -->	
+
+    <include url="global_en.xml" />
+    
+		<view hlookat="30" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+		<preview url="_MG_4455 Panorama.tiles/preview.jpg" />
+
+		<image>
+			<left  url="_MG_4455 Panorama.tiles/pano_l.jpg" />
+			<front url="_MG_4455 Panorama.tiles/pano_f.jpg" />
+			<right url="_MG_4455 Panorama.tiles/pano_r.jpg" />
+			<back  url="_MG_4455 Panorama.tiles/pano_b.jpg" />
+			<up    url="_MG_4455 Panorama.tiles/pano_u.jpg" />
+			<down  url="_MG_4455 Panorama.tiles/pano_d.jpg" />
+			<mobile>
+				<left  url="_MG_4455 Panorama.tiles/mobile_l.jpg" />
+				<front url="_MG_4455 Panorama.tiles/mobile_f.jpg" />
+				<right url="_MG_4455 Panorama.tiles/mobile_r.jpg" />
+				<back  url="_MG_4455 Panorama.tiles/mobile_b.jpg" />
+				<up    url="_MG_4455 Panorama.tiles/mobile_u.jpg" />
+				<down  url="_MG_4455 Panorama.tiles/mobile_d.jpg" />
+			</mobile>
+			<tablet>
+				<left  url="_MG_4455 Panorama.tiles/tablet_l.jpg" />
+				<front url="_MG_4455 Panorama.tiles/tablet_f.jpg" />
+				<right url="_MG_4455 Panorama.tiles/tablet_r.jpg" />
+				<back  url="_MG_4455 Panorama.tiles/tablet_b.jpg" />
+				<up    url="_MG_4455 Panorama.tiles/tablet_u.jpg" />
+				<down  url="_MG_4455 Panorama.tiles/tablet_d.jpg" />
+			</tablet>
+		</image>
+    
+    <hotspot name="hs1"
+       url="images/en/room2_en.png"
+       keep="false"
+       ath="-53.91110626358048" atv="3.0219597982852977"
+       zoom="false" distorted="false" details="8" flying="0"
+       width="120" height="33"
+       scale="1" scale9grid="" scalechildren="false" rotate="0"
+       rx="0" ry="0" rz="0"
+       edge="center" ox="" oy=""
+       crop="" ondowncrop="" onovercrop=""
+       visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+        zorder="0"
+       alpha="1.00" blendmode="normal" effect="" smoothing="true"
+       refreshrate="auto"
+       onclick="loadpano(room-4473_en.xml, null, MERGE);"
+       devices="all"
+       editor="" />
+       
+  <hotspot name="hs2"
+           url="images/q.png"
+           keep="false"
+           ath="-70.18329558503152" atv="-1.9895568793392142"
+           zoom="false" distorted="false" details="8" flying="0"
+           width="53" height="54"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+            zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="set(plugin[toilet-4495].visible, true);"
+           devices="all"
+           editor="" />
+
+     <plugin name="toilet-4495" align="center" visible="false" url="images/toilet-4495.png" onclick="set(visible, false);" />
+    
+</krpano>

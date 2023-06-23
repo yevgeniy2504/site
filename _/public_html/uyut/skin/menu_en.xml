@@ -1,0 +1,116 @@
+<krpano>
+	<style name="menu_text" url="%SWFPATH%/plugins/textfield.swf" keep="true" align="lefttop" width="200" height="23" css="font-family:Arial; font-size:14px; color:#ffffff;" background="false" bgcolor="0xffffff" bgalpha="0.5"/>
+	<style name="link_scene" onclick="loadscene(get(scene), null, MERGE, BLEND(1));"/>
+	<style name="link_image" onclick="showImage(get(image))"/>
+	<style name="menu_link" keep="true" type="container" align="lefttop" bgcolor="0xffffff" bgalpha="0" width="200" height="23" onhover="tween(bgalpha, 0.2, 0.2);" onout="tween(bgalpha, 0);"/>
+	<layer name="menu_container" keep="true" type="container" align="lefttop" bgalpha="0" width="230" height="100%" x="0">
+		<layer name="menu_swich" keep="true" url="%SWFPATH%/skin/menu_swich_open.png" align="right" bgcolor="0x000000" bgalpha="0.5" x="0" width="30" height="80" handcursor="true" onclick="closeMenu()"/>
+		<layer name="menu_bg" keep="true" type="container" align="lefttop" bgcolor="0x000000" bgalpha="0.5" width="200" height="100%" x="0" y="0" handcursor="false">
+			<layer name="menu_scroll" url="%SWFPATH%/plugins/scrollarea.swf" alturl="%SWFPATH%/plugins/scrollarea.js" keep="true" width="200" height="100%" direction="v" onhover_autoscrolling="true">
+				<layer name="menu_list" keep="true" type="container" x="10" y="15" bgalpha="0" width="200" height="640">
+					<layer name="link_1" style="menu_link" y="0">
+						<layer name="link_text_1" style="menu_text|link_scene" html="Main entrance" scene="scene__DSC9045-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_2" style="menu_link" y="27">
+						<layer name="link_text_2" style="menu_text|link_scene" html="Hall" scene="scene__DSC9018-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_3" style="menu_link" y="54">
+						<layer name="link_text_3" style="menu_text|link_scene" html="A restaurant" scene="scene__DSC9088-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_4" style="menu_link" y="81">
+						<layer name="link_text_4" style="menu_text|link_scene" html="Conference Hall 1.1" scene="scene__DSC9896-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_5" style="menu_link" y="108">
+						<layer name="link_text_5" style="menu_text|link_scene" html="Conference Hall 1.2" scene="scene__DSC9873-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_6" style="menu_link" y="135">
+						<layer name="link_text_6" style="menu_text|link_scene" html="Conference Room 2" scene="scene__DSC9846-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_7" style="menu_link" y="162">
+						<layer name="link_text_7" style="menu_text|link_scene" html="Two-Bedroom Suite" scene="scene__DSC2920-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_8" style="menu_link" y="194">
+						<layer name="link_text_8" style="menu_text|link_scene" html="Two-Bedroom Suite; Bedroom" scene="scene__DSC2943-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_9" style="menu_link" y="216">
+						<layer name="link_text_9" style="menu_text|link_scene" html="Two-Bedroom Suite; Bathroom" scene="scene__DSC1142-HDR_Panorama"/>
+					</layer>
+					<layer name="link_10" style="menu_link" y="243">
+						<layer name="link_text_10" style="menu_text|link_scene" html="Junior Suite 1" scene="scene__DSC2360-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_11" style="menu_link" y="270">
+						<layer name="link_text_11" style="menu_text|link_scene" html="Junior Suite 2" scene="scene_DSC_0031-HDR_Panorama"/> 
+					</layer>
+					<layer name="link_12" style="menu_link" y="297">
+						<layer name="link_text_12" style="menu_text|link_scene" html="Junior Suite; Bathroom" scene="scene_DSC_0049-HDR_Panorama"/> 
+					</layer>
+					<layer name="link_13" style="menu_link" y="324">
+						<layer name="link_text_13" style="menu_text|link_scene" html="Comfort Deluxe" scene="scene_DSC_0173-HDR_Panorama"/>
+					</layer>
+					<layer name="link_14" style="menu_link" y="351">
+						<layer name="link_text_14" style="menu_text|link_scene" html="Comfort Deluxe; Bathroom" scene="scene__DSC3165-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_15" style="menu_link" y="378">
+						<layer name="link_text_15" style="menu_text|link_scene" html="Standard 1" scene="scene__DSC3092-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_16" style="menu_link" y="405">
+						<layer name="link_text_16" style="menu_text|link_scene" html="Standard; Bathroom 1" scene="scene__DSC3117-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_17" style="menu_link" y="432">
+						<layer name="link_text_17" style="menu_text|link_scene" html="Standard 2" scene="scene__DSC8165-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_18" style="menu_link" y="459">
+						<layer name="link_text_18" style="menu_text|link_scene" html="Standard; Bathroom 2" scene="scene__DSC31171-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_19" style="menu_link" y="486">
+						<layer name="link_text_19" style="menu_text|link_scene" html="Massage Room" scene="scene__DSC8185-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_20" style="menu_link" y="513">
+						<layer name="link_text_20" style="menu_text|link_scene" html="Lobby bar" scene="scene__DSC3255-HDR_Panorama_equi"/>
+					</layer>
+					<layer name="link_21" style="menu_link" y="540">
+						<layer name="link_text_21" style="menu_text|link_scene" html="Business Centre" scene="scene__DSC3280-HDR_Panorama"/>
+					</layer>	
+					<layer name="link_22" style="menu_link" y="567">
+						<layer name="link_text_22" style="menu_text|link_scene" html="Gym" scene="scene__DSC3320-HDR_Panorama_equi"/>	
+					</layer>	
+					<layer name="link_23" style="menu_link" y="594">						<layer name="link_text_23" style="menu_text|link_scene" html="Sauna" scene="scene_DSC_4805-HDR_Panorama_equi"/>						</layer>					<layer name="link_24" style="menu_link" y="621">						<layer name="link_text_24" style="menu_text|link_scene" html="Restroom" scene="scene_DSC_4817-HDR_Panorama_equi"/>						</layer>				
+				</layer>
+			</layer>
+		</layer>
+	</layer>
+
+	<layer name="imageWindow" keep="true" type="container" bgcolor="0xffffff" bgalpha="0.4" alpha="0" align="centre" width="600" height="400" visible="false">
+		<layer name="imageContainer" keep="true" type="container" bgcolor="0xffffff" bgalpha="0" align="centre"  width="580" height="385">
+			<layer name="imageContent" url="" align="centre"  width="580" height="385" onclick="hideImage()"/>
+		</layer>
+		<layer name="imageCloseBtn" keep="true" url="%SWFPATH%/photo/window_close.png" align="righttop" width="40" height="40" x="-30" y="-30" onclick="hideImage()"/>
+	</layer>
+
+	<action name="openMenu">
+		tween(layer[menu_container].x, 0);
+		set(layer[menu_swich].url, %SWFPATH%/skin/menu_swich_open.png);
+		set(layer[menu_swich].onclick, closeMenu());
+	</action>
+
+	<action name="closeMenu">
+		tween(layer[menu_container].x, -195);
+		set(layer[menu_swich].url, %SWFPATH%/skin/menu_swich_close.png);
+		set(layer[menu_swich].onclick, openMenu());
+	</action>
+
+	<action name="hideImage">
+		set(layer[imageWindow].visible, false);
+        set(layer[imageWindow].alpha, 0);
+	</action>
+
+	<action name="showImage">
+		if(layer[imageWindow].visible,
+			hideImage();
+		);
+
+		set(layer[imageContent].url, %1);
+		set(layer[imageWindow].visible, true);
+		tween(layer[imageWindow].alpha, 1);
+	</action>
+</krpano>

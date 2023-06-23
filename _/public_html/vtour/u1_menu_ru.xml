@@ -1,0 +1,13 @@
+<plugin name="help" url="images/help.png" visible="false" edge="center" align="center" onclick="set(visible, false);" />
+
+<plugin url="images/q.png" align="righttop" edge="righttop" y="5" x="5" alpha="0.7" onover="tween(alpha,1);" onout="tween(alpha,0.7);" onclick="set(plugin[help].visible, true);" />
+<plugin url="images/plus.png" align="righttop" edge="righttop" y="70" x="5" ondown="set(movevectorz,-1);"  onup="set(movevectorz,0);"alpha="0.7" onover="tween(alpha,1);" onout="tween(alpha,0.7);" />
+<plugin url="images/minus.png" align="righttop" edge="righttop" y="110" x="5" ondown="set(movevectorz,+1);"  onup="set(movevectorz,0);" alpha="0.7" onover="tween(alpha,1);" onout="tween(alpha,0.7);" />
+
+<plugin name="bmg" url="images/menu_bg.png" align="lefttop" edge="lefttop" x="5" y="5" alpha="0.7" pressed="true" onover="tween(alpha, 1);" onout="tween(alpha, 0.7);" />
+
+<plugin url="images/ru/menu_hall_ru.png" align="lefttop" edge="lefttop" x="26" y="24" onclick="loadscene(get(scene[0].name), null, MERGE); " onover="tween(plugin[bmg].alpha,1);tween(alpha, 1);" onout="tween(plugin[bmg].alpha,0.7);tween(alpha, 0.7);" alpha="0.7" />
+<plugin  url="images/ru/menu_conference_ru.png" align="lefttop" edge="lefttop" x="26" y="46" onclick="loadscene(get(scene[1].name), null, MERGE); "  onover="tween(plugin[bmg].alpha,1);tween(alpha, 1);" onout="tween(plugin[bmg].alpha,0.7);tween(alpha, 0.7);" alpha="0.7" />
+<plugin url="images/ru/menu_restaraunt_ru.png" align="lefttop" edge="lefttop" x="26" y="68" onclick="loadscene(get(scene[2].name), null, MERGE); " onover="tween(plugin[bmg].alpha,1);tween(alpha, 1);" onout="tween(plugin[bmg].alpha,0.7);tween(alpha, 0.7);" alpha="0.7" />
+
+<plugin url="images/ru/menu_rooms_ru.png" align="lefttop" edge="lefttop" x="26" y="100" onclick="loadpano(room-4455_ru.xml, null, MERGE); " onover="tween(plugin[bmg].alpha,1);tween(alpha, 1);" onout="tween(plugin[bmg].alpha,0.7);tween(alpha, 0.7);" alpha="0.7" />

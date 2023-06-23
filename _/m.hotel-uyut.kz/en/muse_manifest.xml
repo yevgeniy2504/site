@@ -1,0 +1,2453 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://hotel-uyut.kz" ftp_rootfolder="/m.hotel-uyut.kz/en" exportTarget="FTP" domain="m.hotel-uyut.kz/en" resolutions="1x" timestamp="1588061950713">
+  <folder name="css">
+    <file name="site_global.css" crc="4076965660"/>
+    <file name="master_______-a.css" crc="518948357" ref="transfer_664:catalog:price-list114:actions:dry-cleaning:fitness:contacts95:sauna:about-our-hotel113:conference-halls117"/>
+    <file name="nomq_preview_master_______-a.css" crc="4275245300" ref="transfer_664:catalog:price-list114:actions:dry-cleaning:fitness:contacts95:sauna:about-our-hotel113:conference-halls117"/>
+    <file name="master_______-a-_____.css" crc="215842510" ref="booking:banqueting-hall:index:our-history:services:virtual-tour:restaurant684:hotel-rules-and-regulations:guest:sitemap:certificates"/>
+    <file name="nomq_preview_master_______-a-_____.css" crc="431332544" ref="booking:banqueting-hall:index:our-history:services:virtual-tour:restaurant684:hotel-rules-and-regulations:guest:sitemap:certificates"/>
+    <file name="transfer_664.css" crc="3773073838" ref="transfer_664"/>
+    <file name="nomq_transfer_664.css" crc="4221760821" ref="transfer_664"/>
+    <file name="iefonts_transfer_664.css" crc="3824530138" ref="transfer_664"/>
+    <file name="catalog.css" crc="4197133123" ref="catalog"/>
+    <file name="nomq_catalog.css" crc="354410015" ref="catalog"/>
+    <file name="iefonts_catalog.css" crc="3824530138" ref="catalog"/>
+    <file name="booking.css" crc="4051107511" ref="booking"/>
+    <file name="nomq_booking.css" crc="277262442" ref="booking"/>
+    <file name="iefonts_booking.css" crc="3824530138" ref="booking"/>
+    <file name="banqueting-hall.css" crc="3941705997" ref="banqueting-hall"/>
+    <file name="nomq_banqueting-hall.css" crc="46264382" ref="banqueting-hall"/>
+    <file name="iefonts_banqueting-hall.css" crc="3824530138" ref="banqueting-hall"/>
+    <file name="index.css" crc="368847228" ref="index"/>
+    <file name="nomq_index.css" crc="3788250093" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="price-list114.css" crc="3949971788" ref="price-list114"/>
+    <file name="nomq_price-list114.css" crc="152275576" ref="price-list114"/>
+    <file name="iefonts_price-list114.css" crc="3824530138" ref="price-list114"/>
+    <file name="our-history.css" crc="4099088506" ref="our-history"/>
+    <file name="nomq_our-history.css" crc="4002553158" ref="our-history"/>
+    <file name="iefonts_our-history.css" crc="3824530138" ref="our-history"/>
+    <file name="actions.css" crc="4213964231" ref="actions"/>
+    <file name="nomq_actions.css" crc="188695101" ref="actions"/>
+    <file name="iefonts_actions.css" crc="3824530138" ref="actions"/>
+    <file name="services.css" crc="3813966837" ref="services"/>
+    <file name="nomq_services.css" crc="118447070" ref="services"/>
+    <file name="iefonts_services.css" crc="3824530138" ref="services"/>
+    <file name="dry-cleaning.css" crc="4286774955" ref="dry-cleaning"/>
+    <file name="nomq_dry-cleaning.css" crc="4063347796" ref="dry-cleaning"/>
+    <file name="iefonts_dry-cleaning.css" crc="3824530138" ref="dry-cleaning"/>
+    <file name="fitness.css" crc="4162713413" ref="fitness"/>
+    <file name="nomq_fitness.css" crc="250835451" ref="fitness"/>
+    <file name="iefonts_fitness.css" crc="3824530138" ref="fitness"/>
+    <file name="virtual-tour.css" crc="4227499204" ref="virtual-tour"/>
+    <file name="nomq_virtual-tour.css" crc="359466599" ref="virtual-tour"/>
+    <file name="iefonts_virtual-tour.css" crc="3824530138" ref="virtual-tour"/>
+    <file name="contacts95.css" crc="405198226" ref="contacts95"/>
+    <file name="nomq_contacts95.css" crc="451406499" ref="contacts95"/>
+    <file name="iefonts_contacts95.css" crc="3824530138" ref="contacts95"/>
+    <file name="sauna.css" crc="60007406" ref="sauna"/>
+    <file name="nomq_sauna.css" crc="3828968964" ref="sauna"/>
+    <file name="iefonts_sauna.css" crc="3824530138" ref="sauna"/>
+    <file name="restaurant684.css" crc="3979582786" ref="restaurant684"/>
+    <file name="nomq_restaurant684.css" crc="483859961" ref="restaurant684"/>
+    <file name="iefonts_restaurant684.css" crc="3824530138" ref="restaurant684"/>
+    <file name="hotel-rules-and-regulations.css" crc="356716456" ref="hotel-rules-and-regulations"/>
+    <file name="nomq_hotel-rules-and-regulations.css" crc="4270398832" ref="hotel-rules-and-regulations"/>
+    <file name="iefonts_hotel-rules-and-regulations.css" crc="3824530138" ref="hotel-rules-and-regulations"/>
+    <file name="about-our-hotel113.css" crc="441037276" ref="about-our-hotel113"/>
+    <file name="nomq_about-our-hotel113.css" crc="229136490" ref="about-our-hotel113"/>
+    <file name="iefonts_about-our-hotel113.css" crc="3824530138" ref="about-our-hotel113"/>
+    <file name="guest.css" crc="4172828648" ref="guest"/>
+    <file name="nomq_guest.css" crc="56109174" ref="guest"/>
+    <file name="iefonts_guest.css" crc="3824530138" ref="guest"/>
+    <file name="sitemap.css" crc="3802810218" ref="sitemap"/>
+    <file name="nomq_sitemap.css" crc="3819468215" ref="sitemap"/>
+    <file name="iefonts_sitemap.css" crc="3824530138" ref="sitemap"/>
+    <file name="certificates.css" crc="134632547" ref="certificates"/>
+    <file name="nomq_certificates.css" crc="3818800464" ref="certificates"/>
+    <file name="iefonts_certificates.css" crc="3824530138" ref="certificates"/>
+    <file name="conference-halls117.css" crc="3962657966" ref="conference-halls117"/>
+    <file name="nomq_conference-halls117.css" crc="62637405" ref="conference-halls117"/>
+    <file name="iefonts_conference-halls117.css" crc="3824530138" ref="conference-halls117"/>
+  </folder>
+  <folder name="assets">
+    <file name="pushy.js" crc="81984222" seo="true" mt="1574183606000"/>
+    <file name="menu.png" crc="3932891257" seo="true" mt="1573654486000"/>
+    <file name="pushy.css" crc="510554312" seo="true" mt="1574194753000"/>
+    <file name="demo.css" crc="144334806" seo="true" mt="1574282455000"/>
+    <file name="untitled.jpg" crc="526768193" seo="true" mt="1582493054000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="museutils.js" crc="3939489907" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="webpro.js" crc="3856315280" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:certificates"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:certificates"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:certificates"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="require.js" crc="4177726516" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="about-our-hotel113:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:banqueting-hall:our-history:restaurant684"/>
+    <file name="form_check.php" crc="4108222811" ref="conference-halls117"/>
+    <file name="form_throttle.php" crc="503802655" ref="conference-halls117"/>
+    <file name="form_process.php" crc="260214869" ref="conference-halls117"/>
+    <file name="form-u17427.php" crc="361690399" ref="conference-halls117"/>
+    <file name="form-u29906.php" crc="4186692571" ref="restaurant684"/>
+  </folder>
+  <folder name="images">
+    <file name="шаблон-a-копия-favicon.ico" crc="385657384" ref="index:banqueting-hall"/>
+    <file name="слайдер на главной.jpg" crc="3850404257" seo="true" ref="index:about-our-hotel113">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour"/>
+    <file name="слайдер на главной4.jpg" crc="4110598419" seo="true" ref="index:about-our-hotel113">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной3.jpg" crc="149860281" seo="true" ref="index:about-our-hotel113">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной2.jpg" crc="137314603" seo="true" ref="index:about-our-hotel113">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="image 12-crop-u904.jpg" crc="4201159588" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="70997_658767_15-crop-u1109.jpg" crc="92979013" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u4775.jpg" crc="3961898054" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u4803.jpg" crc="490200221" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:certificates"/>
+    <file name="calendar.png" crc="3778239882" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные-svg-18314x18.svg" crc="286462183" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные svg 18314x18_poster_.png" crc="4080410393" ref="index:banqueting-hall"/>
+    <file name="вставленные-svg-88x88.svg" crc="4175322646" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные svg 88x88_poster_.png" crc="4231972708" ref="index:banqueting-hall"/>
+    <file name="russia.png" crc="149424768" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="kazakhstan.png" crc="281446329" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="united-states-of-america.png" crc="139809199" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="china.png" crc="4085126966" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="конференц.jpg" crc="4288062101" seo="true" ref="index:services:conference-halls117">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="фитнес3.jpg" crc="397189520" seo="true" ref="index:services:fitness">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна.jpg" crc="3932899009" seo="true" ref="index:services:sauna">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="image 28.jpg" crc="406737606" seo="true" ref="index:services:transfer_664">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="химчистка.jpg" crc="4073737934" seo="true" ref="index:services:dry-cleaning">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="back.png" crc="3478932" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="back2.png" crc="449160166" ref="index:about-our-hotel113:catalog:services:conference-halls117:fitness:sauna:transfer_664:dry-cleaning">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="конференц-crop-u4915.jpg" crc="358210293" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="фитнес-crop-u4956.jpg" crc="4032384767" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="сауна-crop-u4987.jpg" crc="3956622898" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image 28-crop-u5015.jpg" crc="4283899491" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="химчистка-crop-u5043.jpg" crc="3976904828" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="выгодный.jpg" crc="288128850" seo="true" ref="index:actions">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="молодожены.jpg" crc="243928989" seo="true" ref="index:actions">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6243.png" crc="4186450710" seo="true" ref="index:actions">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="выгодный-crop-u5071.jpg" crc="3804706739" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="молодожены-crop-u5099.jpg" crc="275886314" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6243-crop-u5127.png" crc="4098457468" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="вставленные-svg-22322x22.svg" crc="3759477499" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные svg 22322x22_poster_.png" crc="226012321" ref="index:banqueting-hall"/>
+    <file name="вставленные-svg-21666x21.svg" crc="4120261180" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные svg 21666x21_poster_.png" crc="302509007" ref="index:banqueting-hall"/>
+    <file name="вставленные-svg-32561x18.svg" crc="97943488" seo="true" ref="index:about-our-hotel113:contacts95:catalog:price-list114:services:actions:conference-halls117:fitness:sauna:transfer_664:dry-cleaning:booking:sitemap:banqueting-hall:certificates:guest:hotel-rules-and-regulations:our-history:restaurant684:virtual-tour">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="actions" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="our-history" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="booking" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="banqueting-hall" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="virtual-tour" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="sitemap" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="guest" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="restaurant684" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленные svg 32561x18_poster_.png" crc="245833193" ref="index:banqueting-hall"/>
+    <file name="image 12-crop-u9042.jpg" crc="254489655" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="70997_658767_15-crop-u11092.jpg" crc="524094755" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u47752.jpg" crc="4058241736" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u48032.jpg" crc="61296708" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="конференц-crop-u49152.jpg" crc="503071870" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="фитнес-crop-u49562.jpg" crc="3860812923" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="сауна-crop-u49872.jpg" crc="517332354" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image 28-crop-u50152.jpg" crc="3952507707" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="химчистка-crop-u50432.jpg" crc="3986178187" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="выгодный-crop-u50712.jpg" crc="4178159708" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="молодожены-crop-u50992.jpg" crc="4111636540" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6243-crop-u51272.png" crc="251306083" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image 12-crop-u9043.jpg" crc="3801519634" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="70997_658767_15-crop-u11093.jpg" crc="424207495" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u47753.jpg" crc="76140559" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u48033.jpg" crc="341424907" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="конференц-crop-u49153.jpg" crc="317699061" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="фитнес-crop-u49563.jpg" crc="488167558" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="сауна-crop-u49873.jpg" crc="278337364" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image 28-crop-u50153.jpg" crc="162409099" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="химчистка-crop-u50433.jpg" crc="113478387" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="выгодный-crop-u50713.jpg" crc="413905875" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="молодожены-crop-u50993.jpg" crc="3763111819" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6243-crop-u51273.png" crc="4159749013" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="шаблон-a-favicon.ico" crc="385657384" ref="about-our-hotel113"/>
+    <file name="слайдер на главной-crop-u6110.jpg" crc="110177254" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной4-crop-u6146.jpg" crc="3946151340" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u6166.jpg" crc="3961898054" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u6186.jpg" crc="490200221" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="о отеле.jpg" crc="427229890" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="о отеле2.jpg" crc="4162819924" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="вставленные-svg-73x23.svg" crc="4270713482" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="вставленные svg 73x23_poster_.png" crc="4014529038" ref="about-our-hotel113"/>
+    <file name="вставленные-svg-53x32.svg" crc="359186195" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="вставленные svg 53x32_poster_.png" crc="342506014" ref="about-our-hotel113"/>
+    <file name="вставленные-svg-45x32.svg" crc="3938997687" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="вставленные svg 45x32_poster_.png" crc="4086031654" ref="about-our-hotel113"/>
+    <file name="слайдер на главной-crop-u61102.jpg" crc="163995690" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной4-crop-u61462.jpg" crc="189165559" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u61662.jpg" crc="4058241736" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u61862.jpg" crc="61296708" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="о отеле-u6496-fr.jpg" crc="488281070" ref="about-our-hotel113"/>
+    <file name="о отеле2-u6505-fr.jpg" crc="4169801231" ref="about-our-hotel113"/>
+    <file name="слайдер на главной-crop-u61103.jpg" crc="508479736" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной4-crop-u61463.jpg" crc="4271629908" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u61663.jpg" crc="316496932" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u61863.jpg" crc="3887972505" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной-crop-u61104.jpg" crc="24896466" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной4-crop-u61464.jpg" crc="529317537" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной3-crop-u61664.jpg" crc="76140559" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="слайдер на главной2-crop-u61864.jpg" crc="341424907" seo="true" ref="about-our-hotel113">
+      <caption webpage="about-our-hotel113" alt=""/>
+    </file>
+    <file name="о отеле-u6496-fr2.jpg" crc="369870034" ref="about-our-hotel113"/>
+    <file name="о отеле2-u6505-fr2.jpg" crc="54754397" ref="about-our-hotel113"/>
+    <file name="phone-call2.png" crc="138359896" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="fax.png" crc="4038076696" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="fork.png" crc="4262921754" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="contract.png" crc="422402418" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="envelope.png" crc="484277091" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="location-on-map.png" crc="190431728" seo="true" ref="contacts95">
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+      <caption webpage="contacts95" alt=""/>
+    </file>
+    <file name="стандарт.jpg" crc="502762992" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт2.jpg" crc="4097826938" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт3.jpg" crc="282535538" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-4.jpg" crc="3974331831" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-5.jpg" crc="4160506298" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-crop-u6894.jpg" crc="4115922404" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u6868.jpg" crc="3797221329" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u6842.jpg" crc="4145356738" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u6816.jpg" crc="3836387227" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u6790.jpg" crc="3989464879" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="вставленные-svg-10303x11.svg" crc="4187475877" seo="true" ref="catalog:price-list114:conference-halls117">
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="вставленные svg 10303x11_poster_.png" crc="6287365" ref="catalog"/>
+    <file name="1u.png" crc="3837523460" seo="true" ref="catalog:price-list114">
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="users.png" crc="241002053" seo="true" ref="catalog:price-list114">
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="price-list114" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд.jpg" crc="4050776097" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд2.jpg" crc="4140276110" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд3.jpg" crc="4079105943" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-4.jpg" crc="4223239218" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-5.jpg" crc="3780792724" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-6.jpg" crc="3834511066" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-7.jpg" crc="3989390066" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-crop-u6985.jpg" crc="3845864943" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд2-crop-u7020.jpg" crc="4241391322" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд3-crop-u7055.jpg" crc="152442770" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u7090.jpg" crc="4017180002" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u7125.jpg" crc="391347462" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u7160.jpg" crc="32170302" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u7195.jpg" crc="3915876661" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс.jpg" crc="4157574060" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-2.jpg" crc="134923446" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-3.jpg" crc="214528146" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-4.jpg" crc="515329389" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-5.jpg" crc="336419997" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-6.jpg" crc="297040740" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-7.jpg" crc="174180915" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u7230.jpg" crc="479577625" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u7265.jpg" crc="3881168424" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u7300.jpg" crc="401362556" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u7335.jpg" crc="3797785222" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u7370.jpg" crc="412204659" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u7405.jpg" crc="317084571" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u7440.jpg" crc="258246475" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс.jpg" crc="4153222551" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс2.jpg" crc="188316086" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс3.jpg" crc="4248915694" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс4.jpg" crc="128066923" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс5.jpg" crc="101758736" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс-crop-u7574.jpg" crc="4131747556" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u7609.jpg" crc="438331460" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u7644.jpg" crc="3850579637" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u7679.jpg" crc="394225258" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u7714.jpg" crc="3891815482" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-crop-u68942.jpg" crc="3941344570" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u68682.jpg" crc="3991623079" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u68422.jpg" crc="4088788398" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u68162.jpg" crc="4135011508" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u67902.jpg" crc="4234959035" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-crop-u69852.jpg" crc="97188406" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд2-crop-u70202.jpg" crc="4231029279" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд3-crop-u70552.jpg" crc="245126360" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u70902.jpg" crc="3847087450" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u71252.jpg" crc="397889374" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u71602.jpg" crc="471174469" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u71952.jpg" crc="37995963" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u72302.jpg" crc="4184206126" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u72652.jpg" crc="4259965834" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u73002.jpg" crc="463559453" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u73352.jpg" crc="4057878269" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u73702.jpg" crc="3974813099" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u74052.jpg" crc="209754401" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u74402.jpg" crc="4151194379" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс-crop-u75742.jpg" crc="3957470669" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u76092.jpg" crc="3941815919" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u76442.jpg" crc="235261678" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u76792.jpg" crc="4122270976" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u77142.jpg" crc="3877645036" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-crop-u68943.jpg" crc="128822551" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт2-crop-u68683.jpg" crc="195480991" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт3-crop-u68423.jpg" crc="86320684" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-4-crop-u68163.jpg" crc="4093223740" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="стандарт-5-crop-u67903.jpg" crc="4193673089" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-crop-u69853.jpg" crc="196068354" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд2-crop-u70203.jpg" crc="393224473" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд3-crop-u70553.jpg" crc="190118708" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-4-crop-u70903.jpg" crc="241779325" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-5-crop-u71253.jpg" crc="170922255" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-6-crop-u71603.jpg" crc="157168309" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="кмд-7-crop-u71953.jpg" crc="4232301621" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-crop-u72303.jpg" crc="349960668" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-2-crop-u72653.jpg" crc="237591013" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-3-crop-u73003.jpg" crc="8959713" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-4-crop-u73353.jpg" crc="478126906" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-5-crop-u73703.jpg" crc="3884477888" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-6-crop-u74053.jpg" crc="3975969405" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="полулюкс-7-crop-u74403.jpg" crc="330848644" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс-crop-u75743.jpg" crc="4288286555" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс2-crop-u76093.jpg" crc="210413507" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс3-crop-u76443.jpg" crc="436158639" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс4-crop-u76793.jpg" crc="4036684439" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="2люкс5-crop-u77143.jpg" crc="4152164466" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="image 22.jpg" crc="442162575" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц2.jpg" crc="3759207790" seo="true" ref="services:conference-halls117">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц3.jpg" crc="498199200" seo="true" ref="services:conference-halls117">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц4.jpg" crc="17362951" seo="true" ref="services:conference-halls117">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="image 22-crop-u3953.jpg" crc="3882592931" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц-crop-u9614.jpg" crc="358210293" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц2-crop-u9648.jpg" crc="3832194010" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц3-crop-u9683.jpg" crc="376414540" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц4-crop-u9718.jpg" crc="192278192" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес.jpg" crc="3885280213" seo="true" ref="services:fitness">
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес2.jpg" crc="4138114124" seo="true" ref="services:fitness">
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="fitness" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес-crop-u9863.jpg" crc="434783482" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u9890.jpg" crc="3869784114" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u9916.jpg" crc="106553766" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна2.jpg" crc="31972818" seo="true" ref="services:sauna">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна3.jpg" crc="4023186037" seo="true" ref="services:sauna">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4.jpg" crc="3872318340" seo="true" ref="services:sauna">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна5.jpg" crc="15641501" seo="true" ref="services:sauna">
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна-crop-u9942.jpg" crc="3956622898" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна2-crop-u9969.jpg" crc="4022625798" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна3-crop-u9997.jpg" crc="4184286027" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна4-crop-u10025.jpg" crc="297106328" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна5-crop-u10053.jpg" crc="147591045" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="image 28-crop-u10079.jpg" crc="4283899491" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="химчистка-crop-u10104.jpg" crc="3976904828" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="image 22-crop-u39532.jpg" crc="347726668" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц-crop-u96142.jpg" crc="503071870" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц2-crop-u96482.jpg" crc="335959593" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц3-crop-u96832.jpg" crc="4113497107" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц4-crop-u97182.jpg" crc="440976911" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес-crop-u98632.jpg" crc="154645151" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u98902.jpg" crc="3855468371" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u99162.jpg" crc="4025456332" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна-crop-u99422.jpg" crc="517332354" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна2-crop-u99692.jpg" crc="477288954" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна3-crop-u99972.jpg" crc="507334817" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна4-crop-u100252.jpg" crc="405241500" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна5-crop-u100532.jpg" crc="3799537173" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="image 28-crop-u100792.jpg" crc="3952507707" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="химчистка-crop-u101042.jpg" crc="3986178187" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="image 22-crop-u39533.jpg" crc="167359140" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц-crop-u96143.jpg" crc="317699061" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц2-crop-u96483.jpg" crc="4084160245" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц3-crop-u96833.jpg" crc="4054614489" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="конференц4-crop-u97183.jpg" crc="4803356" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес-crop-u98633.jpg" crc="488167558" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u98903.jpg" crc="11018811" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u99163.jpg" crc="3851708085" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна-crop-u99423.jpg" crc="278337364" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна2-crop-u99693.jpg" crc="379220626" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна3-crop-u99973.jpg" crc="4287652723" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна4-crop-u100253.jpg" crc="4029218132" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="сауна5-crop-u100533.jpg" crc="4010338780" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="image 28-crop-u100793.jpg" crc="162409099" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="химчистка-crop-u101043.jpg" crc="113478387" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="тариф гости.jpg" crc="417908258" ref="actions">
+      <caption webpage="actions" alt=""/>
+    </file>
+    <file name="выходной день.jpg" crc="4282054127" ref="actions">
+      <caption webpage="actions" alt=""/>
+    </file>
+    <file name="выгодный-u4512-fr.jpg" crc="449674325" ref="actions"/>
+    <file name="молодожены-u4568-fr.jpg" crc="438959389" ref="actions"/>
+    <file name="тариф гости-u25453-fr.jpg" crc="230661992" ref="actions"/>
+    <file name="выходной день-u25454-fr.jpg" crc="3953345983" ref="actions"/>
+    <file name="выгодный-u4512-fr2.jpg" crc="3852603763" ref="actions"/>
+    <file name="молодожены-u4568-fr2.jpg" crc="4279047475" ref="actions"/>
+    <file name="тариф гости-u25453-fr2.jpg" crc="4004786077" ref="actions"/>
+    <file name="выходной день-u25454-fr2.jpg" crc="388477461" ref="actions"/>
+    <file name="конференц-crop-u16543.jpg" crc="358210293" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц2-crop-u16592.jpg" crc="3832194010" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц3-crop-u16641.jpg" crc="376414540" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц4-crop-u16690.jpg" crc="192278192" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц-crop-u165432.jpg" crc="503071870" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц2-crop-u165922.jpg" crc="335959593" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц3-crop-u166412.jpg" crc="4113497107" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц4-crop-u166902.jpg" crc="440976911" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц2-u16987-fr.jpg" crc="4230453777" ref="conference-halls117"/>
+    <file name="конференц-crop-u165433.jpg" crc="317699061" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц2-crop-u165923.jpg" crc="4084160245" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц3-crop-u166413.jpg" crc="4054614489" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц4-crop-u166903.jpg" crc="4803356" seo="true" ref="conference-halls117">
+      <caption webpage="conference-halls117" alt=""/>
+    </file>
+    <file name="конференц2-u16987-fr2.jpg" crc="4239316537" ref="conference-halls117"/>
+    <file name="фитнес-crop-u18699.jpg" crc="434783482" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u18748.jpg" crc="3869784114" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u18797.jpg" crc="106553766" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес-crop-u186992.jpg" crc="154645151" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u187482.jpg" crc="3855468371" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u187972.jpg" crc="4025456332" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес3-u18338-fr.jpg" crc="513262496" ref="fitness"/>
+    <file name="фитнес-crop-u186993.jpg" crc="488167558" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес2-crop-u187483.jpg" crc="11018811" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес3-crop-u187973.jpg" crc="3851708085" seo="true" ref="fitness">
+      <caption webpage="fitness" alt=""/>
+    </file>
+    <file name="фитнес3-u18338-fr2.jpg" crc="420042073" ref="fitness"/>
+    <file name="сауна-crop-u19033.jpg" crc="3956622898" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна2-crop-u19082.jpg" crc="4022625798" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна3-crop-u19131.jpg" crc="4184286027" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4-crop-u19180.jpg" crc="297106328" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна5-crop-u19229.jpg" crc="147591045" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна-crop-u190332.jpg" crc="517332354" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна2-crop-u190822.jpg" crc="477288954" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна3-crop-u191312.jpg" crc="507334817" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4-crop-u191802.jpg" crc="405241500" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна5-crop-u192292.jpg" crc="3799537173" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4-u18934-fr.jpg" crc="377529770" ref="sauna"/>
+    <file name="сауна-crop-u190333.jpg" crc="278337364" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна2-crop-u190823.jpg" crc="379220626" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна3-crop-u191313.jpg" crc="4287652723" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4-crop-u191803.jpg" crc="4029218132" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна5-crop-u192293.jpg" crc="4010338780" seo="true" ref="sauna">
+      <caption webpage="sauna" alt=""/>
+    </file>
+    <file name="сауна4-u18934-fr2.jpg" crc="118149981" ref="sauna"/>
+    <file name="трансфер2.jpg" crc="179641266" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="image 28-crop-u19509.jpg" crc="4283899491" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="трансфер2-crop-u19560.jpg" crc="3905213642" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="image 28-crop-u195092.jpg" crc="3952507707" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="трансфер2-crop-u195602.jpg" crc="1525034" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="трансфер2-u19476-fr.jpg" crc="366165217" ref="transfer_664"/>
+    <file name="image 28-crop-u195093.jpg" crc="162409099" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="трансфер2-crop-u195603.jpg" crc="3910508820" seo="true" ref="transfer_664">
+      <caption webpage="transfer_664" alt=""/>
+    </file>
+    <file name="трансфер2-u19476-fr2.jpg" crc="4025228417" ref="transfer_664"/>
+    <file name="химчистка2.jpg" crc="527011299" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка-crop-u19775.jpg" crc="3976904828" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка2-crop-u19826.jpg" crc="3799992966" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка-crop-u197752.jpg" crc="3986178187" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка2-crop-u198262.jpg" crc="300019070" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка2-u19602-fr.jpg" crc="3765625250" ref="dry-cleaning"/>
+    <file name="химчистка-crop-u197753.jpg" crc="113478387" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка2-crop-u198263.jpg" crc="208972971" seo="true" ref="dry-cleaning">
+      <caption webpage="dry-cleaning" alt=""/>
+    </file>
+    <file name="химчистка2-u19602-fr2.jpg" crc="282418557" ref="dry-cleaning"/>
+    <file name="59565_131894_09.jpg" crc="4220422843" ref="banqueting-hall">
+      <caption webpage="banqueting-hall" alt=""/>
+    </file>
+    <file name="59565_131894_09-u27633-fr.jpg" crc="90341929" ref="banqueting-hall"/>
+    <file name="8240_23924_17.jpg" crc="3773475356" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="16647_947035_09.jpg" crc="1594097" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="47241_950131_15.jpg" crc="300210320" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="27324_563286_15.jpg" crc="4246057718" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="75114_751532_15.jpg" crc="375114093" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="6128_620254_15.jpg" crc="4245843341" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="22061_883204_15.jpg" crc="4177214715" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="97485_721913_15.jpg" crc="3938785006" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="1955_428456_15.jpg" crc="3776561141" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="15596_390625_15.jpg" crc="333340961" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="31949_868086_15.jpg" crc="4082551568" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="88341_340920_15.jpg" crc="82874221" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="19431_730425_15.jpg" crc="13302782" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="94921_752142_15.jpg" crc="106198796" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="34605_406187_15.jpg" crc="3777092454" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="36378_12572_15.jpg" crc="4111802962" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="40462_690793_15.jpg" crc="3912169553" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="33550_914244_15.jpg" crc="3873188153" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="47296_397124_15.jpg" crc="522506802" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="48647_452084_15.jpg" crc="355086165" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="43327_372861_15.jpg" crc="500256801" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="5699_861789_15.jpg" crc="417275085" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="77405_54331_15.jpg" crc="16651640" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="76839_278750_15.jpg" crc="176967458" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="5362_560195_15.jpg" crc="333340961" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="12609_296386_15.jpg" crc="4078469006" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="54296_853542_15.jpg" crc="433250450" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="56429_511834_15.jpg" crc="303720171" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="90715_64851_15.jpg" crc="4242065358" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="7738_168929_15.jpg" crc="3877264798" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="back-u27821-3-fr.png" crc="4133073581" ref="certificates"/>
+    <file name="back2-u27756-3-fr.png" crc="190922735" ref="certificates"/>
+    <file name="вставленное изображение 1024x360.jpg" crc="4024727300" seo="true" ref="hotel-rules-and-regulations">
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленное изображение 1024x360360x127.jpg" crc="4257950730" seo="true" ref="hotel-rules-and-regulations">
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="вставленное изображение 1024x360320x113.jpg" crc="111816222" seo="true" ref="hotel-rules-and-regulations">
+      <caption webpage="hotel-rules-and-regulations" alt=""/>
+    </file>
+    <file name="1.jpg" crc="23036132" ref="our-history">
+      <caption webpage="our-history" alt=""/>
+    </file>
+    <file name="1-u29840-fr.jpg" crc="4250000322" ref="our-history"/>
+    <file name="rest-1.jpg" crc="4234023439" ref="restaurant684">
+      <caption webpage="restaurant684" alt=""/>
+    </file>
+    <file name="rest-3.jpg" crc="499633328" ref="restaurant684">
+      <caption webpage="restaurant684" alt=""/>
+    </file>
+    <file name="rest-1-u29905-fr.jpg" crc="255284192" ref="restaurant684"/>
+    <file name="rest-3-u29925-fr.jpg" crc="177212601" ref="restaurant684"/>
+    <file name="rest-1-u29905-fr2.jpg" crc="3803616622" ref="restaurant684"/>
+    <file name="rest-3-u29925-fr2.jpg" crc="4113056113" ref="restaurant684"/>
+    <file name="standarteconom1.jpg" crc="3962368466" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom2.jpg" crc="4196439938" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom3.jpg" crc="4207636922" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom4.jpg" crc="448154179" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u31348.jpg" crc="3829916950" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u31306.jpg" crc="402285239" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u31264.jpg" crc="19731431" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u31222.jpg" crc="48509314" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u313482.jpg" crc="3794945833" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u313062.jpg" crc="4068657082" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u312642.jpg" crc="4065655753" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u312222.jpg" crc="4014154519" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom1-crop-u313483.jpg" crc="488614157" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom2-crop-u313063.jpg" crc="97251548" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom3-crop-u312643.jpg" crc="4134215345" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="standarteconom4-crop-u312223.jpg" crc="3961309451" seo="true" ref="catalog">
+      <caption webpage="catalog" alt=""/>
+    </file>
+    <file name="сертификат гостиница уют 2019- 2021 год каз.jpg" crc="4074203014" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+    <file name="сертификат гостиница уют 2019- 2021 год рус.jpg" crc="532754377" seo="true" ref="certificates">
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+      <caption webpage="certificates" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="77013490" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="about-our-hotel113.html" crc="3977492421" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="contacts95.html" crc="61814840" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="catalog.html" crc="4114329900" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="price-list114.html" crc="408257546" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="services.html" crc="178457531" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="actions.html" crc="4258860345" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="conference-halls117.html" crc="355019217" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="fitness.html" crc="3765440550" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="sauna.html" crc="4216528134" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="transfer_664.html" crc="3889033559" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="dry-cleaning.html" crc="4209097907" seo="true" mt="1587969699586" redirect="true"/>
+  <file name="booking.html" crc="136649940" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="sitemap.html" crc="3946110457" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="banqueting-hall.html" crc="3848569427" seo="true" mt="1588061376080" redirect="true"/>
+  <file name="certificates.html" crc="494344160" seo="true" mt="1588061916446" redirect="true"/>
+  <file name="guest.html" crc="436644393" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="hotel-rules-and-regulations.html" crc="457284527" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="our-history.html" crc="362284120" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="restaurant684.html" crc="318500827" seo="true" mt="1587969759323" redirect="true"/>
+  <file name="virtual-tour.html" crc="4204349283" seo="true" mt="1587969759323" redirect="true"/>
+  <site>
+    <asset filename="pushy.js" muse_href="upload:U22139"/>
+    <asset filename="menu.png" muse_href="upload:U22147"/>
+    <asset filename="pushy.css" muse_href="upload:U22321"/>
+    <asset filename="demo.css" muse_href="upload:U22367"/>
+    <asset filename="untitled.jpg" muse_href="upload:U29799"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="body-text" uid="U771"/>
+    <paragraphStyle className="h1" uid="U773"/>
+    <paragraphStyle className="h3" uid="U774"/>
+    <paragraphStyle className="h5" uid="U775"/>
+    <paragraphStyle className="h2" uid="U780"/>
+    <paragraphStyle className="h4" uid="U781"/>
+    <textLinkStyle className="ts" uid="U25409"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="phone">
+      <page name="Home" filename="index.html" muse_href="page:U127" master="U24154">
+        <breakpoint uid="U117" maxwidth="320" minwidth="0" squishy="false"/>
+        <breakpoint uid="U5142" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U6235" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <masterPage name="Шаблон-A копия" master="U96" uid="U24154">
+        <breakpoint uid="U24157" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U24224" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U24297" maxwidth="414" minwidth="361" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U96">
+        <breakpoint uid="U97" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="About the hotel" filename="about-our-hotel113.html" muse_href="page:U1812" master="U106">
+        <breakpoint uid="U1608" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U6356" maxwidth="345" minwidth="321" squishy="true"/>
+        <breakpoint uid="U6584" maxwidth="414" minwidth="346" squishy="true"/>
+      </page>
+      <masterPage name="Шаблон-A" master="U96" uid="U106">
+        <breakpoint uid="U107" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18144" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18213" maxwidth="414" minwidth="361" squishy="true"/>
+      </masterPage>
+      <page name="Contacts" filename="contacts95.html" muse_href="page:U2139" master="U106">
+        <breakpoint uid="U2048" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U9400" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U9499" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Accommodation" filename="catalog.html" muse_href="page:U2357" master="U106">
+        <breakpoint uid="U2268" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U7733" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U8041" maxwidth="414" minwidth="361" squishy="true"/>
+        <anchor name="standart" html_id="standart" muse_href="anchor:U2264:U22527" includeInBPs="U2268,U7733,U8041"/>
+        <anchor name="comfort" html_id="comfort" muse_href="anchor:U2264:U22532" includeInBPs="U2268,U7733,U8041"/>
+        <anchor name="polulux" html_id="polulux" muse_href="anchor:U2264:U22537" includeInBPs="U2268,U7733,U8041"/>
+        <anchor name="luxdual" html_id="luxdual" muse_href="anchor:U2264:U22542" includeInBPs="U2268,U7733,U8041"/>
+        <anchor name="standart-economy" html_id="standart-economy" muse_href="anchor:U2264:U30870" includeInBPs="U2268,U7733,U8041"/>
+      </page>
+      <page name="Price-list" filename="price-list114.html" muse_href="page:U3692" master="U106">
+        <breakpoint uid="U3427" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U9097" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U9280" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Services" filename="services.html" muse_href="page:U4058" master="U24154">
+        <breakpoint uid="U3793" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U10118" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U10407" maxwidth="414" minwidth="361" squishy="true"/>
+        <anchor name="conferenc" html_id="conferenc" muse_href="anchor:U3783:U22563" includeInBPs="U3793,U10118,U10407"/>
+        <anchor name="fitness" html_id="fitness" muse_href="anchor:U3783:U22568" includeInBPs="U3793,U10118,U10407"/>
+        <anchor name="sauna" html_id="sauna" muse_href="anchor:U3783:U22573" includeInBPs="U3793,U10118,U10407"/>
+        <anchor name="transfer" html_id="transfer" muse_href="anchor:U3783:U22578" includeInBPs="U3793,U10118,U10407"/>
+        <anchor name="himchistka" html_id="himchistka" muse_href="anchor:U3783:U22583" includeInBPs="U3793,U10118,U10407"/>
+      </page>
+      <page name="Campaigns" filename="actions.html" muse_href="page:U4511" master="U106">
+        <breakpoint uid="U4327" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U10643" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U10729" maxwidth="414" minwidth="361" squishy="true"/>
+        <anchor name="vugoda" html_id="vugoda" muse_href="anchor:U4180:U22588" includeInBPs="U4327,U10643,U10729"/>
+        <anchor name="molodojeny" html_id="molodojeny" muse_href="anchor:U4180:U22593" includeInBPs="U4327,U10643,U10729"/>
+        <anchor name="gost" html_id="gost" muse_href="anchor:U4180:U22598" includeInBPs="U4327,U10643,U10729"/>
+        <anchor name="tarifgost" html_id="tarifgost" muse_href="anchor:U4180:U25854" includeInBPs="U4327,U10643,U10729"/>
+        <anchor name="weekend" html_id="weekend" muse_href="anchor:U4180:U25859" includeInBPs="U4327,U10643,U10729"/>
+      </page>
+      <page name="Conference hall" filename="conference-halls117.html" muse_href="page:U16003" master="U106">
+        <breakpoint uid="U15859" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U17692" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U17983" maxwidth="414" minwidth="361" squishy="true"/>
+        <anchor name="reserve" html_id="reserve" muse_href="anchor:U15728:U17557" includeInBPs="U15859,U17692,U17983"/>
+      </page>
+      <page name="Fitness center" filename="fitness.html" muse_href="page:U18679" master="U106">
+        <breakpoint uid="U18473" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18570" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18366" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Sauna" filename="sauna.html" muse_href="page:U19013" master="U106">
+        <breakpoint uid="U18963" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U18889" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U18846" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Transfer" filename="transfer_664.html" muse_href="page:U19489" master="U106">
+        <breakpoint uid="U19384" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U19278" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U19331" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Dry-cleaning" filename="dry-cleaning.html" muse_href="page:U19755" master="U106">
+        <breakpoint uid="U19665" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U19703" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U19627" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Booking" filename="booking.html" muse_href="page:U22517" master="U24154">
+        <breakpoint uid="U22377" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U22411" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U22455" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Карта сайта" filename="sitemap.html" muse_href="page:U27036" master="U24154">
+        <breakpoint uid="U27049" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27057" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27020" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Banqueting hall" filename="banqueting-hall.html" muse_href="page:U27631" master="U24154">
+        <breakpoint uid="U27672" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27663" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27615" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Certificates of hotel &quot;Uyut&quot;" filename="certificates.html" muse_href="page:U27720" master="U24154">
+        <breakpoint uid="U27686" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27709" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U27695" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Reviews of guests who visited the Uyut Hotel in Almaty" filename="guest.html" muse_href="page:U29757" master="U24154">
+        <breakpoint uid="U29017" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U29353" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U29524" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Hotel rules and regulations" filename="hotel-rules-and-regulations.html" muse_href="page:U29797" master="U24154">
+        <breakpoint uid="U29763" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U29786" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U29772" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Our History" filename="our-history.html" muse_href="page:U29853" master="U24154">
+        <breakpoint uid="U29819" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U29842" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U29828" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+      <page name="Restaurant &quot;Uyut&quot; - cafe and banquet hall in Almaty - Hotel &quot;Uyut&quot;" filename="restaurant684.html" muse_href="page:U29901" master="U24154">
+        <breakpoint uid="U29890" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U29881" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U29867" maxwidth="414" minwidth="361" squishy="true"/>
+        <anchor name="reserve" html_id="reserve" muse_href="anchor:U29862:U29924" includeInBPs="U29890,U29881,U29867"/>
+        <anchor name="menu" html_id="anchor-u29928" muse_href="anchor:U29862:U29928" includeInBPs="U29890,U29881,U29867"/>
+        <anchor name="zavtrak" html_id="zavtrak" muse_href="anchor:U29862:U29929" includeInBPs="U29890,U29881,U29867"/>
+      </page>
+      <page name="Virtual tour for acquaintance with hotel &amp;quot;Uyut&amp;quot; in Almaty" filename="virtual-tour.html" muse_href="page:U30155" master="U24154">
+        <breakpoint uid="U30138" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U30131" maxwidth="360" minwidth="321" squishy="true"/>
+        <breakpoint uid="U30147" maxwidth="414" minwidth="361" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

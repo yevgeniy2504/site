@@ -1,0 +1,590 @@
+<krpano version="1.19">
+  
+  <!--<plugin url="plugins/editor.swf" />
+  <plugin url="plugins/options.swf" />-->
+  
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  AUTOROTATE = TRUE  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  <autorotate enabled="true" waittime="30" accel="1.0" speed="7" horizon="0.0" tofov="90" />-->
+  
+ <!--  <plugin name="radar_source"
+        url="plugins/radar_source.js.js"
+        parent="layer[maps]"
+        align="lefttop"
+        edge="center"
+        x="100" y="50"
+        scale="5.0"
+        heading="0.0"
+        headingoffset="90.0"
+        fillcolor="0xFFFFFF"
+        fillalpha="0.5"
+        linewidth="0.0"
+        linecolor="0xFFFFFF"
+        linealpha="0.3"
+        invert="false"
+        editmode="true"
+        /> -->
+
+  <!-- <plugin name="logo" keep="true" url="images/logo.png" align="rightbottom" x="5" y="5" onclick="openurl(http://www.airastana.com/,_blank)" /> -->
+
+  <!--<plugin name="help" keep="true" url="images/help.png" align="center" onclick="set(visible, false)" visible="false" />
+  <plugin name="help_b" scale="0.8" url="images/help_button.png" keep="true" align="lefttop" x="10" y="10" alpha="0.6" onover="tween(alpha, 0.9)" onout="tween(alpha, 0.6)" onclick="set(plugin[help].visible, true)" />  
+  <plugin name="fs" scale="0.75" keep="true" devices="flash" url="images/fs_button.png" align="lefttop" x="61" y="10" alpha="0.6" onover="tween(alpha, 0.9)" onout="tween(alpha, 0.6)" onclick="switch(fullscreen)" />-->
+  <plugin name="swbtn" scale="1" keep="true" url="images/map_change.png" align="leftbottom" x="142" y="265" zorder="1"    onclick="onclickA();"  onclickA="switchMap(2); set(onclick, onclickB() );"  onclickB="switchMap(3); set(onclick, onclickC() );"	onclickC="switchMap(4); set(onclick, onclickD() );" onclickD="switchMap(1); set(onclick, onclickA() );"/>
+
+  <action name="toggle_hotspots">
+    switch(hotspot[spot1].visible);
+    switch(hotspot[spot2].visible);
+    switch(hotspot[spot3].visible);
+    switch(hotspot[spot4].visible);
+    switch(hotspot[spot5].visible);
+    switch(hotspot[spot6].visible);
+	switch(hotspot[spot7].visible);
+    switch(hotspot[spot8].visible);
+    switch(hotspot[spot9].visible);
+    switch(hotspot[spot10].visible);
+    switch(hotspot[spot11].visible);
+    switch(hotspot[spot12].visible);
+	switch(hotspot[spot13].visible);
+    switch(hotspot[spot14].visible);
+    switch(hotspot[spot15].visible);
+    switch(hotspot[spot16].visible);
+    switch(hotspot[spot17].visible);
+    switch(hotspot[spot18].visible);
+	switch(hotspot[spot19].visible);
+    switch(hotspot[spot20].visible);
+    switch(hotspot[spot21].visible);
+    switch(hotspot[spot22].visible);
+    switch(hotspot[spot23].visible);
+    switch(hotspot[spot24].visible);
+	switch(hotspot[spot25].visible);
+    switch(hotspot[spot26].visible);
+    switch(hotspot[spot27].visible);
+    switch(hotspot[spot28].visible);
+    switch(hotspot[spot29].visible);
+    switch(hotspot[spot30].visible);
+    switch(hotspot[spot31].visible);
+    switch(hotspot[spot32].visible);
+    switch(hotspot[spot33].visible);
+</action>
+
+  <plugin name="plus" scale="1" keep="true" url="images/plus.png" align="lefttop" x="20" y="65" alpha="0.6" onover="tween(alpha, 0.9)" onout="tween(alpha, 0.6)" ondown="set(fov_moveforce,-1);"  onup="set(fov_moveforce,0);" />
+  <plugin name="minus" scale="1" keep="true" url="images/minus.png" align="lefttop" x="20" y="105" alpha="0.6" onover="tween(alpha, 0.9)" onout="tween(alpha, 0.6)" ondown="set(fov_moveforce,+1);" onup="set(fov_moveforce,0);" />
+
+  <!--<plugin name="sound" scale="1" keep="true" url="images/music.png" align="lefttop" x="20" y="10" alpha="0.6" crop="0|0|52|52" onover="tween(alpha, 0.9)" onout="tween(alpha, 0.6)" onclick="togglesound()" />-->
+  
+  <plugin name="bg" keep="true" visible="false" capture="true" url="images/bg.png" width="100%" height="100%" zorder="20" />
+  <!--<plugin name="video" keep="true" visible="false" capture="true" url="plugins/videoplayer.swf" alturl="plugins/videoplayer.js" videourl="hotspots/AirAstana_video.mp4" altvideourl="hotspots/AirAstana_video.mp4" align="center" scale="1" pausedonstart="true" zorder="21" loop="false" />
+  <plugin name="video_click" visible="false" url="images/bg.png" alpha="0" keep="true" capture="true" zorder="22" width="100%" height="100%" onclick="closeVideo()" />
+  
+  <plugin name="soundinterface" url="plugins/soundinterface.swf" alturl="plugins/soundinterface.js" rootpath="%SWFPATH%" preload="true" volume="0.7" />
+  
+  <action name="togglesound">
+    pausesoundtoggle(soundinterface);
+    if(sound[soundinterface].paused, set(plugin[sound].crop, 0|52|52|52), set(plugin[sound].crop, 0|0|52|52));
+  </action>
+  
+  <action name="openVideo">
+    looktohotspot(%1);
+    delayedcall(0.1, 
+      set(plugin[bg].visible, true);
+      set(plugin[video].visible, true);
+      set(plugin[video_click].visible, true);
+      plugin[video].play();
+    );
+
+    ifnot(sound[soundinterface].paused,
+      pausesound(soundinterface);
+      set(spaused, true);
+    );
+  </action>
+
+  <action name="closeVideo">
+    plugin[video].stop();
+    set(plugin[bg].visible, false);
+    set(plugin[video_click].visible, false);
+    set(plugin[video].visible, false);
+    set(v1, get(view.hlookat));
+    set(v2, get(view.vlookat));
+    lookto(get(v1), get(v2), 90);
+
+    if(spaused,
+      resumesound(soundinterface);
+      set(spaused, false); 
+    );
+  </action>
+
+  <view hlookat="0" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" hlookatmin="0" hlookatmax="360" />-->
+  
+
+  <!-- старая версия <action name="_pano">
+    loadscene(%1, null, MERGE, BLEND(1));
+    if(%2!=null, if(%3!=null, lookat(%2, %3)));
+    
+    if(%4!=null,
+      set(plugin[radar].x, %4);
+      set(plugin[radar].y, %5);
+      set(plugin[radar].heading, %6);
+      set(plugin[ap].x, %4);
+      set(plugin[ap].y, %5); 
+    );
+  </action>
+
+  <action name="switch_btn">
+    set(hotspot[%1].visible, false);
+    set(hotspot[%2].visible, true);        
+  </action> -->
+
+
+		<!-- combobox plugin 
+	<style name="combobox" devices="desktop|flash" url="plugins/combobox.swf" alturl="plugins/combobox.js" native="false" />
+	<style name="combobox" devices="iphone"        url="plugins/combobox.js" cbdesignscale="auto" cbfont="Arial" cbfontsize="auto" cbfontstyle="normal" cbpadding="8" itemfont="Arial" itemfontsize="16" itemfontstyle="normal" itempadding="10" />
+	<style name="combobox" devices="ipad"          url="plugins/combobox.js" cbdesignscale="auto" cbfont="Arial" cbfontsize="auto" cbfontstyle="normal" cbpadding="8" itemfont="Arial" itemfontsize="16" itemfontstyle="normal" itempadding="10" />
+
+	<plugin name="cb" style="combobox" align="lefttop" x="10" y="200" keep="true" zorder="5">       
+    	<item name="Кабина" caption="Кабина" onclick="loadscene(scene__DSC9421-HDR_Panorama_equi,null,MERGE,BLEND(1));" />
+    	<item name="Салон" caption="Салон" onclick="loadscene(scene__dsc9498-hdr_panorama_equi,null,MERGE,BLEND(1));" />
+    	<item name="Фюзеляж" caption="Фюзеляж" onclick="loadscene(scene__MG_9643-HDR_Panorama,null,MERGE,BLEND(1));" />
+    	<item name="Шасси" caption="Шасси" onclick="loadscene(scene_Kitchen,null,MERGE,BLEND(1));" />
+    	<item name="Крыло" caption="Крыло" onclick="loadscene(scene_Deck,null,MERGE,BLEND(1));" />
+    	<item name="scene_Master Bed" caption="Master Bed" onclick="loadscene(scene_Master Bed,null,MERGE,BLEND(1));" />
+    	
+	</plugin>-->
+	   <style name="tooltip" onover="
+        if(linkedscene, if(tooltip, copy(layer[tooltip].html, tooltip), copy(layer[tooltip].html, scene[get(linkedscene)].title)), copy(layer[tooltip].html, tooltip)); set(layer[tooltip].visible, true); tween(layer[tooltip].alpha, 1.0, 0.5); asyncloop(hovering, copy(layer[tooltip].x,mouse.stagex); copy(layer[tooltip].y, mouse.stagey); );" onout="tween(layer[tooltip].alpha, 0.0, 0.25, default, set(layer[tooltip].visible, false), copy(layer[tooltip].x, mouse.stagex); copy(layer[tooltip].y, mouse.stagey); );"/>
+
+    <style name="mapspot" keep="true" url="images/mapspot.png" align="lefttop" edge="center" scale="0.6" visible="true"/>
+	
+	<layer name="mapZoom" keep="true" url="images/map_but_zoom_ru.png" align="leftbottom" x="0" y="265" zorder="1" onclick="openMap();" />
+    <layer name="mapUnzoom" keep="true" url="images/window_close.png" parent="maps" align="center" zorder="1" x="120" y="-220" visible="false" onclick="closeMap();" />
+
+	<layer name="maps" keep="true" state="closed" type="container" bgcolor="0x000000" bgalpha="0" align="leftbottom" scalechildren="true" scale="0.5" width="825" height="625" x="0" y="0"> 
+	   
+		
+		
+		<!-- <layer name="map_1" url="images/map_int320.png" keep="true" align="leftbottom" x="0" y="0" visible="false" handcursor="false"> -->
+            
+<!--             <layer name="mapspot_1_1" style="mapspot|tooltip" x="266" y="90" zorder="8"  onclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC9421-HDR_Panorama_equi, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_2" style="mapspot|tooltip" x="266" y="120" zorder="8"  onclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC9498-HDR_Panorama_equi, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_3" style="mapspot|tooltip" x="266" y="300" zorder="8"  onclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC9473-HDR_Panorama_equi, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_4" style="mapspot|tooltip" x="266" y="420" zorder="8"  onclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC9445-HDR_Panorama_equi, null, MERGE, BLEND(1));"/>
+		
+		</layer> --> 
+	
+	  <!--  инженеры  -->
+		<layer name="map_1" url="images/map_ext_e.png" keep="true" align="leftbottom" x="0" y="0" visible="false" handcursor="false">
+            
+            <layer name="mapspot_1_1" style="mapspot|tooltip" x="340" y="200" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC1207-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_1_2" style="mapspot|tooltip" x="264" y="75" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC1511-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_3" style="mapspot|tooltip" x="324" y="200" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC1219-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_4" style="mapspot|tooltip" x="275" y="250" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC1262-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_5" style="mapspot|tooltip" x="264" y="430" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC1330-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_6" style="mapspot|tooltip" x="198" y="60" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4617-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_7" style="mapspot|tooltip" x="198" y="120" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4632-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_8" style="mapspot|tooltip" x="180" y="400" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4647-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_9" style="mapspot|tooltip" x="110" y="310" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4665-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_1_10" style="mapspot|tooltip" x="40" y="290" zorder="8" nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4678-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_11" style="mapspot|tooltip" x="110" y="240" zorder="8" nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4695-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_12" style="mapspot|tooltip" x="125" y="275" zorder="8" nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4707-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_13" style="mapspot|tooltip" x="264" y="120" zorder="8" nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4724-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_14" style="mapspot|tooltip" x="330" y="160" zorder="8" nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4747-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_1_15" style="mapspot|tooltip" x="300" y="210" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4760-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_16" style="mapspot|tooltip" x="400" y="250"  zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4778-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_17" style="mapspot|tooltip" x="470" y="310" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4797-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_18" style="mapspot|tooltip" x="380" y="290" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4810-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_19" style="mapspot|tooltip" x="330" y="350" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4827-HDR_Panorama1, null, MERGE, BLEND(1));"/>          
+			<layer name="mapspot_1_20" style="mapspot|tooltip" x="310" y="290" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4840-HDR_Panorama1, null, MERGE, BLEND(1));"/>     
+			<layer name="mapspot_1_21" style="mapspot|tooltip" x="135" y="350" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4856-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_22" style="mapspot|tooltip" x="264" y="20" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4870-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_23" style="mapspot|tooltip" x="330" y="120" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4884-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_1_24" style="mapspot|tooltip" x="264" y="60" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4917-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_25" style="mapspot|tooltip" x="264" y="160" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4927-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_1_26" style="mapspot|tooltip" x="264" y="360" zorder="8"  nclick="closeMap(map_1); wait(0.5); loadscene(scene__DSC4939-HDR_Panorama1, null, MERGE, BLEND(1));"/>
+
+	   </layer>
+	  <!--  наземка  -->
+	   		<layer name="map_3" url="images/map_ext_gs.png" keep="true" align="leftbottom" x="0" y="0" visible="false" handcursor="false">
+            
+            <layer name="mapspot_3_4" style="mapspot|tooltip" x="275" y="250" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC1262-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_6" style="mapspot|tooltip" x="198" y="60" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4617-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_7" style="mapspot|tooltip" x="198" y="120" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4632-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_8" style="mapspot|tooltip" x="180" y="400" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4647-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_9" style="mapspot|tooltip" x="110" y="310" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4665-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_3_10" style="mapspot|tooltip" x="40" y="290" zorder="8" nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4678-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_13" style="mapspot|tooltip" x="264" y="120" zorder="8" nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4724-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_17" style="mapspot|tooltip" x="470" y="310" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4797-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_19" style="mapspot|tooltip" x="330" y="350" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4827-HDR_Panorama3, null, MERGE, BLEND(1));"/>          
+            <layer name="mapspot_3_23" style="mapspot|tooltip" x="330" y="120" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4884-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_25" style="mapspot|tooltip" x="264" y="160" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4927-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_3_26" style="mapspot|tooltip" x="264" y="360" zorder="8"  nclick="closeMap(map_3); wait(0.5); loadscene(scene__DSC4939-HDR_Panorama3, null, MERGE, BLEND(1));"/>
+	   </layer>
+	    <!--  пилоты  -->
+	   		<layer name="map_2" url="images/map_ext_fc.png" keep="true" align="leftbottom" x="0" y="0" visible="false" handcursor="false">
+            
+            <layer name="mapspot_2_1" style="mapspot|tooltip" x="340" y="200" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC1207-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_2_2" style="mapspot|tooltip" x="264" y="75" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC1511-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_3" style="mapspot|tooltip" x="324" y="200" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC1219-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_6" style="mapspot|tooltip" x="198" y="60" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4617-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_8" style="mapspot|tooltip" x="180" y="400" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4647-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_2_10" style="mapspot|tooltip" x="40" y="290" zorder="8" nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4678-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_13" style="mapspot|tooltip" x="264" y="120" zorder="8" nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4724-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_14" style="mapspot|tooltip" x="330" y="160" zorder="8" nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4747-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_2_15" style="mapspot|tooltip" x="300" y="210" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4760-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_16" style="mapspot|tooltip" x="400" y="250"  zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4778-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_17" style="mapspot|tooltip" x="470" y="310" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4797-HDR_Panorama2 null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_18" style="mapspot|tooltip" x="380" y="290" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4810-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+			<layer name="mapspot_2_20" style="mapspot|tooltip" x="310" y="290" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4840-HDR_Panorama2, null, MERGE, BLEND(1));"/>     
+			<layer name="mapspot_2_21" style="mapspot|tooltip" x="135" y="350" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4856-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_22" style="mapspot|tooltip" x="264" y="20" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4870-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_2_23" style="mapspot|tooltip" x="330" y="120" zorder="8"  nclick="closeMap(map_2); wait(0.5); loadscene(scene__DSC4884-HDR_Panorama2, null, MERGE, BLEND(1));"/>
+	  
+	   </layer>
+	
+	
+	<layer name="map_4" url="images/map_int.png" keep="true" align="leftbottom" x="0" y="0" visible="false" handcursor="false">
+            
+            <layer name="mapspot_4_1" style="mapspot|tooltip" x="264" y="50" zorder="8"  nclick="closeMap(map_4); wait(0.5); loadscene(scene__dsc1511-hdr_panorama, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_4_2" style="mapspot|tooltip" x="264" y="80" zorder="8"  nclick="closeMap(map_4); wait(0.5); loadscene(scene__dsc1537-hdr_panorama, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_4_3" style="mapspot|tooltip" x="264" y="260" zorder="8"  nclick="closeMap(map_4); wait(0.5); loadscene(scene__dsc1568-hdr_panorama, null, MERGE, BLEND(1));"/>
+            <layer name="mapspot_4_4" style="mapspot|tooltip" x="264" y="460" zorder="8"  nclick="closeMap(map_4); wait(0.5); loadscene(scene__dsc1590-hdr_panorama, null, MERGE, BLEND(1));"/>
+
+		</layer>
+	</layer>
+	
+	<layer name="activespot" keep="true" url="images/mapspot_active.png" align="center" edge="center" scale="0.8" zorder="7"/>
+    <layer name="radar" keep="true" url="plugins/radar.swf" alturl="plugins/radar.js" heading="0" editmode="false" parent="activespot" scale="0.5" align="center" edge="center" x="-1" y="-1" fillalpha="0.5" fillcolor="0xee212b" blendmode="add" enabled="false" handcursor="false" zorder="6" />
+	
+
+
+	<!-- Radar из ванили
+
+<style name="mapspot" keep="true" url="images/point.png" parent="map" align="lefttop" edge="center" scale="2" visible="true"/> 
+<style name="mapspot2" keep="true" url="images/point.png" parent="map2" edge="center" align="leftbottom" alpha="1" scale="1" visible="true"/>
+<style name="mapspot1" keep="true" url="images/point.png" parent="map1" align="lefttop" edge="center" scale="2" visible="true"/>
+    <layer name="radarMask" keep="true" url="images/map_mask.png" parent="map" align="lefttop" visible="false" enabled="false"/>
+    <layer name="map" handcursor="false" url="images/map.png" keep="true" align="leftbottom" alpha="0.7" x="10" y="10" zorder="1" scalechildren="true" onclick="openMap();"/>
+	<layer name="map1" handcursor="false" url="images/map1.png" keep="true" align="leftbottom" alpha="0.7" scale="0.5" x="10" y="10" zorder="1" scalechildren="true" onclick="openMap();"/>
+    <layer name="map2" handcursor="false" url="images/map.png" keep="true" align="leftbottom" alpha="0.7"  x="10" y="10" zorder="1" scalechildren="true" onclick="openMap();"/>
+  <layer name="activespot" keep="true" url="images/apoint.png" align="center" edge="center" scale="1" parent="mapSpot1" zorder="3"/>
+  <layer name="radar" keep="true" url="plugins/radar.swf" alturl="plugins/radar.js" heading="0" editmode="true" parent="activespot" scale="0.5" align="center" edge="center" x="-1" y="-1" fillalpha="0.5" fillcolor="0xffc700" blendmode="add" mask="radarMask" enabled="true" handcursor="true" zorder="2" />
+
+-->
+
+	<!-- <action name="skin_showmap">
+if(%1 == null, if(layer[skin_map].state == 'hidden', set(show,true), set(show,false)); , set(show,%1); ); mul(mh, layer[skin_scroll_layer].pixelheight, -1); if(layer[skin_scroll_layer].y == -100%, copy(layer[skin_scroll_layer].y,mh)); if(show, tween(layer[skin_logo].alpha, 0.0, 0.25, default, set(layer[skin_logo].visible,false)); tween(layer[skin_thumbs].alpha, 0.0, 0.25, default, set(layer[skin_thumbs].visible,false)); set(layer[skin_map].visible, true); tween(layer[skin_map].alpha, 1.0, 0.25); set(layer[skin_map].state, 'visible'); sub(hh,stageheight,20); sub(hh,layer[skin_control_bar].height); sub(hh,32); add(mh,hh); copy(layer[skin_map].height, hh); tween(layer[skin_scroll_layer].y, get(mh), 0.5, easeOutQuint); , set(layer[skin_map].state, 'hidden'); set(layer[skin_logo].visible, true); tween(layer[skin_logo].alpha, 1.0, 0.25); tween(layer[skin_scroll_layer].y, get(mh), 0.5, easeOutQuint, set(layer[skin_map].visible,false) ); );
+</action> -->
+
+	<!-- из ванили -->
+	<action name="switchMap">
+		if(%1 == 1,
+			set(layer[map_4].visible, false);
+			set(layer[map_3].visible, false);
+			set(layer[map_2].visible, false);
+			set(layer[map_1].visible, true); 
+		);
+		if(%1 == 2,
+			set(layer[map_4].visible, false);
+			set(layer[map_3].visible, false);
+			set(layer[map_2].visible, true);
+			set(layer[map_1].visible, false); 
+		);
+		if(%1 == 3,
+			set(layer[map_4].visible, false);
+			set(layer[map_3].visible, true);
+			set(layer[map_2].visible, false);
+			set(layer[map_1].visible, false); 
+		);
+		if(%1 == 4,
+			set(layer[map_4].visible, true);
+			set(layer[map_3].visible, false);
+			set(layer[map_2].visible, false);
+			set(layer[map_1].visible, false); 
+		);
+	</action>
+	
+	<!-- из филипков 
+	<action name="saveParent">
+        js(createCookie(ptscene, get(scene[get(xml.scene)].name), 7));
+    </action>-->
+
+    <!-- <action name="openParent">
+        js(getParent());
+        if(ptscene,
+            loadscene(get(ptscene), null, MERGE, BLEND(1));
+        );
+    </action> -->
+	
+<!-- увеличение карты из филипков-->
+	 <action name="openMap">
+        set(layer[maps].state, opened);
+        set(layer[mapZoom].visible, false);
+        
+        //set(layer[%1].onclick, closeMap(%1));
+        set(layer[mapspot].parent, %1);
+        
+        layer[maps].changeorigin(center, center);
+        tween(layer[maps].x, 0, 0.3);
+        tween(layer[maps].y, 0, 0.3);
+        tween(layer[maps].scale, 1, 0.3, default, set(layer[mapUnzoom].visible, true));
+    </action>
+	
+	<!-- уменьшение карты из филипков-->
+    <action name="closeMap">
+        set(layer[maps].state, closed);
+        set(layer[mapUnzoom].visible, false);
+        
+        //set(layer[%1].onclick, openMap(%1));
+        
+        layer[maps].changeorigin(leftbottom, leftbottom);
+
+        if(layer[thumbs].state == 'closed',
+            set(mapY, 0);
+            set(mzY, 265);
+        ,
+            set(mapY, 0);
+            set(mzY, 265);
+        );
+
+        tween(layer[maps].x, 0, 0.3);
+        tween(layer[maps].y, 0, 0.3);
+        tween(layer[mapZoom].y, get(mzY), 0.3);
+        tween(layer[maps].scale, 0.5, 0.3, default, set(layer[mapZoom].visible, true));
+    </action>
+	
+<!-- 	 <action name="hideMap">
+        set(layer[%1].visible, false);
+        set(layer[mapZoom].visible, false);
+    </action> -->
+
+    <action name="showMap">
+		set(layer[map_0].visible, false);
+        set(layer[map_1].visible, false);
+        set(layer[map_2].visible, false);
+        set(layer[map_3].visible, false);
+        set(layer[map_4].visible, false);
+
+        set(layer[%1].visible, true);
+        set(layer[mapZoom].visible, true);
+    </action>
+
+    <action name="swMap">
+		set(layer[map_0].visible, false);
+        set(layer[map_1].visible, false);
+        set(layer[map_2].visible, false);
+        set(layer[map_3].visible, false);
+        set(layer[map_4].visible, false);
+
+        set(layer[%1].visible, true);
+    </action>
+	
+	
+	<layer name="windowContent" keep="true" type="container" bgcolor="0xffffff" bgalpha="0.4" alpha="0" align="centre" width="522" height="400" visible="false" > рамка
+        <layer name="dataContent" keep="true" type="container" bgcolor="0xffffff" bgalpha="0" align="centre"  width="502" height="385" > контейнер
+          <layer keep="true" name="scrollareaContent" url="%SWFPATH%/plugins/scrollarea.swf" alturl="%SWFPATH%/plugins/scrollarea.js" align="center" direction="all"  >
+			  <layer name="contentContent" url="" align="center" width="502" height="385" onclickA="tween(scale,4); set(layer[scrollareaContent].width, 2000); set(layer[scrollareaContent].height, 1500); set(onclick,onclickB());" onclickB="tween(scale,1);set(onclick,onclickA()); set(layer[scrollareaContent].width, 502); set(layer[scrollareaContent].height, 385);" onclick="onclickA();"/> содержимое
+        </layer>
+		</layer>
+        <layer name="closebtn" keep="true" url="images/window_close.png" align="righttop" width="40" height="40" x="-30" y="-30" onclickС="tween(layer[contentContent].scale,1); set(layer[scrollareaContent].width, 502); set(layer[scrollareaContent].height, 385); closeWindow();" onclick="onclickС();"/> закрывалка
+    </layer>
+	
+	<action name="closeWindow">
+        set(layer[windowContent].visible, false);
+        set(layer[windowContent].alpha, 0);
+    </action>
+
+    <action name="openWindowImage">
+        if(layer[windowContent].visible,
+            set(layer[windowContent].visible, false);
+            set(layer[windowContent].alpha, 0);
+        );
+        set(layer[contentContent].url, %1);
+        set(layer[scrollareaContent].width, %2);
+        set(layer[scrollareaContent].height, %3);
+        set(layer[windowContent].visible, true);
+        tween(layer[windowContent].alpha, 1, 1);
+    </action>	
+	
+	<!--<action name="setupObjectViewer">
+        %1(idletime, 2.0);
+        %1(view.fovtype, HFOV);
+        %1(view.limitview, fullrange);
+        %1(view.maxpixelzoom, 1.0);
+        %1(control.zoomtocursor, true);
+        %1(control.zoomoutcursor, true);
+        %1(control.mousetype, drag2d);
+        %1(control.mousespeed, mousespeed);
+        %1(display.stillquality, HIGHSHARP);
+    </action>-->
+	
+	<layer name="windowContent1" keep="true" type="container" bgcolor="0xffffff" bgalpha="0.4" alpha="0" align="centre" width="400" height="522" visible="false" > рамка
+        <layer name="dataContent1" keep="true" type="container" bgcolor="0xffffff" bgalpha="0" align="centre"  width="385" height="502" > контейнер
+		     <layer keep="true" name="scrollareaContent1" url="%SWFPATH%/plugins/scrollarea.swf" alturl="%SWFPATH%/plugins/scrollarea.js" align="center" direction="all" > прокутка
+               <layer name="contentContent1" url="" align="centre" width="385" height="502" onclickA="tween(scale,2); set(layer[scrollareaContent1].width, 1500); set(layer[scrollareaContent1].height, 1000); set(onclick,onclickB());" onclickB="tween(scale,1); set(layer[scrollareaContent1].width, 400); set(layer[scrollareaContent1].height, 522); set(onclick,onclickA());" onclick="onclickA();"/> содержимое
+			</layer>
+		</layer>
+        <layer name="closebtn1" keep="true" url="images/window_close.png" align="righttop" width="40" height="40" x="-30" y="-30" onclickС="tween(layer[contentContent1].scale,1); set(layer[scrollareaContent1].width, 400); set(layer[scrollareaContent1].height, 522); closeWindow1();" onclick="onclickС();"/> закрывалка
+    </layer>
+
+	
+	<action name="closeWindow1">
+        set(layer[windowContent1].visible, false);
+        set(layer[windowContent1].alpha, 0);
+    </action>
+
+    <action name="openWindowImage1">
+        if(layer[windowContent1].visible,
+            set(layer[windowContent1].visible, false);
+            set(layer[windowContent1].alpha, 0);
+        );
+        set(layer[contentContent1].url, %1);
+        set(layer[scrollareaContent1].width, %2);
+        set(layer[scrollareaContent1].height, %3);
+        set(layer[windowContent1].visible, true);
+        tween(layer[windowContent1].alpha, 1, 1);
+    </action>	
+		
+		
+		
+<action name="videoplayer_open">
+		if(layer[videoplayer_bg],
+			<!-- error -->
+			trace('videoplayer_open - there is already a videoplayer!'-);
+		  ,
+			<!-- step one - add a background layer and fade it in -->
+			addlayer(videoplayer_bg);
+			set(layer[videoplayer_bg].type, container);
+			set(layer[videoplayer_bg].zindex, 999999);
+			set(layer[videoplayer_bg].align, lefttop);
+			set(layer[videoplayer_bg].width, 100%);
+			set(layer[videoplayer_bg].height, 100%);
+			set(layer[videoplayer_bg].bgcolor, 0x000000);
+			set(layer[videoplayer_bg].bgalpha, 0.8);
+			set(layer[videoplayer_bg].bgcapture, true);
+			set(layer[videoplayer_bg].handcursor, false);
+			set(layer[videoplayer_bg].alpha, 0.0);
+			set(layer[videoplayer_bg].onclick, videoplayer_close() );
+			tween(layer[videoplayer_bg].alpha, 1.0, 0.5, default,
+				<!-- step two - after the fade-in add the videoplayer plugin -->
+				addlayer(videoplayer_plugin);
+				set(layer[videoplayer_plugin].parent, layer[videoplayer_bg]);
+				set(layer[videoplayer_plugin].align, center);
+				set(layer[videoplayer_plugin].loop, true);
+				set(layer[videoplayer_plugin].onclick, togglepause() );
+				set(layer[videoplayer_plugin].alpha, 0.0);
+				set(layer[videoplayer_plugin].scale, 0.0);
+				set(layer[videoplayer_plugin].onloaded, videoplayer_plugin_ready(%1) );
+				if('%2' != null, set(layer[videoplayer_plugin].posterurl,'%2'); );
+				if('%3' != null, set(layer[videoplayer_plugin].volume,%3); );
+				if(device.flash,
+					set(layer[videoplayer_plugin].url,'%SWFPATH%/plugins/videoplayer.swf');
+				  ,
+					set(layer[videoplayer_plugin].url,'%SWFPATH%/plugins/videoplayer.js');
+				  );
+			  );
+		  );
+	</action>
+
+	<action name="videoplayer_plugin_ready">
+		if(layer[videoplayer_plugin],
+			set(events[videoplayer_events].onresize, videoplayer_plugin_resize() );
+			set(layer[videoplayer_plugin].pausedonstart, true);
+			set(layer[videoplayer_plugin].onvideoready,
+					videoplayer_plugin_resize();
+					tween(scale,1,0.5,easeOutBack);
+					tween(alpha,1,0.5,default, ifnot(device.ios, play() ) );
+			   );
+			layer[videoplayer_plugin].playvideo(%1);
+		  );
+	</action>
+
+	<action name="videoplayer_plugin_resize">
+		<!-- use 90% width or height of available screen size -->
+		div(aspect, layer[videoplayer_plugin].imagewidth, layer[videoplayer_plugin].imageheight);
+		mul(new_videowidth, stagewidth, 0.90);
+		div(new_videoheight, new_videowidth, aspect);
+		mul(max_videoheight, stageheight, 0.90);
+		if(new_videoheight GT max_videoheight,
+			copy(new_videoheight, max_videoheight);
+			mul(new_videowidth, new_videoheight, aspect);
+		  );
+		roundval(new_videowidth);
+		roundval(new_videoheight);
+		copy(layer[videoplayer_plugin].width, new_videowidth);
+		copy(layer[videoplayer_plugin].height, new_videoheight);
+	</action>
+
+	<action name="videoplayer_close">
+		set(events.[videoplayer_events].name, null);
+		if(layer[videoplayer_plugin], layer[videoplayer_plugin].pause() );
+		set(layer[videoplayer_bg].onclick, null);
+
+		tween(layer[videoplayer_plugin].scale, 0.0, 0.5, easeInBack);
+		tween(layer[videoplayer_bg].alpha, 0.0, 0.5, default,
+			removelayer(videoplayer_plugin);
+			removelayer(videoplayer_bg);
+		  );
+	</action>
+	
+<!-- ПЛАГИН КООРДИНАТ -->
+		<!-- textfield with information about the currently dragged hotspot 
+	<plugin name="hotspot_pos_info" keep="true"
+	        url="plugins/textfield.swf"
+	        html="drag the hotspots..."
+	        css="font-family:Courier;"
+	        padding="8"
+	        align="lefttop" x="10" y="200"
+	        width="200"
+	        enabled="false"
+	        />-->
+
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event 
+<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, 'l');
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>-->
+	
+	<!-- show the xml code of the hotspot position 
+	<action name="print_hotspot_pos"><![CDATA[
+		copy(print_ath, ath);
+		copy(print_atv, atv);
+		roundval(print_ath, 3);
+		roundval(print_atv, 3);
+		calc(plugin[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+	]]></action>-->
+
+
+<!-- название панорамы
+<events name="skin_events" keep="true"
+	        onxmlcomplete="set(events[skin_events].onxmlcomplete,null); skin_startup();"
+	        onnewpano="skin_showloading(true); skin_update_scene_infos();"
+	        onremovepano="skin_showloading(true);"
+	        onloadcomplete="skin_showloading(false);"
+	        onresize="skin_onresize();"
+	        />
+			
+
+ <layer name="skin_title" url="plugins/textfield.swf" align="lefttop" edge="leftbottom" width="100%" height="32" autoheight="true" x="0" y="-2" zorder="4" enabled="false" background="false" border="false" css="text-align:center; color:#FFFFFF; font-family:Arial; font-weight:bold; font-size:14px;" textshadow="1" visible="true" />
+
+		
+<action name="skin_update_scene_infos">
+set(layer[skin_title].html, get(scene[get(xml.scene)].title) ); copy(layer[skin_title].html, scene[get(xml.scene)].title );  delayedcall(0.1, set(layer[skin_title].visible,true) ); 
+</action> 
+	
+		<action name="skin_showloading">
+		set(layer[skin_loadingtext].visible, %1);
+	</action> -->
+
+</krpano>

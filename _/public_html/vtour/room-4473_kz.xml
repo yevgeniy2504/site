@@ -1,0 +1,69 @@
+<krpano version="1.0.8" basedir="%SWFPATH%"> <!-- vtour.xml template krpano tools version 1.0.8.12 -->	
+
+	<progress showload="none"  /><!-- disable the default progress bar -->
+  
+  <cursors url="images/qtvr-cursors.png"
+    type="8way"
+    move="0|0|16|16"
+    drag="16|0|16|16"
+    arrow_u="32|0|16|16"
+    arrow_d="48|0|16|16"
+    arrow_l="64|0|16|16"
+    arrow_r="80|0|16|16"
+    arrow_lu="96|0|16|16"
+    arrow_ru="112|0|16|16"
+    arrow_rd="128|0|16|16"
+    arrow_ld="144|0|16|16"
+    />
+
+	<include url="global_kz.xml" />
+
+  <view hlookat="140" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="offrange" vlookatmax="65" />
+
+	<preview url="_MG_4473 Panorama.tiles/preview.jpg" />
+
+		<image>
+			<left  url="_MG_4473 Panorama.tiles/pano_l.jpg" />
+			<front url="_MG_4473 Panorama.tiles/pano_f.jpg" />
+			<right url="_MG_4473 Panorama.tiles/pano_r.jpg" />
+			<back  url="_MG_4473 Panorama.tiles/pano_b.jpg" />
+			<up    url="_MG_4473 Panorama.tiles/pano_u.jpg" />
+			<down  url="_MG_4473 Panorama.tiles/pano_d.jpg" />
+			<mobile>
+				<left  url="_MG_4473 Panorama.tiles/mobile_l.jpg" />
+				<front url="_MG_4473 Panorama.tiles/mobile_f.jpg" />
+				<right url="_MG_4473 Panorama.tiles/mobile_r.jpg" />
+				<back  url="_MG_4473 Panorama.tiles/mobile_b.jpg" />
+				<up    url="_MG_4473 Panorama.tiles/mobile_u.jpg" />
+				<down  url="_MG_4473 Panorama.tiles/mobile_d.jpg" />
+			</mobile>
+			<tablet>
+				<left  url="_MG_4473 Panorama.tiles/tablet_l.jpg" />
+				<front url="_MG_4473 Panorama.tiles/tablet_f.jpg" />
+				<right url="_MG_4473 Panorama.tiles/tablet_r.jpg" />
+				<back  url="_MG_4473 Panorama.tiles/tablet_b.jpg" />
+				<up    url="_MG_4473 Panorama.tiles/tablet_u.jpg" />
+				<down  url="_MG_4473 Panorama.tiles/tablet_d.jpg" />
+			</tablet>
+		</image>
+
+  <hotspot name="hs1"
+           url="images/kz/room1_kz.png"
+           keep="false"
+           ath="-48.74701449074266" atv="3.0679339248267268"
+           zoom="false" distorted="false" details="8" flying="0"
+           width="120" height="33"
+           scale="1" scale9grid="" scalechildren="false" rotate="0"
+           rx="0" ry="0" rz="0"
+           edge="center" ox="" oy=""
+           crop="" ondowncrop="" onovercrop=""
+           visible="true" enabled="true" usecontentsize="false" handcursor="true" capture="true" children="true"
+            zorder="0"
+           alpha="1.00" blendmode="normal" effect="" smoothing="true"
+           refreshrate="auto"
+           onclick="loadpano(room-4455_kz.xml, null, MERGE);"
+           devices="all"
+           editor=""
+           />
+
+</krpano>

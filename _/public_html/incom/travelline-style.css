@@ -1,0 +1,54 @@
+#block-search, #block-search * {
+    box-sizing: border-box;
+}
+
+#block-search.block-search-main {
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    width: 100%;
+}
+
+.tl-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: rgba(255, 156, 0, 0.71);
+}
+
+#tl-reputation-widget {
+    position: absolute!important;
+    top: 90px;
+    right: 40px;
+    width: 100%;
+    max-width: 190px;
+}
+
+@media screen and (max-width: 1215px) {
+    #tl-reputation-widget {
+        top: 140px;
+    }
+}
+
+#dop_menu,
+#footer div.menu_footer ul {
+    height: auto;
+}
+
+#dop_menu ul li,
+#footer div.menu_footer ul li {
+    display: inline-block;
+    float: none;
+}
+
+.booking-page #weather,
+.booking-page .head_address,
+.booking-page a[href*="https://top.mail.ru/"],
+.booking-page a[href*="http://www.liveinternet.ru/"],
+.booking-page img[src*="booking.png"],
+.booking-page img[src*="tripadvisor.png"],
+.booking-page a[href*="https://www.instagram.com/"],
+.booking-page a[href*="https://www.facebook.com/"],
+.booking-page a[href*="https://vk.com/"] {
+    display: none;
+}

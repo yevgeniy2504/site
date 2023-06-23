@@ -1,0 +1,928 @@
+<link href="/incom/modules/theme/default/style.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+div.MsoNormal {margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+li.MsoNormal {margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+p.MsoNormal {margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+-->
+</style>
+<p class="small_text"><strong>3. Контент</strong></p>
+<p class="small_text"><strong>Описание модуля: (скришот)</strong></p>
+<p class="small_text"><span class="MsoListParagraphbullet2.gif" style="margin-left:0cm;text-align:justify"><img
+width="175" height="470" src="images/image007.jpg" align="left"
+hspace="12" /></span>Интерфейс административного раздела системы Incom CMS 2.0 логически разделен на области, обеспечивающие доступ к функциональным возможностям системы. Интерфейс системы построен по иерархическому принципу: вышестоящие области интерфейса переключают зависимые области в тот или иной режим работы. Это позволяет скрыть функциональные возможности системы, в которых нет потребности в данный момент, и вынести на первый план требуемые функции.</p>
+<p class="small_text">В левой части интерфейса CMS расположено меню модулей сайта. С помощью этого меню (навигации) можно выбрать обособленный набор функций, относящийся к определённой функциональной части системы. В зависимости от того, установлены ли те или иные модули, набор функций может различаться.</p>
+<p class="small_text">Набор функций &laquo;Контент&raquo; содержит инструменты для управления структурой сайта, информационными блоками, веб-формами, опросником, фотогалереей, интернет-магазином.</p>
+<p class="small_text">Набор функций &laquo;Настройки&raquo; позволяет управлять списками и группами пользователей, настройками продукта (шаблонами сайта, языковыми версиями, обработками адресов, обработкой логов).</p>
+<p>&nbsp;</p>
+<p class="small_text">Модуль сайта - это самостоятельный программно-функциональный элемент сайта, позволяющий реализовать определённые задачи, связанные с функциональными характеристиками элементов сайта.</p>
+<p class="small_text">Раздел сайта - это набор страниц сайта (одной и более), созданный при помощи определённого модуля и имеющий функции, соответствующие тому модулю, в котором он создан. Раздел сайта можно сравнить с &ldquo;папкой&rdquo; (директорией), в которую вложены другие разделы, страницы сайта, изображения и прочее. CMS позволяет создавать произвольное количество разделов и подразделов сайта.</p>
+<p class="small_text">Страница сайта - это минимальная информационная единица сайта, имеющая определённую функцию, соответствующую модулю.</p>
+<p class="small_text"><strong><a name="1" id="1"></a>3.1.&nbsp;Менеджер файлов:</strong></p>
+<p class="small_text">Это основная рабочая область, в которой происходит большинство операций по управлению сайтом: просмотр элементов, составляющих контент сайта, добавление контента, создание и удаление папок и файлов; настройка меню (навигации) и прочее.</p>
+<p class="small_text">В данном разделе в алфавитном порядке располагаются все файлы и папки (директории), которые находятся непосредственно на сервере.</p>
+<p><span class="MsoNormal" style="text-align:left"><img border="0"
+width="553" height="285" src="images/image008.jpg" /></span></p>
+<p class="small_text">(Наименование файла соответствует наименованию ссылки, появляющейся в строке состояния при поднесении курсора мыши к меню или наименованию в адресной строке при открытии страницы):</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="455" height="52"
+src="images/image009.jpg" /></span></p>
+<p class="small_text"><strong>Функция &laquo;Переименовать/Удалить&raquo;</strong></p>
+<p class="small_text">Данные ссылки позволяют переименовывать или удалять выбранные файлы или директории.</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="262" height="37"
+src="images/image010.jpg" /></span></b></p>
+<p class="small_text">Действие</p>
+<p class="small_text">Данная функция предоставляет возможность совершать доступные операции над файлами и папками: копировать или переносить выбранные папки или файлы в различные директории путём выбора пути (с помощью нажатия кнопки &laquo;&hellip;&raquo;) или полного описания пути в поле ввода и нажатия на кнопку &laquo;ок&raquo;.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="554" height="77"
+src="images/image011.jpg" /></span></p>
+<p class="small_text"><strong>HTML редактор. Создание и редактирование файла:</strong></p>
+<p class="small_text">Специальный программный модуль реализует HTML-редактор, позволяющий изменять текст и графику веб-страницы в режиме реального времени через браузер. При редактировании выполняется изменение только внутренней (рабочей) области страницы, что позволяет сохранить общий дизайн сайта.</p>
+<p class="small_text">Для редактирования текстового содержания сайта необходимо выбрать из списка файлов необходимую страницу и &laquo;кликнуть&raquo; дважды на строке с наименованием файла или воспользоваться контекстным меню &laquo;Действия&raquo;, которое отображается при наведении курсора мыши на значок &laquo;<span style="font-size:10.0pt;
+line-height:115%"><img border="0" width="29"
+height="26" src="images/image012.jpg" /></span>&raquo;.</p>
+<p class="small_text">Действия для папок: &laquo;открыть&raquo;, &laquo;переименовать&raquo;, &laquo;удалить&raquo;.</p>
+<p class="small_text">Действия для файлов: &laquo;редактировать как html&raquo;, &laquo;редактировать как php&raquo;, &laquo;переименовать&raquo;, &laquo;удалить&raquo;.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="553" height="177" src="images/image013.jpg" /></span></p>
+<p class="small_text">При работе со страницей в режиме &laquo;Редактировать как html&raquo; открывается область Визуального редактора с панелью, напоминающей MS Word, для удобства работы с содержимым страницы.). Визуальный редактор позволяет редактировать документ в режиме встроенного визуального редактора HTML и форматировать текст аналогично Microsoft Word.</p>
+<p class="small_text">Режим &laquo;Редактировать как php&raquo; позволяет редактировать исходный код файла. Предназначен для использования web-разработчиками.</p>
+<p class="small_text">Для перехода из одной области редактирования в другую необходимо кликнуть на ссылки (редактировать как html или редактировать как php).</p>
+<p class="small_text">Возможно прямое копирование текста из MS Word,&nbsp;HTML и др. Рекомендуется вставлять текст при помощи функции &laquo;Вставить только текст&raquo;.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="409" height="73" src="images/image014.jpg" /></span></p>
+<p class="small_text">В противном случае возможно создание стилей текст (черный цвет текста, ссылки синего цвета и др. детали, выбивающиеся из дизайна сайта).</p>
+<p class="small_text"><strong>Добавление фото</strong></p>
+<p class="small_text">При добавлении графического элемента на страницу, необходимо установить курсор на начало/середину/конец строки и выбрать функцию &laquo;Вставить/редактировать изображение&raquo;.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="242" height="77"
+src="images/image015.jpg" /></span></p>
+<p><b><span style="font-size:8.5pt;line-height:115%"><img border="0" width="339" height="351"
+src="images/image016.jpg" /></span></b></p>
+<p class="small_text">При размещении фото в тексте необходимо заполнить поля &laquo;Вертикальный и горизонтальный отступы&raquo;. Рекомендуется 5-10 пикселей.</p>
+<p class="small_text">В этом же диалоговом окне можно воспользоваться функциями &laquo;Ссылка&raquo; и &laquo;Закачать&raquo;:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="320" height="148"
+src="images/image017.jpg" /></span></p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="320" height="148"
+src="images/image018.jpg" /></span></p>
+<p class="small_text"><strong>Окно &laquo;Просмотреть на сервере&raquo;</strong></p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="545" height="341" src="images/image019.jpg" /></span></p>
+<p class="small_text">При клике на название файла происходит переход на окно &laquo;Свойства изображения&raquo;, и если файл добавляется впервые, его необходимо отправить на сервер с жесткого диска через функцию &laquo;Upload&raquo; (&laquo;Загрузить&raquo;). Если фото уже было закачано, то его можно найти на сервере через функцию &laquo;Просмотреть на сервере&raquo;.</p>
+<p class="small_text">Внимание! Все отправляемые на сервер файлы и фотографии должны иметь название, состоящее из прописных латинских букв, не разрешено использование пробелов и спецсимволов (@#$%^&amp;*=).</p>
+<p class="small_text">Фотографию можно выровнять по положению на странице (по левому, правому краю, по центру, верху и т. д.). Для изменения размера фото рекомендуем воспользоваться программой Adobe Photoshop.</p>
+<p class="small_text">Для того, чтобы сделать отступ фото от текста, используйте поля &laquo;горизонтальный и вертикальный отступы&raquo; (размеры указываются в пикселях). Бордюр &ndash; черная рамка фото в пикселях (в случае использования рекомендуется не более 1-2 пикселей). При создании ссылки с фотографии бордюр выходит автоматически &ndash; синяя рамка (в этом случае необходимо в поле &laquo;бордюр&raquo; поставить &laquo;0&raquo;). Окно содержит &laquo;предпросмотр&raquo;, если фото здесь не отображается, то оно не будет отображаться и на странице.</p>
+<p class="small_text">Внимание! Перед отправкой фотографии на сервер рекомендуется оптимизировать фотографию &laquo;под web&raquo; в прикладных графических программах, что позволяет уменьшить вес фотографии в kb для ее более быстрой загрузки при открытии страницы. Рекомендуемый формат .jpg , .jpeg, .gif.</p>
+<p class="small_text"><strong>Создание ссылок</strong></p>
+<p class="small_text">Ссылка &ndash; это текстовой фрагмент/графический элемент, ссылающийся на определённый раздел сайта, на адрес электронной почты, на слово в тексте или на какой-либо файл, выложенный в Сети. При клике на этот фрагмент, выделенный, как правило, либо цветом, либо начертанием шрифта, посетитель сайта перемещается в ту область, на которую поставлена ссылка. Т. е. осуществляется переход по ссылке.</p>
+<p class="small_text">Выделяя текст, который будет являться ссылкой, кликаем на значок &laquo;Вставить ссылку&raquo;. Открывается &laquo;Диалоговое окно веб-страницы&raquo;.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="207" height="71" src="images/image020.jpg" /></span></p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="342" height="338" src="images/image021.jpg" /></span></p>
+<p class="small_text">В поле &laquo;Тип ссылки&raquo; существует три вида ссылок:</p>
+<p class="small_text">Ссылка&nbsp;&laquo;URL&raquo; -&nbsp;предназначена для создания ссылок на прикрепленные документы, фотографии, на другие сайты и на разделы данного сайта.</p>
+<p class="small_text">В поле &laquo;URL&raquo; необходимо вписать название сайта&nbsp;или название ссылки. Для создания ссылки внутри сайта доменное имя указывать не обязательно. Достаточно указать ссылку со стоящим перед ссылкой слешем (/ru/about.php).</p>
+<p class="small_text">Если необходимо создать ссылку на прикрепленный&nbsp;файл, воспользуйтесь функцией&nbsp;&laquo;Просмотреть на сервере&raquo; и выберите файл с жесткого диска.</p>
+<p class="small_text">Для того, чтобы прикрепленный файл открывался в новом окне браузера, в поле &laquo;Цель&raquo; необходимо выбрать &laquo;Новое окно&raquo;.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="193" height="189" src="images/image022.jpg" /></span></p>
+<p class="small_text">Ссылка &laquo;Якорь на эту страницу&raquo; - предназначена для создания ссылок на фрагменты текста одной и той же страницы.</p>
+<p class="small_text">Выделив необходимый фрагмент на странице, нажимаем на &laquo;Вставить/Редактировать якорь&raquo;, в &laquo;Диалоговом окне&raquo;&nbsp;прописываем латинскими буквами имя якоря:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="335" height="211" src="images/image023.jpg" /></span></p>
+<p class="small_text">После создания Якоря необходимо создать ссылку на указанное &laquo;имя якоря&raquo;</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="338" height="329" src="images/image024.jpg" /></span></p>
+<p class="small_text">Ссылка &laquo;Электронная почта&raquo; предназначена для создания ссылок на электронный ящик.</p>
+<p class="small_text"><strong>Панель инструментов HTML-редактора:</strong></p>
+<p class="small_text">Общие действия</p>
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0"
+ style='border-collapse:collapse;border:none'>
+  <tr style='height:18.2pt'>
+    <td width="638" colspan="2" valign="top" class="small_text" style='width:478.6pt;border:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.2pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Общие действия</span></p></td>
+  </tr>
+  <tr style='height:22.1pt'>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:22.1pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="90" height="24"
+  src="images/image025.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.1pt'><p class="MsoNormal" style='text-align:justify'>Переключение в режим
+      редактирования <span style='font-size:10.0pt;line-height:115%'>исходного кода
+    файла</span></p></td>
+  </tr>
+  <tr style='height:33.85pt'>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:33.85pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="25" height="24"
+  src="images/image026.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:33.85pt'><p class="MsoNormal" style='text-align:justify'>Шаблон, на основе которого
+      будет создана страница. Например, Изображение и заголовок, Разделение текста
+    на колонки, Текст и таблица.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="24"
+  src="images/image027.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Печать</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="24" height="23"
+  src="images/image028.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Вырезать выделенный фрагмент и
+    поместить его в буфер обмена.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="28" height="23"
+  src="images/image029.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Скопировать выделенный фрагмент
+    в буфер обмена.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="23"
+  src="images/image030.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Вставить вырезанный или
+    скопированный фрагмент из буфера обмена.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="26" height="23"
+  src="images/image031.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Вставить фрагмент как текст.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="25"
+  src="images/image032.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Вставить из <span lang="EN-US" xml:lang="EN-US">MS</span><span
+  lang="EN-US" xml:lang="EN-US"> </span>Word. Функция позволяет очистить добавляемый текст от
+    дополнительных элементов форматирования (стилей).</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="27" height="23"
+  src="images/image033.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Отмена выполненного действия.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="26" height="23"
+  src="images/image034.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Возвращение отмененного
+    действия.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="26"
+  src="images/image035.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Поиск слова или фрагмента текста.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="24"
+  src="images/image036.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Замена слова или фрагмента
+    текста.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="28" height="26"
+  src="images/image037.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выделить все содержимое окна визуального редактора.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="23"
+  src="images/image038.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Убрать форматирование текста.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="27" height="25"
+  src="images/image039.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Форма для кнопок и полей
+    управления.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="28" height="26"
+  src="images/image040.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить флаговую кнопку (</span><span
+  style='font-size:10.0pt;line-height:115%' lang="EN-US" xml:lang="EN-US">check</span><span
+  style='font-size:10.0pt;line-height:115%' lang="EN-US" xml:lang="EN-US"> </span><span
+  style='font-size:10.0pt;line-height:115%' lang="EN-US" xml:lang="EN-US">box</span><span style='font-size:
+  10.0pt;line-height:115%'>), предназначенную для выбора из нескольких заранее
+    определенных позиций.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="26"
+  src="images/image041.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить кнопку выбора, предназначенную для выбора одного
+    из значений.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="30"
+  src="images/image042.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить поле для ввода блока текстовой информации.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="33" height="28"
+  src="images/image043.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить область для ввода блока текстовой информации.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="33" height="30"
+  src="images/image044.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить список.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="23"
+  src="images/image045.jpg" /></span></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить кнопку</span><span style='font-size:
+  10.0pt;line-height:115%' lang="EN-US" xml:lang="EN-US">.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="30"
+  src="images/image046.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить и редактировать кнопку с изображением (изображение
+    с гиперссылкой).</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="28" height="26"
+  src="images/image047.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Скрытое поле, предназначено для хранения данных.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="31"
+  src="images/image048.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Отображает блоки с информацией, которые есть на странице.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="28" height="26"
+  src="images/image049.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Полужирный шрифт.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="24"
+  src="images/image050.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Курсив.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="27" height="25"
+  src="images/image051.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Подчеркнутый шрифт.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="34" height="23"
+  src="images/image052.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Зачеркнутый шрифт.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="25"
+  src="images/image053.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Подстрочный индекс.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="26"
+  src="images/image054.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Надстрочный индекс.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="33" height="31"
+  src="images/image055.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить и удалить нумерованный список.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="30"
+  src="images/image056.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить и удалить маркированный список.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="27"
+  src="images/image057.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Уменьшение отступа.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="28"
+  src="images/image058.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Увеличение отступа.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="27"
+  src="images/image059.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить цитату.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="32" height="28"
+  src="images/image060.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Выравнивание абзаца по левому
+    краю.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="33" height="27"
+  src="images/image061.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Выравнивание абзаца по центру.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="25"
+  src="images/image062.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Выравнивание абзаца по правому
+    краю.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="31"
+  src="images/image063.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Выравнивание абзаца по ширине.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="26" height="30"
+  src="images/image064.jpg" /></span></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Вставить или редактировать
+    гиперссылку.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="26" height="26"
+  src="images/image065.jpg" /></span></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Удалить гиперссылку.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="26" height="25"
+  src="images/image066.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Добавить или редактировать якорь.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="35" height="28"
+  src="images/image067.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Добавить или редактировать изображение.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="26"
+  src="images/image068.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить Flash-ролик.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="24"
+  src="images/image069.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Создать или редактировать таблицу.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="30" height="26"
+  src="images/image070.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить горизонтальную линию.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="27"
+  src="images/image071.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить смайлик.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="31" height="26"
+  src="images/image072.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить специальный символ.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="33" height="29"
+  src="images/image073.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Вставить разрыв страницы.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="29" height="25"
+  src="images/image074.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Развернуть окно визуального редактора.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal"><b><span style='font-size:10.0pt;line-height:115%'><img
+  border="0" width="178" height="35" src="images/image075.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выбор стиля текста из выпадающего списка.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><b><span style='font-size:10.0pt;
+  line-height:115%'><img border="0" width="238" height="32"
+  src="images/image076.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выбор формата (уровня) текста из выпадающего списка.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><b><span style='font-size:10.0pt;
+  line-height:115%'><img border="0" width="178" height="29"
+  src="images/image077.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выбор шрифта текста из выпадающего списка.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><b><span style='font-size:10.0pt;
+  line-height:115%'><img border="0" width="166" height="34"
+  src="images/image078.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выбор размера шрифта из выпадающего списка.</span></p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="44" height="28"
+  src="images/image079.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'>Выбор цвета текста.</p></td>
+  </tr>
+  <tr>
+    <td valign="top" class="small_text" style='border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" align="center" style='text-align:center'><b><span
+  style='font-size:10.0pt;line-height:115%'><img border="0" width="43" height="29"
+  src="images/image080.jpg" /></span></b></p></td>
+    <td width="386" valign="top" class="small_text" style='width:289.2pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'><p class="MsoNormal" style='text-align:justify'><span style='font-size:10.0pt;
+  line-height:115%'>Выбор цвета фона.</span></p></td>
+  </tr>
+</table>
+<p class="small_text"><strong>Редактирование меню:</strong></p>
+<p class="small_text">Использование меню обеспечивает удобство навигации по разделам и страницам сайта. Система Incom CMS 2.0 позволяет полностью управлять меню (навигацией) веб-сайта: добавлять новые пункты меню, ссылающиеся на страницы и разделы сайта; изменять названия и ссылки пунктов меню; удалять пункты меню.</p>
+<p class="small_text">Для управления меню и подменю сайта необходимо кликнуть по ссылке &laquo;Верхнее меню/Левое меню&raquo;.</p>
+<p class="small_text">В открывшемся окне появится форма редактирования меню:</p>
+<p class="small_text">&bull;&nbsp;выделить - поле для использования дополнительных возможностей на усмотрение web-мастера. Создание условия, при выполнении которого будет отображаться создаваемый пункт меню;</p>
+<p class="small_text">&bull;&nbsp;- <span style="font-size:10.0pt;
+line-height:115%"><img border="0" width="36" height="24"
+src="images/image081.jpg" /></span>при клике открываются дополнительные подразделы выбранного раздела;</p>
+<p class="small_text">&bull;&nbsp;название - наименование данного раздела, которое отображается в публичной части (возможен ввод латиницы и кириллицы);</p>
+<p class="small_text">&bull;&nbsp;ссылка (ссылка или путь к файлу). Прописывается строго латинскими буквами и отображается в качестве адреса в строке браузера. При создании ссылки обязательно указать расширение .php;</p>
+<p class="small_text">&bull;&nbsp;сортировка - порядковый номер для последовательного отображения пункта меню;</p>
+<p class="small_text">&bull;&nbsp;удалить - удаляет как выбранный пункт, так и подпункты из базы данных.</p>
+<p class="small_text"><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="521" height="379"
+src="images/image082.jpg" /></span></b></p>
+<p class="small_text"><strong>Функция &laquo;Сохранить/Применить&raquo;</strong></p>
+<p class="small_text">Сохранить &ndash; при выборе данной функции выполняется сохранение страницы и осуществляется переход на предыдущую страницу.</p>
+<p class="small_text">Применить -&nbsp;при выборе данной функции выполняется сохранение изменений. Возможно продолжение редактирования страницы.&nbsp;</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="205" height="34"
+src="images/image083.jpg" /></span></p>
+<p class="small_text"><strong>Создание новой папки</strong></p>
+<p class="small_text">Папки создаются для упорядочивания файлов на сервере.</p>
+<p class="small_text">Для создания новой папки (директории) служит пункт меню модулей &quot;Структура сайта&quot;, в котором находятся все директории сайта. В папке &laquo;ru&raquo; находится все текстовая информация по данной (русской) языковой версии.</p>
+<p class="small_text">Для создания новой папки (директории) на сервере необходимо кликнуть на раздел &laquo;новая папка&raquo;. Откроется форма создания новой папки:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="553" height="173" src="images/image084.jpg" /></span></p>
+<p class="small_text">&bull; Наименование директории необходимо вводить строго латинскими буквами,&nbsp;исключая спецсимволы. Название папки будет отображаться в качестве адреса в строке браузера.</p>
+<p class="small_text">&bull; Создать индексную страницу раздела - возможность создания файла в новой директории. При открытии нового раздела сайта в браузере по умолчанию первой будет показана эта страница.</p>
+<p class="small_text">&bull; Переход к редактированию страницы &ndash; возможность редактирования документа в режиме встроенного визуального редактора HTML. Форматирование текста аналогично Microsoft Word.</p>
+<p class="small_text">Новая папка создаётся в той папке, которая открыта в настоящее время в менеджере. Например, если у вас открыта папка ru/, то новая папка будет добавлена в папку (директорию) /ru/.</p>
+<p><span style="background:yellow"><img border="0" width="624" height="228"
+src="images/image085.jpg" /></span></p>
+<p class="small_text"><strong>Создание файла</strong></p>
+<p class="small_text">Данная форма служит для создания и редактирования файлов. Для создания новой страницы сайта в структуре сайта необходимо кликнуть на раздел &laquo;новый файл&raquo;. (Вновь созданный файл будет расположен либо в корневой папке сайта, либо в той папке сайта, которая будет указана в поле ввода.)</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="529" height="377" src="images/image086.jpg" /></span></p>
+<p class="small_text">В открывшемся окне появятся поля:</p>
+<p class="small_text">&bull; наименование страницы</p>
+<p class="small_text">Вводится строго латинскими буквами,&nbsp;исключая спецсимволы. Название страницы будет отображаться в качестве ее адреса в адресной строке браузера. При создании файла расширение .php создается автоматически. Дополнительно можно создать файлы с расширением:</p>
+<p class="small_text">.shtml - HTML файл, содержащий некоторые дополнительные действия, выполняемые сервером,</p>
+<p class="small_text">.stm - сокращение для .shtml,</p>
+<p class="small_text">.htm, .html - гипертекстовый документ , Web- страница,</p>
+<p class="small_text">.txt - файл в текстовом виде,</p>
+<p class="small_text">&bull; свойства страницы</p>
+<p class="small_text">Данная секция предназначена для задания и редактирования значений свойств каждой страницы, а также для управления значениями мета-тегов специально для поисковых систем: заголовком (title), ключевыми словами (keywords), описанием (description) страницы. Содержит в своей структуре дополнительные поля для более подробного описания страницы.</p>
+<p class="small_text">&bull; применить шаблон</p>
+<p class="small_text">Созданная страница открывается в дизайне сайта.</p>
+<p class="small_text"><strong>Создание нового файла (загрузка)</strong></p>
+<p class="small_text">Вы можете загрузить на сайт любой файл с локального компьютера. Файл будет загружен в папку (директорию), которая открыта в текущий момент в менеджере файлов. Для загрузки файлов различных форматов в директории необходимо кликнуть по ссылке &laquo;Закачать файлы&raquo;. В открывшемся окне появятся поля для выбора файлов с локального компьютера &ndash; при выборе файла, его наименование автоматически переносится в поле &laquo;имя файла&raquo;, где можно его переименовать:</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="553" height="150"
+src="images/image087.jpg" /></span></b></p>
+<p class="small_text">Количество загружаемых файлов не ограничено. Максимальный размер одного загружаемого файла ограничивается пропускной способностью сервера (как правило, он составляет 3 Mb). Загрузка файлов большего размера осуществляется через FTP-доступ.</p>
+<p class="small_text"><strong><a name="2" id="2"></a>3.2. Информационные блоки</strong></p>
+<p class="small_text">Модуль, позволяющий управлять и каталогизировать различные типы (блоки) однородной информации с индивидуальными настройками - вывод информации и поля хранения информации. На основе данной системы можно создавать каталог товаров, новостные ленты, календарь событий, статьи, библиотека файлов, списки вакансий и прочее.</p>
+<p class="small_text"><span style="font-size:10.0pt;line-height:115%"><img border="0" width="607" height="210"
+src="images/image088.jpg" /></span></p>
+<p class="small_text"><strong>Редактирование информационного блока.</strong></p>
+<p class="small_text">В данной форме выполняется настройка общих параметров информационного блока (активность для имеющихся языковых версий сайта, наименование, описание):</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="553" height="165"
+src="images/image089.jpg" /></span></p>
+<p class="small_text"><strong>Создание/изменение разделов и элементов</strong></p>
+<p class="small_text">Данная форма - основное средство для редактирования и добавления разделов и элементов информационных блоков вручную. Например, с ее помощью можно добавлять новые товары в каталог, публиковать новости и т.п. Система позволяет создавать неограниченное количество категорий, подкатегорий и элементов:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img
+border="0" width="511" height="296" src="images/image090.jpg" /></span></p>
+<p class="small_text"><strong>Сортировка по полям</strong></p>
+<p class="small_text">Форма позволяет применять сортировку по выбранному полю. Сортировка определяет порядок показа разделов или элементов информационного блока:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="575" height="198"
+src="images/image091.jpg" /></span></p>
+<p class="small_text"><strong>Настройка полей</strong></p>
+<p class="small_text">Позволяет перейти к настройке внешнего вида полей формы:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="540" height="271"
+src="images/image092.jpg" /></span></p>
+<p class="small_text">В открывшемся окне появится форма настройки полей:</p>
+<p class="small_text">&bull; обязательное поле для заполнения &ndash; можно выбрать, будет ли данный пункт web-формы обязательным для заполнения;</p>
+<p class="small_text">&bull; выделить поле &ndash; функция визуального выделения поля web-формы;</p>
+<p class="small_text">&bull; ID сортировка - порядковый номер отображаемого пункта меню,</p>
+<p class="small_text">&bull; наименование поля - описание вносимой информации в соответствующее поле, например, &laquo;Ф.И.О.&raquo;;</p>
+<p class="small_text">&bull; наименование поля eng - вносится только на латинице, например, &laquo;name&raquo;;</p>
+<p class="small_text">&bull; тип поля - позволяет сгенерировать поле вывода:</p>
+<p class="small_text">Тип поля &laquo;Текстовое (text)&raquo; - предназначен для ввода текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (дата)&raquo; - предназначен для ввода даты.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (логин)&raquo; - предназначен для ввода логина (имени пользователя).</p>
+<p class="small_text">Тип поля &laquo;Текстовое (пароль)&raquo; - предназначен для ввода пароля.</p>
+<p class="small_text">Тип поля &laquo;Текстовое цена&nbsp;(числовое)&raquo; - предназначен для вывода&nbsp;стоимости.</p>
+<p class="small_text">Тип поля &laquo;Много текста (textarea)&raquo; - предназначен для ввода блока текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Выбор (checkbox)&raquo; - предназначен для выбора из нескольких заранее определенных позиций.</p>
+<p class="small_text">Тип поля &laquo;Список (select)&raquo; - предназначен для выбора одного значения из фиксированного выпадающего списка значений.</p>
+<p class="small_text">Тип поля &laquo;Список (radio button)&raquo; - предназначен для выбора одного из значений. При этом все остальные поля данного типа автоматически станут невыбранными.</p>
+<p class="small_text">Тип поля &laquo;html редактор&raquo; - предназначен для вывода&nbsp;Визуального редактора.</p>
+<p class="small_text">Тип поля &laquo;Рисунок (file)&raquo; - предназначен для размещения рисунков.</p>
+<p class="small_text">Тип поля &laquo;Файл (file)&raquo; - предназначен для размещения прикрепленных файлов.</p>
+<p class="small_text">В зависимости от выбора типа поля добавляется еще некоторое количество полей, таких, как длина поля, формат даты, длина, высота, элементы выпадающего списка, размер, формат.</p>
+<p class="small_text"><strong>Экспорт данных в MS Excel</strong></p>
+<p class="small_text">Функция предназначена для экспорта данных из информационного блока в файл MS Excel. При клике на &laquo;Export&raquo; выводится информация о результатах выгрузки данных, а также отображается ссылка для выгрузки файл MS Excel на локальный компьютер:</p>
+<p><b><span style="font-size:14.0pt"><img border="0" width="322"
+height="217" src="images/image093.jpg" /></span></b></p>
+<p class="small_text"><strong>Импорт данных из MS Excel</strong></p>
+<p class="small_text">Функция предназначена для импорта данных в формате CSV, хранящихся в отдельном файле, в информационный блок:</p>
+<p><span style="font-size:10.0pt"><img border="0" width="571"
+height="172" src="images/image094.jpg" /></span></p>
+<p class="small_text">Данная форма предназначена для выбора загружаемого файла и информационного блока, в который будет выполняться загрузка данных:</p>
+<p class="small_text">1.&nbsp;В файле книги MS Excel создайте таблицу, соответствующую информационному блоку.</p>
+<p class="small_text">2.&nbsp;Сохраните файл в формате .csv (формат с разделителями - поля разделяются специальным символом - запятой или пробелом).</p>
+<p class="small_text">3.&nbsp;С помощью кнопки &quot;Обзор&quot; выберите файл для загрузки.</p>
+<p class="small_text">4.&nbsp;Выберите информационный блок, в который будет выполняться загрузка данных.</p>
+<p class="small_text">5.&nbsp;Задаем соответствия между полями информационного блока и загружаемого файла:</p>
+<p class="small_text">Анонс совета и совет &ndash; это поля уже созданного информационного блока,</p>
+<p class="small_text">0 и 1 &ndash; номера столбцов загружаемого файла (* номера начинаются с нуля). Эти поля используются для сопоставления записей в файле .csv&nbsp;записям в базе данных.</p>
+<p class="small_text">6.&nbsp;Проверьте, что соответствия полей заданы правильно. Иначе результат загрузки не будет корректным.</p>
+<p class="small_text"><strong><a name="3" id="3"></a>3.3. Веб-формы</strong></p>
+<p class="small_text"><strong>Описание модуля</strong></p>
+<p class="small_text">Модуль предназначен для создания форм отправки сообщений со страницы сайта на электронный адрес администратора сайта (или несколько адресов), а также для размещения полученной информации на страницах сайта в виде разделов: вопрос-ответ (FAQ), гостевая книга, опросники. Пошаговое создание формы позволяет создавать любое количество полей ввода информации, редактировать и удалять существующие поля. Свобода выбора места размещения формы и вывода полученной информации.</p>
+<p class="small_text">Создание и редактирование веб-формы. Настройка полей.</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="553" height="108"
+src="images/image095.jpg" /></span></b></p>
+<p class="small_text"><strong>Настройка полей</strong></p>
+<p class="small_text">Настройка полей позволяет перейти к настройке внешнего вида полей формы:</p>
+<p class="small_text">Широкий выбор типов полей &ndash; текстовое, прикрепленный файл, дата, логин, пароль, цена, список, выбор (check-box) &ndash; позволяет создать любые формы (вопрос-ответ, гостевая книга, опросники, обратная связь, заявка, анкета, регистрация и прочее):</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="553" height="277"
+src="images/image096.jpg" /></span></b></p>
+<p class="small_text">В открывшемся окне появится форма настройки полей:</p>
+<p class="small_text">&bull; обязательное поле для заполнения &ndash; можно выбрать, будет ли данный пункт web-формы обязательным для заполнения;</p>
+<p class="small_text">&bull; выделить поле &ndash; функция визуального выделения поля web-формы;</p>
+<p class="small_text">&bull; ID сортировка - порядковый номер для последовательного отображения пункта меню;</p>
+<p class="small_text">&bull; наименование поля - описание вносимой информации в соответствующее поле, например, &laquo;Ф.И.О.&raquo;;</p>
+<p class="small_text">&bull; наименование поля eng - вносится только на латинице, например, &laquo;name&raquo;;</p>
+<p class="small_text">&bull; тип поля - позволяет сгенерировать поле вывода:</p>
+<p class="small_text">Тип поля &laquo;Текстовое (text)&raquo; - предназначен для ввода текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (дата)&raquo; - предназначен для ввода даты.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (логин)&raquo; - предназначен для ввода логина (имени пользователя).</p>
+<p class="small_text">Тип поля &laquo;Текстовое (пароль)&raquo; - предназначен для ввода пароля.</p>
+<p class="small_text">Тип поля &laquo;Текстовое цена&nbsp;(числовое)&raquo; - предназначен для вывода&nbsp;стоимости.</p>
+<p class="small_text">Тип поля &laquo;Много текста (textarea)&raquo; - предназначен для ввода блока текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Выбор (checkbox)&raquo; - предназначен для выбора из нескольких заранее определенных позиций.</p>
+<p class="small_text">Тип поля &laquo;Список (select)&raquo; - предназначен для выбора одного значения из фиксированного выпадающего списка значений.</p>
+<p class="small_text">Тип поля &laquo;Список (radio button)&raquo; - предназначен для выбора одного из значений. При этом все остальные поля данного типа автоматически станут невыбранными.</p>
+<p class="small_text">Тип поля &laquo;html редактор&raquo; - предназначен для вывода&nbsp;Визуального редактора.</p>
+<p class="small_text">Тип поля &laquo;Рисунок (file)&raquo; - предназначен для размещения рисунков.</p>
+<p class="small_text">Тип поля &laquo;Файл (file)&raquo; - предназначен для размещения прикрепленных файлов.</p>
+<p class="small_text">В зависимости от выбора типа поля добавляется еще некоторое количество полей, таких, как длина поля, формат даты, длина, высота, элементы выпадающего списка, размер, формат.</p>
+<p class="small_text">Заполнив эти два шага, вы получаете автоматически сгенерированный код формы:</p>
+<p><span style="font-size:10.0pt;line-height:115%;background:yellow"><img border="0"
+width="588" height="247" src="images/image097.jpg" /></span></p>
+<p class="small_text">После сохранения заполненной web-формы (&quot;Следующий шаг&quot;) загружается встроенный HTML редактор, в котором заполняется поле &laquo;наименование страницы&raquo;:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="588" height="254"
+src="images/image098.jpg" /></span></p>
+<p class="small_text"><strong><a name="4" id="4"></a>3.4. Опросник</strong></p>
+<p class="small_text"><strong>Описание модуля:</strong></p>
+<p class="small_text">Модуль предназначен для проведения опросов посетителей сайта. Используя технические возможности продукта, можно проводить опросы, которые помогут узнать мнение пользователей сайта по различным вопросам. Настройками опросов можно управлять: просмотреть статистику опроса, предложить посетителям несколько вариантов ответа на выбор, активировать и деактивировать опросы, экспортировать данные из отображаемой таблицы в формат MS Excel и многое другое.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="593" height="185"
+src="images/image099.jpg" /></span></p>
+<p class="small_text">На сайте пользователи смогут просмотреть информацию о ходе голосования, увидеть результаты ранее проголосовавших пользователей в архиве голосований.</p>
+<p class="small_text">Создание и редактирования опроса.</p>
+
+<p class="small_text">Эта форма предназначена для редактирования параметров опроса:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="538" height="278"
+src="images/image100.jpg" /></span></p>
+<p class="small_text">Активен/не активен - параметры активности опроса.</p>
+<p class="small_text">ID сорт. &ndash; порядковый номер проводимого опроса.</p>
+<p class="small_text">Наименование &ndash; заголовок опроса.</p>
+<p class="small_text">Не голосовать дважды (в одной сессии/ с одного IP-адреса) - этот параметр позволяет проголосовать только единожды с одного IP-адреса.</p>
+<p class="small_text">в одной сессии - посетитель не может дважды проголосовать по данному опросу в одной сессии. Выбор данного параметра предпочтительнее, так как каждому посетителю в момент голосования выдается свой уникальный номер, который записывается в cookie посетителя.</p>
+<p class="small_text">с одного IP &ndash; данная опция не позволит проголосовать посетителю дважды с одного IP-адреса (необходимо учесть, что если посетитель подключается к Internet через модем (dial-up), то при каждом новом подключении ему выдается новый динамический IP адрес).</p>
+<p class="small_text">Экспорт данных в MS Excel</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="322" height="217"
+src="images/image101.jpg" /></span></b></p>
+<p class="small_text">Функция предназначена для экспорта данных из информационного блока в файл MS Excel. При клике на &laquo;Export&raquo; выводится информация о результатах выгрузки данных, а также отображается ссылка для выгрузки файл MS Excel на локальный компьютер:</p>
+<p class="small_text"><strong><a name="5" id="5"></a>3.5. Фотогалерея</strong></p>
+<p class="small_text"><strong>Описание модуля:</strong></p>
+<p class="small_text">Модуль предназначен для добавления фотографий на сайт. Используя технические возможности продукта, можно удалять, редактировать, менять порядок последовательности категорий фото, заполнять категории фотографиями, давать комментарии к фото, удалять фото, добавлять, удалять, редактировать наименование полей фото. Пополнение галереи происходит через отправку фото с жесткого диска компьютера.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="576" height="173"
+src="images/image102.jpg" /></span></p>
+<p class="small_text"><strong>Настройка полей</strong></p>
+<p class="small_text">Настройка полей позволяет перейти к настройке внешнего вида полей формы:</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="553" height="277"
+src="images/image096.jpg" /></span></b></p>
+<p class="small_text">В открывшемся окне появится форма настройки полей:</p>
+<p class="small_text">&bull; обязательное поле для заполнения &ndash; выбираем: будет ли данный пункт web-формы обязательным для заполнения,</p>
+<p class="small_text">&bull; выделить поле &ndash; функция визуального выделения поля web-формы;</p>
+<p class="small_text">&bull; ID сортировка - порядковый номер для последовательного отображения пункта меню;</p>
+<p class="small_text">&bull; наименование поля - описание вносимой информации в соответствующее поле, например, &laquo;Ф.И.О.&raquo;;</p>
+<p class="small_text">&bull; наименование поля eng - вносится только на латинице, например, &laquo;name&raquo;;</p>
+<p class="small_text">&bull; тип поля - позволяет сгенерировать поле вывода:</p>
+<p class="small_text">Тип поля &laquo;Текстовое (text)&raquo; - предназначен для ввода текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (дата)&raquo; - предназначен для ввода даты.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (логин)&raquo; - предназначен для ввода логина (имени пользователя).</p>
+<p class="small_text">Тип поля &laquo;Текстовое (пароль)&raquo; - предназначен для ввода пароля.</p>
+<p class="small_text">Тип поля &laquo;Текстовое цена&nbsp;(числовое)&raquo; - предназначен для вывода&nbsp;стоимости.</p>
+<p class="small_text">Тип поля &laquo;Много текста (textarea)&raquo; - предназначен для ввода блока текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Выбор (checkbox)&raquo; - предназначен для выбора из нескольких заранее определенных позиций.</p>
+<p class="small_text">Тип поля &laquo;Список (select)&raquo; - предназначен для выбора одного значения из фиксированного выпадающего списка значений.</p>
+<p class="small_text">Тип поля &laquo;Список (radio button)&raquo; - предназначен для выбора одного из значений. При этом все остальные поля данного типа автоматически станут невыбранными.</p>
+<p class="small_text">Тип поля &laquo;html редактор&raquo; - предназначен для вывода&nbsp;Визуального редактора.</p>
+<p class="small_text">Тип поля &laquo;Рисунок (file)&raquo; - предназначен для размещения рисунков.</p>
+<p class="small_text">Тип поля &laquo;Файл (file)&raquo; - предназначен для размещения прикрепленных файлов.</p>
+<p class="small_text">В зависимости от выбора типа поля добавляется еще некоторое количество полей, таких, как длина поля, формат даты, длина, высота, элементы выпадающего списка, размер, формат.</p>
+<p class="small_text"><br />
+  <strong>Создание и редактирования категорий.</strong></p>
+<p class="small_text">Форма предназначена для создания категорий (разделов) фотогалереи.</p>
+
+<p class="small_text">Для создания категории необходимо выбрать &laquo;Добавить блок&raquo; и заполнить открывшуюся форму:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="594" height="164"
+src="images/image103.jpg" /></span></p>
+<p class="small_text"><strong>Добавление фотографий</strong></p>
+<p class="small_text">Форма Добавление фотографий предназначена для загрузки/редактирования описания фото:</p>
+<p class="small_text">Фото на сайт загружаются с жесткого диска компьютера Администратора через кнопку &laquo;Обзор&raquo;. Описание в публичной части отображается при подведении курсора мыши к фотографии.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="577" height="216"
+src="images/image104.jpg" /></span></p>
+<p class="small_text"><strong>Настройка фото</strong></p>
+<p class="small_text">Форма Настройки фотографий предназначена для управления настройками размеров и сжатия (компрессии) загружаемых фото на сайт. Для удобства работы форма разделена на два параметра, для каждого из которых выполняется настройка определённой группы параметров:</p>
+<p class="small_text">Количество одновременно закачиваемых фото - в данном поле указывается количество фотографий, которое можно загрузить одновременно;</p>
+<p class="small_text">Small photo &ndash; уменьшенная фотография. При клике на нее в публичной части сайта, полноразмерное фото открывается в новом окне;</p>
+<p class="small_text">Ширина, высота &ndash; размер фото в пикселях;</p>
+<p class="small_text">Компрессия &ndash; функция компрессирует фотографии для ускорения их вывода на страницы сайта, что существенно увеличивает скорость работы как для посетителей, так и для администраторов сайта;</p>
+<p class="small_text">Водяной знак &ndash; добавляет поверх изображения значение текущего параметра &quot;водяной знак&quot; (поддерживаемые форматы .gif и .png);</p>
+<p class="small_text">Координаты водяного знака по X и Y &ndash; в этих полях можно задать координаты левого верхнего угла знака</p>
+<p class="small_text">Прозрачность водяного знака &ndash; указывается процент прозрачности знака;</p>
+<p class="small_text">Big photo - полноразмерная фотография.</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="484" height="313"
+src="images/image105.jpg" /></span></p>
+<p class="small_text"><strong><a name="6" id="6"></a>3.6. Интернет магазин</strong></p>
+<p class="small_text"><strong>Описание модуля:</strong></p>
+<p class="small_text">Данный программный модуль позволяет осуществлять продажу товаров и услуг с сайта. Интернет-магазин состоит из следующих функциональных элементов: зарегистрированные пользователи, текущие платежи, настройка:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="254" height="131" src="images/image106.jpg" /></span></p>
+<p class="small_text"><strong>Зарегистрированные&nbsp;Пользователи</strong></p>
+<p class="small_text">Подраздел служит для управления регистрационными данными клиентов магазина. С помощью этой формы вы можете редактировать, удалять, добавлять данные пользователей, настраивать поля, а также экспортировать данные о пользователях в файл MS Excel:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="588" height="186" src="images/image107.jpg" /></span></p>
+<p class="small_text"><strong>Экспорт данных в MS Excel</strong></p>
+<p class="small_text">Функция предназначена для экспорта данных из информационного блока в файл MS Excel. При клике на &laquo;Export&raquo; выводится информация о результатах выгрузки данных, а также отображается ссылка для выгрузки файл MS Excel на локальный компьютер:</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="322" height="217"
+src="images/image101.jpg" /></span></b></p>
+<p class="small_text"><strong>Настройка полей</strong></p>
+<p class="small_text">Настройка полей позволяет перейти к настройке внешнего вида полей формы:</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="553" height="277"
+src="images/image096.jpg" /></span></b></p>
+<p class="small_text">В открывшемся окне появится форма настройки полей:</p>
+<p class="small_text">&bull; обязательное поле для заполнения &ndash; выбираем: будет ли данный пункт web-формы обязательным для заполнения,</p>
+<p class="small_text">&bull; выделить поле &ndash; функция визуального выделения поля web-формы;</p>
+<p class="small_text">&bull; ID сортировка - порядковый номер для последовательного отображения пункта меню;</p>
+<p class="small_text">&bull; наименование поля - описание вносимой информации в соответствующее поле, например, &laquo;Ф.И.О.&raquo;;</p>
+<p class="small_text">&bull; наименование поля eng - вносится только на латинице, например, &laquo;name&raquo;;</p>
+<p class="small_text">&bull; тип поля - позволяет сгенерировать поле вывода:</p>
+<p class="small_text">Тип поля &laquo;Текстовое (text)&raquo; - предназначен для ввода текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (дата)&raquo; - предназначен для ввода даты.</p>
+<p class="small_text">Тип поля &laquo;Текстовое (логин)&raquo; - предназначен для ввода логина (имени пользователя).</p>
+<p class="small_text">Тип поля &laquo;Текстовое (пароль)&raquo; - предназначен для ввода пароля.</p>
+<p class="small_text">Тип поля &laquo;Текстовое цена&nbsp;(числовое)&raquo; - предназначен для вывода&nbsp;стоимости.</p>
+<p class="small_text">Тип поля &laquo;Много текста (textarea)&raquo; - предназначен для ввода блока текстовой информации.</p>
+<p class="small_text">Тип поля &laquo;Выбор (checkbox)&raquo; - предназначен для выбора из нескольких заранее определенных позиций.</p>
+<p class="small_text">Тип поля &laquo;Список (select)&raquo; - предназначен для выбора одного значения из фиксированного выпадающего списка значений.</p>
+<p class="small_text">Тип поля &laquo;Список (radio button)&raquo; - предназначен для выбора одного из значений. При этом все остальные поля данного типа автоматически станут невыбранными.</p>
+<p class="small_text">Тип поля &laquo;html редактор&raquo; - предназначен для вывода&nbsp;Визуального редактора.</p>
+<p class="small_text">Тип поля &laquo;Рисунок (file)&raquo; - предназначен для размещения рисунков.</p>
+<p class="small_text">Тип поля &laquo;Файл (file)&raquo; - предназначен для размещения прикрепленных файлов.</p>
+<p class="small_text">В зависимости от выбора типа поля добавляется еще некоторое количество полей, таких, как длина поля, формат даты, длина, высота, элементы выпадающего списка, размер, формат.</p>
+<p class="small_text"><strong>Редактирование Пользователя</strong></p>
+<p class="small_text">Поля формы служат для задания параметров групп клиентов и статуса их активности:</p>
+<p><span style="font-size:10.0pt;line-height:115%"><img border="0" width="553" height="113"
+src="images/image108.jpg" /></span></p>
+<p class="small_text">&laquo;Активный&raquo; Пользователь имеет возможность авторизоваться на сайте и производить заказы. При заказе Пользователю на его e-mail приходит оповещение о сделанном заказе.</p>
+<p class="small_text">&laquo;Неактивный&raquo; Пользователь не имеет возможности производить заказы, при авторизации на сайте Пользователю открывается окно с оповещением о неактивности учетной записи.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="205" height="99" src="images/image109.jpg" /></span></p>
+<p class="small_text"><strong>Добавление Пользователя</strong></p>
+<p class="small_text">Данная форма позволяет вносить регистрационные данные покупателя. Для каждой из двух категорий пользователей существуют свои поля для заполнения:</p>
+<p class="small_text">Для &laquo;Физического лица&raquo; - статус активности, e-mail, логин, пароль, подтверждение пароля, Ф.И.О., местоположение, адрес:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="553" height="259" src="images/image110.jpg" /></span></p>
+<p class="small_text">Для &laquo;Юридического лица&raquo; - статус активности, e-mail, логин, пароль, подтверждение пароля, название компании, юридический адрес, БИК, РНН, контактное лицо:</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="561" height="280" src="images/image111.jpg" /></span></p>
+<p class="small_text"><strong>Экспорт данных в MS Excel</strong></p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="322" height="217"
+src="images/image101.jpg" /></span></b></p>
+<p class="small_text">Функция предназначена для экспорта данных из информационного блока в файл MS Excel. При клике на &laquo;Export&raquo; выводится информация о результатах выгрузки данных, а также отображается ссылка для выгрузки файл MS Excel на локальный компьютер:</p>
+<p>&nbsp;</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="588" height="181" src="images/image112.jpg" /></span></p>
+<p class="small_text"><strong>Текущие платежи</strong></p>
+<p class="small_text">Данный раздел предназначен для просмотра и редактирования всех поступающих заказов с возможностью просмотра даты и времени регистрации Заказа, удаления выбранного&nbsp;платежа, изменения статуса заказов, сортировки платежей по выбранному полю, импорта в MS Excel:</p>
+<p class="small_text">Для просмотра или редактирования дважды кликните на строке платежа или воспользуйтесь контекстным меню.</p>
+<p class="small_text">В форме детального просмотра заказа представлена полная информация о выбранном заказе.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="553" height="370" src="images/image113.jpg" /></span></p>
+<p class="small_text"><br />
+  <strong>Экспорт данных в MS Excel</strong></p>
+<p class="small_text">Функция предназначена для экспорта данных из информационного блока в файл MS Excel. При клике на &laquo;Export&raquo; выводится информация о результатах выгрузки данных, а также отображается ссылка для выгрузки файл MS Excel на локальный компьютер:</p>
+<p><b><span style="font-size:14.0pt;line-height:115%"><img border="0" width="322" height="217"
+src="images/image101.jpg" /></span></b></p>
+<p class="small_text"><strong>Настройка</strong></p>
+<p class="small_text">Раздел предназначен для редактирования следующей информации: E-mail для получения заказов, заголовок письма покупателю о регистрации, текст письма покупателю о регистрации, заголовок письма покупателю о заказе, текст письма покупателю о заказе, способ доставки и способ оплаты.</p>
+<p><span class="MsoNormal" style="text-align:center"><img border="0"
+width="553" height="395" src="images/image114.jpg" /></span></p>

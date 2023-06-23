@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /incom/
+Disallow: /*booking.php=*
+Disallow: /classes/
+Disallow: /tmpl/
+Disallow: /tmpl/*css
+Disallow: /*index.php
+Disallow: /*index.html
+Disallow: *PIE.php
+
+User-agent: Yandex
+Disallow: /tmpl/*css
+Disallow: /incom/
+Disallow: /*booking.php=*
+Disallow: /classes/
+Disallow: /tmpl/
+Disallow: /*index.php
+Disallow: /*index.html
+Disallow: *PIE.php
+Host: www.hotel-uyut.kz
+
+Sitemap: http://www.hotel-uyut.kz/sitemap.xml
+
+User-Agent: Googlebot
+Disallow: /incom/
+Disallow: /*booking.php=*
+Disallow: /classes/
+Disallow: /tmpl/
+Disallow: /tmpl/*css
+Allow: /tmpl/*.css
+Allow: /tmpl/*.js
+Allow: /tmpl/*.png
+Allow: /tmpl/*.jpg
+Disallow: /*index.php
+Disallow: /*index.html
+Disallow: *PIE.php
